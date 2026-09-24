@@ -159,7 +159,7 @@ a{color:inherit}
 .bt{border:0;border-radius:14px;background:var(--rosa);color:#fff;font-weight:800;font-size:15.5px;padding:14px 16px;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;flex:1}
 .bt:disabled{background:#E3B9CC;cursor:not-allowed;box-shadow:none;transform:none}
 .bt.zap{background:#1FAF5A}
-.bt.zap:disabled{background:#B9D9C6}
+.bt.zap[aria-disabled="true"]{background:#B9D9C6;cursor:not-allowed;box-shadow:none;transform:none}
 
 .sac-titulo{font-family:var(--display);font-weight:400;font-size:26px;margin:10px 0 12px}
 .sac-item{display:grid;grid-template-columns:56px 1fr auto;gap:12px;align-items:center;padding:10px 0;border-bottom:1px dashed var(--linha)}
@@ -422,7 +422,7 @@ html.intro-ativa,html.intro-ativa body{overflow:hidden}
   </div>
   <div class="pe" id="sac-pe" hidden>
     <div class="total"><span>Total</span><b class="num" id="sac-total">R$ 0,00</b></div>
-    <button class="bt zap" id="bt-pedir" disabled><svg width="20" height="20"><use href="#i-zap"/></svg> Pedir no WhatsApp</button>
+    <a class="bt zap" id="bt-pedir" href="#" target="_blank" rel="noopener" aria-disabled="true"><svg width="20" height="20"><use href="#i-zap"/></svg> Pedir no WhatsApp</a>
     <p class="aviso" id="aviso">Coloque seu nome pra enviar.</p>
   </div>
 </section>
@@ -754,15 +754,17 @@ function validar(){
   if (!sacola.contagem()) falta = "Sua sacola está vazia.";
   else if (!nome) falta = "Coloque seu nome pra enviar.";
   else if (modo === "entrega" && !end) falta = "Coloque o endereço da entrega.";
-  $("#bt-pedir").disabled = !!falta;
+  const bp = $("#bt-pedir");
+  bp.setAttribute("aria-disabled", falta ? "true" : "false");
+  bp.href = falta ? "#" : Sacola.link(WHATS, Sacola.mensagem(sacola.itens, {nome, modo, endereco:end, obs:$("#f-obs").value.trim()}));
   $("#aviso").textContent = falta || "Abre o WhatsApp com o pedido pronto.";
 }
 ["f-nome", "f-end"].forEach(id => $("#" + id).addEventListener("input", validar));
-$("#bt-pedir").onclick = () => {
-  validar(); if ($("#bt-pedir").disabled) return;
-  const txt = Sacola.mensagem(sacola.itens, {nome:$("#f-nome").value.trim(), modo, endereco:$("#f-end").value.trim(), obs:$("#f-obs").value.trim()});
-  window.open(Sacola.link(WHATS, txt), "_blank", "noopener");
-};
+$("#bt-pedir").addEventListener("click", e => {
+  validar();
+  if ($("#bt-pedir").getAttribute("aria-disabled") === "true") e.preventDefault();
+});
+$("#f-obs").addEventListener("input", validar);
 $("#form").addEventListener("submit", e => e.preventDefault());
 
 // ---------- chips que acompanham a rolagem ----------
