@@ -329,3 +329,540 @@ Direct: [abrir conversa com @vilaalencarina](https://ig.me/m/vilaalencarina)
 [abrir WhatsApp com a mensagem](https://wa.me/5585988087593?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20trabalho%20do%20oliver%20dasart%20tattoo.%20voc%C3%AAs%20fazem%20o%20or%C3%A7amento%20e%20agendamento%20s%C3%B3%20pelo%20whatsapp%20e%20instagram%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20aqui%20em%20fortaleza%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/nanquim-tattoo%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
 
 > boa tarde, tudo bem? vi o trabalho do oliver dasart tattoo. vocês fazem o orçamento e agendamento só pelo whatsapp e instagram? eu e meu sócio fazemos sites aqui em fortaleza, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/nanquim-tattoo se quiser, monto um com a cara de vocês sem compromisso
+
+## Busca ampla: outras cidades (barbearias e pet shops)
+
+### Aryane Cabelereiro (Barbearia, Jandaiguaba, Caucaia - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585987465368?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20aryane%20cabelereiro%20a%C3%AD%20no%20jandaiguaba.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a aryane cabelereiro aí no jandaiguaba. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia O Caucaia (Barbearia, Padre Julio Maria, Caucaia - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585985760633?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20o%20caucaia%20a%C3%AD%20no%20padre%20julio%20maria.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia o caucaia aí no padre julio maria. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Studio da Beleza Levy Hairdresser (Barbearia, Barra Nova, Caucaia - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585988100673?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20studio%20da%20beleza%20levy%20hairdresser%20a%C3%AD%20no%20barra%20nova.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o studio da beleza levy hairdresser aí no barra nova. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia Dom Fernandes (Barbearia, Nova Metrópole (Jurema), Caucaia - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585988587917?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20dom%20fernandes%20a%C3%AD%20no%20nova%20metr%C3%B3pole%20%28jurema%29.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia dom fernandes aí no nova metrópole (jurema). vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Waycky Barbearia (Barbearia, Parque Potira (Jurema), Caucaia - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585992291795?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20waycky%20barbearia%20a%C3%AD%20no%20parque%20potira%20%28jurema%29.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a waycky barbearia aí no parque potira (jurema). vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Victor Barbearia (Barbearia, Quintino Cunha, Fortaleza - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585987440589?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20victor%20barbearia%20a%C3%AD%20no%20quintino%20cunha.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20aqui%20em%20fortaleza%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a victor barbearia aí no quintino cunha. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites aqui em fortaleza, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Mr. Anísio's Barbearia (Barbearia, Araturi (Jurema), Caucaia - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585987452178?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20mr.%20an%C3%ADsio%27s%20barbearia%20a%C3%AD%20no%20araturi%20%28jurema%29.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o mr. anísio's barbearia aí no araturi (jurema). vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Js Barbearia (Barbearia, Padre Julio Maria, Caucaia - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585989828480?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20js%20barbearia%20a%C3%AD%20no%20padre%20julio%20maria.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a js barbearia aí no padre julio maria. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Luks Barbearia (Barbearia, Nova Metrópole (Jurema), Caucaia - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585987175185?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20luks%20barbearia%20a%C3%AD%20no%20nova%20metr%C3%B3pole%20%28jurema%29.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a luks barbearia aí no nova metrópole (jurema). vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia Janiel Silva (Barbearia, Tamatanduba, Eusébio - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585974014121?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20janiel%20silva%20a%C3%AD%20no%20tamatanduba.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia janiel silva aí no tamatanduba. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Nb Barbearia (Barbearia, Lagoinha, Eusébio - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585988494670?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20nb%20barbearia%20a%C3%AD%20no%20lagoinha.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a nb barbearia aí no lagoinha. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia Ha Mulek (Barbearia, Jabuti, Eusébio - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585989602254?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20ha%20mulek%20a%C3%AD%20no%20jabuti.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia ha mulek aí no jabuti. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Seu Elizes Barber Shop (Barbearia, Centro, Eusébio - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585986318919?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20seu%20elizes%20barber%20shop%20a%C3%AD%20no%20centro.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o seu elizes barber shop aí no centro. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Aleks Lima Barbearia (Barbearia, Centro, Eusébio - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585988226531?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20aleks%20lima%20barbearia%20a%C3%AD%20no%20centro.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a aleks lima barbearia aí no centro. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia Ojuara (Barbearia, Amador, Eusébio - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585985534508?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20ojuara%20a%C3%AD%20no%20amador.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia ojuara aí no amador. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Luquinhas Barbearia (Barbearia, Olho Dagua, Eusébio - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585986256101?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20luquinhas%20barbearia%20a%C3%AD%20no%20olho%20dagua.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a luquinhas barbearia aí no olho dagua. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Ravi Barbearia (Barbearia, Centro, Eusébio - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585997234644?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20ravi%20barbearia%20a%C3%AD%20no%20centro.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a ravi barbearia aí no centro. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Marcos Barber (Barbearia, São Bento, Fortaleza - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585989286359?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20marcos%20barber%20a%C3%AD%20no%20s%C3%A3o%20bento.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20aqui%20em%20fortaleza%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a marcos barber aí no são bento. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites aqui em fortaleza, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Mastroianne Cabeleireiro Masculino (Barbearia, Paupina, Fortaleza - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585988017557?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20mastroianne%20cabeleireiro%20masculino%20a%C3%AD%20no%20paupina.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20aqui%20em%20fortaleza%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a mastroianne cabeleireiro masculino aí no paupina. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites aqui em fortaleza, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Seu Araujo Barbershop (Barbearia, Coaçu, Fortaleza - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585987727066?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20seu%20araujo%20barbershop%20a%C3%AD%20no%20coa%C3%A7u.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20aqui%20em%20fortaleza%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o seu araujo barbershop aí no coaçu. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites aqui em fortaleza, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Romario Barbeiro (Barbearia, Bancários, João Pessoa - PB)
+[abrir WhatsApp com a mensagem](https://wa.me/5583986343355?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20romario%20barbeiro%20a%C3%AD%20no%20banc%C3%A1rios.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o romario barbeiro aí no bancários. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia Jomar Hair (Barbearia, Bessa, João Pessoa - PB)
+[abrir WhatsApp com a mensagem](https://wa.me/5583993116868?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20jomar%20hair%20a%C3%AD%20no%20bessa.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia jomar hair aí no bessa. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Pablo Barbearia (Barbearia, Cristo Redentor, João Pessoa - PB)
+[abrir WhatsApp com a mensagem](https://wa.me/5583988207641?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20pablo%20barbearia%20a%C3%AD%20no%20cristo%20redentor.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o pablo barbearia aí no cristo redentor. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Fabio Salao e Barbearia (Barbearia, Ernani Sátiro, João Pessoa - PB)
+[abrir WhatsApp com a mensagem](https://wa.me/5583986938060?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20fabio%20salao%20e%20barbearia%20a%C3%AD%20no%20ernani%20s%C3%A1tiro.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o fabio salao e barbearia aí no ernani sátiro. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia Novo Talento (Barbearia, Padre Zé, João Pessoa - PB)
+[abrir WhatsApp com a mensagem](https://wa.me/5583988475185?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20novo%20talento%20a%C3%AD%20no%20padre%20z%C3%A9.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia novo talento aí no padre zé. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia 14 (Barbearia, Renascer, Cabedelo - PB)
+[abrir WhatsApp com a mensagem](https://wa.me/5583986750072?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%2014%20a%C3%AD%20no%20renascer.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia 14 aí no renascer. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Lucas Barbeiro (Barbearia, Renascer, Cabedelo - PB)
+[abrir WhatsApp com a mensagem](https://wa.me/5583986552028?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20lucas%20barbeiro%20a%C3%AD%20no%20renascer.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o lucas barbeiro aí no renascer. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Cabeludo Barbearia e Conveniencia (Barbearia, Centro, Bayeux - PB)
+[abrir WhatsApp com a mensagem](https://wa.me/5583988102760?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20cabeludo%20barbearia%20e%20conveniencia%20a%C3%AD%20no%20centro.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o cabeludo barbearia e conveniencia aí no centro. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Eudes Belmiro Barbearia (Barbearia, Funcionários, João Pessoa - PB)
+[abrir WhatsApp com a mensagem](https://wa.me/5583999918274?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20eudes%20belmiro%20barbearia%20a%C3%AD%20no%20funcion%C3%A1rios.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a eudes belmiro barbearia aí no funcionários. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Charlyes Nigro Barbearia (Barbearia, Manaíra, João Pessoa - PB)
+[abrir WhatsApp com a mensagem](https://wa.me/5583987240857?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20charlyes%20nigro%20barbearia%20a%C3%AD%20no%20mana%C3%ADra.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a charlyes nigro barbearia aí no manaíra. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### David Alves - Cortes Masculinos (Barbearia, Pajuçara, Maracanaú - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585987686316?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20david%20alves%20-%20cortes%20masculinos%20a%C3%AD%20no%20paju%C3%A7ara.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o david alves - cortes masculinos aí no pajuçara. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Lidia Cabelos (Barbearia, Horto, Maracanaú - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585986010275?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20lidia%20cabelos%20a%C3%AD%20no%20horto.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a lidia cabelos aí no horto. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Cezar Barbearia (Barbearia, Pajuçara, Maracanaú - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585989731317?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20cezar%20barbearia%20a%C3%AD%20no%20paju%C3%A7ara.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o cezar barbearia aí no pajuçara. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Antonia Cabeleireira (Barbearia, Boa Esperança, Maracanaú - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585988441056?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20antonia%20cabeleireira%20a%C3%AD%20no%20boa%20esperan%C3%A7a.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a antonia cabeleireira aí no boa esperança. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Corte Masculino (Barbearia, Coqueiral, Maracanaú - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585987936756?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20corte%20masculino%20a%C3%AD%20no%20coqueiral.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o corte masculino aí no coqueiral. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Dv Barbearia (Barbearia, Cônego Raimundo Pinto, Maranguape - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585987104690?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20dv%20barbearia%20a%C3%AD%20no%20c%C3%B4nego%20raimundo%20pinto.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a dv barbearia aí no cônego raimundo pinto. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Dennis Barbearia (Barbearia, Senador Carlos Jereissati, Pacatuba - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585985943931?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20dennis%20barbearia%20a%C3%AD%20no%20senador%20carlos%20jereissati.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a dennis barbearia aí no senador carlos jereissati. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia Dom Barbas (Barbearia, Senador Carlos Jereissati, Pacatuba - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585982215474?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20dom%20barbas%20a%C3%AD%20no%20senador%20carlos%20jereissati.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia dom barbas aí no senador carlos jereissati. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia Sr. Bigode (Barbearia, Senador Carlos Jereissati, Pacatuba - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585998745809?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20sr.%20bigode%20a%C3%AD%20no%20senador%20carlos%20jereissati.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia sr. bigode aí no senador carlos jereissati. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia M13 (Barbearia, Jereissati II, Maracanaú - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585987248772?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20m13%20a%C3%AD%20no%20jereissati%20ii.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia m13 aí no jereissati ii. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Bm4 Barbearia (Barbearia, Luzardo Viana, Maracanaú - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585989723002?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20bm4%20barbearia%20a%C3%AD%20no%20luzardo%20viana.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a bm4 barbearia aí no luzardo viana. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia do Maycon (Barbearia, Jarí, Maracanaú - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585985456867?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20do%20maycon%20a%C3%AD%20no%20jar%C3%AD.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia do maycon aí no jarí. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Neta Cabello's & Estetica (Barbearia, Lagoa Nova, Natal - RN)
+[abrir WhatsApp com a mensagem](https://wa.me/5584988515208?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20neta%20cabello%27s%20%26%20estetica%20a%C3%AD%20no%20lagoa%20nova.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a neta cabello's & estetica aí no lagoa nova. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Delicatte Estetica & El-shaday Barbearia (Barbearia, Potengi, Natal - RN)
+[abrir WhatsApp com a mensagem](https://wa.me/5581987559910?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20delicatte%20estetica%20%26%20el-shaday%20barbearia%20a%C3%AD%20no%20potengi.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a delicatte estetica & el-shaday barbearia aí no potengi. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Chico Barbearia (Barbearia, Amarante, São Gonçalo do Amarante - RN)
+[abrir WhatsApp com a mensagem](https://wa.me/5584987522407?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20chico%20barbearia%20a%C3%AD%20no%20amarante.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o chico barbearia aí no amarante. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Donfire Barbearia (Barbearia, Amarante, São Gonçalo do Amarante - RN)
+[abrir WhatsApp com a mensagem](https://wa.me/5584999483585?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20donfire%20barbearia%20a%C3%AD%20no%20amarante.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a donfire barbearia aí no amarante. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia do Leao (Barbearia, Jardim Lola, São Gonçalo do Amarante - RN)
+[abrir WhatsApp com a mensagem](https://wa.me/5584987084070?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20do%20leao%20a%C3%AD%20no%20jardim%20lola.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia do leao aí no jardim lola. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Ribeiro Barbearia (Barbearia, Amarante, São Gonçalo do Amarante - RN)
+[abrir WhatsApp com a mensagem](https://wa.me/5584999417347?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20ribeiro%20barbearia%20a%C3%AD%20no%20amarante.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o ribeiro barbearia aí no amarante. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia do Escoes (Barbearia, Candelária, Natal - RN)
+[abrir WhatsApp com a mensagem](https://wa.me/5584999395592?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20do%20escoes%20a%C3%AD%20no%20candel%C3%A1ria.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia do escoes aí no candelária. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia do Zuca (Barbearia, Sítio Novo, Olinda - PE)
+[abrir WhatsApp com a mensagem](https://wa.me/5581986863010?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20do%20zuca%20a%C3%AD%20no%20s%C3%ADtio%20novo.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia do zuca aí no sítio novo. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Bere Barbearia (Barbearia, Salgadinho, Olinda - PE)
+[abrir WhatsApp com a mensagem](https://wa.me/5581985041735?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20bere%20barbearia%20a%C3%AD%20no%20salgadinho.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a bere barbearia aí no salgadinho. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Messias Barbearia (Barbearia, Santo Antônio, Belo Jardim - PE)
+[abrir WhatsApp com a mensagem](https://wa.me/5581991431120?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20messias%20barbearia%20a%C3%AD%20no%20santo%20ant%C3%B4nio.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a messias barbearia aí no santo antônio. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Dinhobarberman (Barbearia, Barro, Recife - PE)
+[abrir WhatsApp com a mensagem](https://wa.me/5581989688813?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20dinhobarberman%20a%C3%AD%20no%20barro.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o dinhobarberman aí no barro. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Cabelos & Mechas (Barbearia, Stella Maris, Salvador - BA)
+[abrir WhatsApp com a mensagem](https://wa.me/5571999238370?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20cabelos%20%26%20mechas%20a%C3%AD%20no%20stella%20maris.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a cabelos & mechas aí no stella maris. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Salao de Lene (Barbearia, Engenho Velho de Brotas, Salvador - BA)
+[abrir WhatsApp com a mensagem](https://wa.me/5571986671037?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20salao%20de%20lene%20a%C3%AD%20no%20engenho%20velho%20de%20brotas.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o salao de lene aí no engenho velho de brotas. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barber Shop Pacheco (Barbearia, Itinga, Lauro de Freitas - BA)
+[abrir WhatsApp com a mensagem](https://wa.me/5571988731347?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20barber%20shop%20pacheco%20a%C3%AD%20no%20itinga.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o barber shop pacheco aí no itinga. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia Silva (Barbearia, Itinga, Lauro de Freitas - BA)
+[abrir WhatsApp com a mensagem](https://wa.me/5571992943837?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20silva%20a%C3%AD%20no%20itinga.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia silva aí no itinga. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia Deus e Fiel (Barbearia, Vida Nova, Lauro de Freitas - BA)
+[abrir WhatsApp com a mensagem](https://wa.me/5571982709160?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20deus%20e%20fiel%20a%C3%AD%20no%20vida%20nova.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia deus e fiel aí no vida nova. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia do Irmao Wilson (Barbearia, Itinga, Lauro de Freitas - BA)
+[abrir WhatsApp com a mensagem](https://wa.me/5571982663240?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20do%20irmao%20wilson%20a%C3%AD%20no%20itinga.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia do irmao wilson aí no itinga. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia Cirurgia do Cabelo (Barbearia, Caixa D Água, Lauro de Freitas - BA)
+[abrir WhatsApp com a mensagem](https://wa.me/5571982694834?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20cirurgia%20do%20cabelo%20a%C3%AD%20no%20caixa%20d%20%C3%A1gua.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia cirurgia do cabelo aí no caixa d água. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia do Alex (Barbearia, Alto das Pombas, Salvador - BA)
+[abrir WhatsApp com a mensagem](https://wa.me/5571987992389?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20do%20alex%20a%C3%AD%20no%20alto%20das%20pombas.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia do alex aí no alto das pombas. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia Jovem Pan (Barbearia, Chácara Brasil, São Luís - MA)
+[abrir WhatsApp com a mensagem](https://wa.me/5598996145877?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20jovem%20pan%20a%C3%AD%20no%20ch%C3%A1cara%20brasil.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia jovem pan aí no chácara brasil. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia Gomes (Barbearia, Vinhais, São Luís - MA)
+[abrir WhatsApp com a mensagem](https://wa.me/5598988337290?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20gomes%20a%C3%AD%20no%20vinhais.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia gomes aí no vinhais. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Carlos Salao & Barbearia (Barbearia, Cohama, São Luís - MA)
+[abrir WhatsApp com a mensagem](https://wa.me/5598987298756?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20carlos%20salao%20%26%20barbearia%20a%C3%AD%20no%20cohama.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o carlos salao & barbearia aí no cohama. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia Walter (Barbearia, Apeadouro, São Luís - MA)
+[abrir WhatsApp com a mensagem](https://wa.me/5598988265006?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20walter%20a%C3%AD%20no%20apeadouro.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia walter aí no apeadouro. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Arena Barbearia Sport Club (Barbearia, Renascença, São Luís - MA)
+[abrir WhatsApp com a mensagem](https://wa.me/5598988020444?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20arena%20barbearia%20sport%20club%20a%C3%AD%20no%20renascen%C3%A7a.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a arena barbearia sport club aí no renascença. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia Batista (Barbearia, Vila Janaína, São Luís - MA)
+[abrir WhatsApp com a mensagem](https://wa.me/5598988160737?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20batista%20a%C3%AD%20no%20vila%20jana%C3%ADna.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia batista aí no vila janaína. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia Dbayma (Barbearia, João de Deus, São Luís - MA)
+[abrir WhatsApp com a mensagem](https://wa.me/5598999646895?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20dbayma%20a%C3%AD%20no%20jo%C3%A3o%20de%20deus.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia dbayma aí no joão de deus. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia Penalva (Barbearia, Anil, São Luís - MA)
+[abrir WhatsApp com a mensagem](https://wa.me/5598982158529?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20penalva%20a%C3%AD%20no%20anil.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia penalva aí no anil. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia Novo de Novo (Barbearia, Maracanã, São Luís - MA)
+[abrir WhatsApp com a mensagem](https://wa.me/5598987371701?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20novo%20de%20novo%20a%C3%AD%20no%20maracan%C3%A3.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia novo de novo aí no maracanã. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia Brasil (Barbearia, Chácara Brasil, São Luís - MA)
+[abrir WhatsApp com a mensagem](https://wa.me/5598999825832?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20brasil%20a%C3%AD%20no%20ch%C3%A1cara%20brasil.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia brasil aí no chácara brasil. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia do Fabricio (Barbearia, Liberdade, São Luís - MA)
+[abrir WhatsApp com a mensagem](https://wa.me/5598988312460?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20do%20fabricio%20a%C3%AD%20no%20liberdade.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia do fabricio aí no liberdade. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia Washington (Barbearia, Lourival Parente, Teresina - PI)
+[abrir WhatsApp com a mensagem](https://wa.me/5586998201928?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20washington%20a%C3%AD%20no%20lourival%20parente.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia washington aí no lourival parente. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### The Lord Barbearia (Barbearia, Fátima, Teresina - PI)
+[abrir WhatsApp com a mensagem](https://wa.me/5586998006556?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20the%20lord%20barbearia%20a%C3%AD%20no%20f%C3%A1tima.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a the lord barbearia aí no fátima. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Sempre Moda Fashion Salao & Barbearia (Barbearia, Matadouro, Teresina - PI)
+[abrir WhatsApp com a mensagem](https://wa.me/5586998415673?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20sempre%20moda%20fashion%20salao%20%26%20barbearia%20a%C3%AD%20no%20matadouro.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a sempre moda fashion salao & barbearia aí no matadouro. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Retock Barber (Barbearia, Bela Vista, Teresina - PI)
+[abrir WhatsApp com a mensagem](https://wa.me/5586988543642?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20retock%20barber%20a%C3%AD%20no%20bela%20vista.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o retock barber aí no bela vista. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barberlivery (Barbearia, Bela Vista, Teresina - PI)
+[abrir WhatsApp com a mensagem](https://wa.me/5586988117615?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20barberlivery%20a%C3%AD%20no%20bela%20vista.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o barberlivery aí no bela vista. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Barbearia Sousa (Barbearia, Lourival Parente, Teresina - PI)
+[abrir WhatsApp com a mensagem](https://wa.me/5586988811449?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20sousa%20a%C3%AD%20no%20lourival%20parente.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a barbearia sousa aí no lourival parente. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Toinha Barbershop (Barbearia, Pedra Mole, Teresina - PI)
+[abrir WhatsApp com a mensagem](https://wa.me/5586999272430?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20toinha%20barbershop%20a%C3%AD%20no%20pedra%20mole.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/brabo-barber%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o toinha barbershop aí no pedra mole. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/brabo-barber se quiser, monto um com a cara de vocês sem compromisso
+
+### Dog House (Pet shop, Araturi (Jurema), Caucaia - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585986868661?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20dog%20house%20a%C3%AD%20no%20araturi%20%28jurema%29.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/rabo-abanando%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o dog house aí no araturi (jurema). o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/rabo-abanando se quiser, monto um com a cara de vocês sem compromisso
+
+### Casa Belga Racoes e Medicamento Veretinarios (Pet shop, Centro, Caucaia - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585991238026?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20casa%20belga%20racoes%20e%20medicamento%20veretinarios%20a%C3%AD%20no%20centro.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/rabo-abanando%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a casa belga racoes e medicamento veretinarios aí no centro. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/rabo-abanando se quiser, monto um com a cara de vocês sem compromisso
+
+### Pet Shop Animal Praia (Pet shop, Icaraí, Caucaia - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585988151115?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20pet%20shop%20animal%20praia%20a%C3%AD%20no%20icara%C3%AD.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/rabo-abanando%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o pet shop animal praia aí no icaraí. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/rabo-abanando se quiser, monto um com a cara de vocês sem compromisso
+
+### Agropet Sao Jorge (Pet shop, Encantada, Eusébio - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585987990771?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20agropet%20sao%20jorge%20a%C3%AD%20no%20encantada.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/rabo-abanando%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a agropet sao jorge aí no encantada. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/rabo-abanando se quiser, monto um com a cara de vocês sem compromisso
+
+### Facanha Racoes (Pet shop, Timbu, Eusébio - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585988747498?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20facanha%20racoes%20a%C3%AD%20no%20timbu.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/rabo-abanando%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a facanha racoes aí no timbu. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/rabo-abanando se quiser, monto um com a cara de vocês sem compromisso
+
+### Mamy Pet (Pet shop, Timbu, Eusébio - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585996043113?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20mamy%20pet%20a%C3%AD%20no%20timbu.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/rabo-abanando%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a mamy pet aí no timbu. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/rabo-abanando se quiser, monto um com a cara de vocês sem compromisso
+
+### Gui Racoes e Acessorios (Pet shop, Paupina, Fortaleza - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585987753409?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20gui%20racoes%20e%20acessorios%20a%C3%AD%20no%20paupina.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20aqui%20em%20fortaleza%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/rabo-abanando%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a gui racoes e acessorios aí no paupina. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites aqui em fortaleza, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/rabo-abanando se quiser, monto um com a cara de vocês sem compromisso
+
+### Central dos Bichos (Pet shop, Centro, João Pessoa - PB)
+[abrir WhatsApp com a mensagem](https://wa.me/5583988837929?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20central%20dos%20bichos%20a%C3%AD%20no%20centro.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/rabo-abanando%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o central dos bichos aí no centro. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/rabo-abanando se quiser, monto um com a cara de vocês sem compromisso
+
+### So Racoes (Pet shop, Estados, João Pessoa - PB)
+[abrir WhatsApp com a mensagem](https://wa.me/5583998823980?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20so%20racoes%20a%C3%AD%20no%20estados.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/rabo-abanando%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a so racoes aí no estados. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/rabo-abanando se quiser, monto um com a cara de vocês sem compromisso
+
+### Lr Racoes Premium (Pet shop, Sesi, Bayeux - PB)
+[abrir WhatsApp com a mensagem](https://wa.me/5583987738788?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20lr%20racoes%20premium%20a%C3%AD%20no%20sesi.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/rabo-abanando%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a lr racoes premium aí no sesi. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/rabo-abanando se quiser, monto um com a cara de vocês sem compromisso
+
+### Mundo Pet (Pet shop, Imaculada, Bayeux - PB)
+[abrir WhatsApp com a mensagem](https://wa.me/5583991453240?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20mundo%20pet%20a%C3%AD%20no%20imaculada.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/rabo-abanando%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o mundo pet aí no imaculada. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/rabo-abanando se quiser, monto um com a cara de vocês sem compromisso
+
+### Guia Dog (Pet shop, Cidade Nova, Maracanaú - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585999777760?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20guia%20dog%20a%C3%AD%20no%20cidade%20nova.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/rabo-abanando%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o guia dog aí no cidade nova. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/rabo-abanando se quiser, monto um com a cara de vocês sem compromisso
+
+### Paraiso dos Bichos (Pet shop, Pajuçara, Maracanaú - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585987164416?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20paraiso%20dos%20bichos%20a%C3%AD%20no%20paju%C3%A7ara.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/rabo-abanando%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o paraiso dos bichos aí no pajuçara. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/rabo-abanando se quiser, monto um com a cara de vocês sem compromisso
+
+### Wk Racoes (Pet shop, Senador Carlos Jereissati, Pacatuba - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585986214114?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20wk%20racoes%20a%C3%AD%20no%20senador%20carlos%20jereissati.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/rabo-abanando%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a wk racoes aí no senador carlos jereissati. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/rabo-abanando se quiser, monto um com a cara de vocês sem compromisso
+
+### Rei da Racao (Pet shop, Senador Carlos Jereissati, Pacatuba - CE)
+[abrir WhatsApp com a mensagem](https://wa.me/5585986463346?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20rei%20da%20racao%20a%C3%AD%20no%20senador%20carlos%20jereissati.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/rabo-abanando%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o rei da racao aí no senador carlos jereissati. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/rabo-abanando se quiser, monto um com a cara de vocês sem compromisso
+
+### Cortez Pet Shop (Pet shop, Alecrim, Natal - RN)
+[abrir WhatsApp com a mensagem](https://wa.me/5584987613675?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20cortez%20pet%20shop%20a%C3%AD%20no%20alecrim.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/rabo-abanando%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o cortez pet shop aí no alecrim. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/rabo-abanando se quiser, monto um com a cara de vocês sem compromisso
+
+### Espaco Fran Pet Salon (Pet shop, Nova Parnamirim, Parnamirim - RN)
+[abrir WhatsApp com a mensagem](https://wa.me/5584987186598?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20espaco%20fran%20pet%20salon%20a%C3%AD%20no%20nova%20parnamirim.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/rabo-abanando%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o espaco fran pet salon aí no nova parnamirim. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/rabo-abanando se quiser, monto um com a cara de vocês sem compromisso
+
+### Super Pet (Pet shop, Casa Amarela, Recife - PE)
+[abrir WhatsApp com a mensagem](https://wa.me/5581994377070?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20super%20pet%20a%C3%AD%20no%20casa%20amarela.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/rabo-abanando%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o super pet aí no casa amarela. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/rabo-abanando se quiser, monto um com a cara de vocês sem compromisso
+
+### Brito Racao (Pet shop, Peixinhos, Olinda - PE)
+[abrir WhatsApp com a mensagem](https://wa.me/5581986135233?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20brito%20racao%20a%C3%AD%20no%20peixinhos.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/rabo-abanando%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a brito racao aí no peixinhos. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/rabo-abanando se quiser, monto um com a cara de vocês sem compromisso
+
+### Shopping do Pet (Pet shop, Salgadinho, Olinda - PE)
+[abrir WhatsApp com a mensagem](https://wa.me/5581988493074?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20shopping%20do%20pet%20a%C3%AD%20no%20salgadinho.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/rabo-abanando%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o shopping do pet aí no salgadinho. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/rabo-abanando se quiser, monto um com a cara de vocês sem compromisso
+
+### Pepe Rações (Pet shop, São Cristóvão, Salvador - BA)
+[abrir WhatsApp com a mensagem](https://wa.me/5571991858445?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20pepe%20ra%C3%A7%C3%B5es%20a%C3%AD%20no%20s%C3%A3o%20crist%C3%B3v%C3%A3o.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/rabo-abanando%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o pepe rações aí no são cristóvão. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/rabo-abanando se quiser, monto um com a cara de vocês sem compromisso
+
+### Beury's Pet Shop (Pet shop, Centro, Lauro de Freitas - BA)
+[abrir WhatsApp com a mensagem](https://wa.me/5571991390872?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20beury%27s%20pet%20shop%20a%C3%AD%20no%20centro.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/rabo-abanando%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a beury's pet shop aí no centro. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/rabo-abanando se quiser, monto um com a cara de vocês sem compromisso
+
+### Amigos D'ferro Pet Shop e Farmacia Veterinaria (Pet shop, Vida Nova, Lauro de Freitas - BA)
+[abrir WhatsApp com a mensagem](https://wa.me/5571991132924?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20amigos%20d%27ferro%20pet%20shop%20e%20farmacia%20veterinaria%20a%C3%AD%20no%20vida%20nova.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/rabo-abanando%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a amigos d'ferro pet shop e farmacia veterinaria aí no vida nova. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/rabo-abanando se quiser, monto um com a cara de vocês sem compromisso
+
+### Agroguerra (Pet shop, Centro, São Luís - MA)
+[abrir WhatsApp com a mensagem](https://wa.me/5598984048345?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20agroguerra%20a%C3%AD%20no%20centro.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/rabo-abanando%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o agroguerra aí no centro. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/rabo-abanando se quiser, monto um com a cara de vocês sem compromisso
+
+### Pet Shop Mundo Cao (Pet shop, Renascença, São Luís - MA)
+[abrir WhatsApp com a mensagem](https://wa.me/5598991164400?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20pet%20shop%20mundo%20cao%20a%C3%AD%20no%20renascen%C3%A7a.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/rabo-abanando%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a pet shop mundo cao aí no renascença. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/rabo-abanando se quiser, monto um com a cara de vocês sem compromisso
+
+### Alencar Racoes (Pet shop, Vale Quem Tem, Teresina - PI)
+[abrir WhatsApp com a mensagem](https://wa.me/5586988164676?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20alencar%20racoes%20a%C3%AD%20no%20vale%20quem%20tem.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/rabo-abanando%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a alencar racoes aí no vale quem tem. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/rabo-abanando se quiser, monto um com a cara de vocês sem compromisso
+
+### Feirao das Racoes (Pet shop, São João, Teresina - PI)
+[abrir WhatsApp com a mensagem](https://wa.me/5586999418049?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20feirao%20das%20racoes%20a%C3%AD%20no%20s%C3%A3o%20jo%C3%A3o.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/rabo-abanando%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi o feirao das racoes aí no são joão. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/rabo-abanando se quiser, monto um com a cara de vocês sem compromisso
+
+### Jc Racoes (Pet shop, Centro, Teresina - PI)
+[abrir WhatsApp com a mensagem](https://wa.me/5586999813502?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20jc%20racoes%20a%C3%AD%20no%20centro.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20e%20atendemos%20online%2C%20com%20agendamento%20online%20que%20chega%20pronto%20no%20seu%20whatsapp.%20esse%20%C3%A9%20um%20exemplo%20que%20a%20gente%20fez%3A%20costamaiavitor.github.io/rabo-abanando%20se%20quiser%2C%20monto%20um%20com%20a%20cara%20de%20voc%C3%AAs%20sem%20compromisso)
+
+> boa tarde, tudo bem? vi a jc racoes aí no centro. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites e atendemos online, com agendamento online que chega pronto no seu whatsapp. esse é um exemplo que a gente fez: costamaiavitor.github.io/rabo-abanando se quiser, monto um com a cara de vocês sem compromisso
