@@ -66,7 +66,7 @@ Revisem e ajustem ao jeito de vocês antes de enviar. Mandem um por um, não em 
 ### Carneiro do Ordones
 (procurar o Instagram no Maps)
 
-> boa tarde, tudo bem? sou cliente do ordones e fui procurar o site de vocês pra ver as unidades, mas ele ainda está como coming soon. eu e meu sócio fazemos sites aqui em fortaleza, se vocês ainda estiverem procurando alguém pra fazer, posso mostrar algumas ideias
+> boa tarde, tudo bem? conheço o ordones e fui procurar o site de vocês pra ver as unidades, mas ele ainda está como coming soon. eu e meu sócio fazemos sites aqui em fortaleza, se vocês ainda estiverem procurando alguém pra fazer, posso mostrar algumas ideias
 
 ### Kina do Feijão Verde
 (procurar o Instagram no Maps)
