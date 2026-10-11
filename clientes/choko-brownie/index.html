@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Choko Brownie — Doces e Presentes</title>
+<meta name="description" content="Choko Brownie: brownies, bolos, tortas, sobremesas e presentes. Encomendas pelo WhatsApp em Fortaleza.">
+<meta name="theme-color" content="#211512">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Dosis:wght@400;500;600;700&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+<style>
+/* Layout: capa em tela cheia como a do cardápio impresso; seções escuras de chocolate alternando com creme para as fotos; cardápio em abas fixas; sacola de encomenda que vira mensagem de WhatsApp. */
+:root{
+  color-scheme:dark;
+  --cacau:#211512; --cacau-2:#2C1D18; --cacau-3:#3A2821; --creme:#F4ECE2; --creme-2:#E9DDCF;
+  --ouro:#E3C48C; --ouro-esc:#B38C4F; --claro:#EFE5D8; --apagado:#B4A291; --tinta:#2A1C17; --tinta-2:#6E5B50;
+  --titulo:"Cinzel",Georgia,serif; --corpo:"Dosis",system-ui,-apple-system,"Segoe UI",sans-serif; --assinatura:"Mrs Saint Delafield",cursive;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:120px}
+body{margin:0;background:var(--cacau);color:var(--claro);font:18px/1.55 var(--corpo);letter-spacing:.01em}
+img{display:block;max-width:100%}
+h1,h2,h3{margin:0;font-weight:500;text-wrap:balance}
+p{margin:0}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--ouro);outline-offset:3px;border-radius:4px}
+[hidden]{display:none!important}
+.cx{max-width:1180px;margin:0 auto;padding-inline:20px}
+.rotulo{font-family:var(--corpo);font-weight:600;font-size:14px;letter-spacing:.32em;text-transform:uppercase;color:var(--ouro)}
+.num{font-variant-numeric:tabular-nums}
+
+.bt{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:50px;padding:0 26px;border-radius:2px;border:1px solid transparent;font:600 15px var(--corpo);letter-spacing:.18em;text-transform:uppercase;text-decoration:none;cursor:pointer;transition:background-color .2s,color .2s}
+.bt svg{width:18px;height:18px}
+.bt-ouro{background:var(--ouro);color:var(--cacau)}
+.bt-ouro:hover{background:#EED6A6}
+.bt-linha{border-color:rgba(239,229,216,.55);color:var(--claro);background:transparent}
+.bt-linha:hover{background:rgba(239,229,216,.08)}
+
+/* topo */
+.topo{position:fixed;top:0;left:0;right:0;z-index:40;padding-top:env(safe-area-inset-top,0px);transition:background-color .3s}
+.topo.rolou{background:rgba(33,21,18,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid rgba(227,196,140,.18)}
+.topo .cx{display:flex;align-items:center;gap:24px;min-height:70px}
+.marca{font-family:var(--titulo);font-size:22px;letter-spacing:.14em;text-decoration:none;white-space:nowrap}
+.topo nav{display:flex;gap:26px;margin-left:auto}
+.topo nav a{text-decoration:none;font-weight:600;font-size:14px;letter-spacing:.2em;text-transform:uppercase;color:var(--claro);opacity:.85}
+.topo nav a:hover{opacity:1;color:var(--ouro)}
+.topo .bt{min-height:42px;padding:0 18px;font-size:13px}
+@media (max-width:900px){.topo nav{display:none}.topo .bt{margin-left:auto}.marca{font-size:18px}}
+
+/* capa */
+.capa{position:relative;min-height:min(92vh,860px);display:grid;align-items:end;overflow:hidden}
+.capa img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 35%}
+.capa::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,12,10,.35) 0%,rgba(20,12,10,.25) 40%,rgba(20,12,10,.88) 100%)}
+.capa .cx{position:relative;z-index:1;width:100%;padding-block:140px 70px;text-align:center}
+.capa h1{font-family:var(--titulo);font-weight:400;font-size:clamp(46px,8.5vw,108px);letter-spacing:.06em;line-height:1}
+.capa .ano{font-family:var(--corpo);letter-spacing:.42em;font-size:clamp(14px,1.6vw,18px);margin-top:14px;text-transform:uppercase;color:var(--creme-2)}
+.capa .frase{font-family:var(--assinatura);font-size:clamp(34px,4.6vw,54px);color:var(--ouro);margin:26px 0 30px;line-height:1.1}
+.capa .acoes{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+.faixa{border-block:1px solid rgba(227,196,140,.22);background:var(--cacau-2)}
+.faixa ul{list-style:none;margin:0 auto;padding:16px 20px;max-width:1180px;display:flex;flex-wrap:wrap;justify-content:center;gap:10px 40px;font-size:15px;letter-spacing:.12em;text-transform:uppercase;color:var(--creme-2)}
+.faixa b{color:var(--ouro);font-weight:600}
+
+/* história */
+.historia{padding-block:96px}
+.historia .cx{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:center}
+.historia figure{margin:0;position:relative}
+.historia figure img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover}
+.historia figure img.mini{position:absolute;width:44%;height:auto;aspect-ratio:1;right:-24px;bottom:-30px;border:6px solid var(--cacau)}
+.historia h2{font-family:var(--titulo);font-size:clamp(34px,4.4vw,52px);margin:14px 0 20px;line-height:1.1}
+.historia p{color:var(--creme-2);max-width:34em}
+.historia p+p{margin-top:14px}
+.tabela{margin-top:28px;border-top:1px solid rgba(227,196,140,.3)}
+.tabela div{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid rgba(227,196,140,.16);font-size:17px}
+.tabela div span:last-child{color:var(--ouro);font-weight:600}
+@media (max-width:860px){.historia .cx{grid-template-columns:1fr}.historia figure img.mini{right:10px}}
+
+/* cardápio */
+.cardapio{background:var(--creme);color:var(--tinta);padding-block:88px 110px}
+.cardapio .cab{text-align:center;margin-bottom:26px}
+.cardapio .cab .rotulo{color:var(--ouro-esc)}
+.cardapio h2{font-family:var(--titulo);font-size:clamp(36px,5vw,58px);margin-top:10px}
+.cardapio .cab p{color:var(--tinta-2);margin-top:10px}
+.abas{position:sticky;top:calc(70px + env(safe-area-inset-top,0px));z-index:20;background:rgba(244,236,226,.96);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-block:1px solid rgba(42,28,23,.12);margin-bottom:34px}
+.abas .cx{display:flex;gap:6px;overflow-x:auto;padding-block:10px;scrollbar-width:none}
+.abas .cx::-webkit-scrollbar{display:none}
+.abas a{flex:none;text-decoration:none;font-weight:600;font-size:13px;letter-spacing:.18em;text-transform:uppercase;padding:9px 14px;border:1px solid transparent;color:var(--tinta-2)}
+.abas a[aria-current="true"]{color:var(--tinta);border-color:var(--tinta)}
+.secao{scroll-margin-top:140px;margin-bottom:64px}
+.secao-cab{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;border-bottom:1px solid rgba(42,28,23,.2);padding-bottom:12px;margin-bottom:24px}
+.secao-cab h3{font-family:var(--titulo);font-size:clamp(26px,3vw,34px)}
+.secao-cab p{color:var(--tinta-2);font-size:16px}
+.grade{display:grid;grid-template-columns:repeat(3,1fr);gap:28px 24px}
+@media (max-width:960px){.grade{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:560px){.grade{grid-template-columns:1fr}}
+.produto{display:flex;flex-direction:column;min-width:0}
+.produto .foto{position:relative;aspect-ratio:1;overflow:hidden;background:var(--creme-2)}
+.produto .foto img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.produto:hover .foto img{transform:scale(1.03)}
+.selo{position:absolute;top:12px;left:12px;background:var(--cacau);color:var(--ouro);font-weight:700;font-size:12px;letter-spacing:.2em;text-transform:uppercase;padding:6px 10px}
+.produto .corpo{padding-top:14px;display:flex;flex-direction:column;gap:8px;flex:1}
+.produto h4{margin:0;font-family:var(--corpo);font-weight:700;font-size:18px;letter-spacing:.14em;text-transform:uppercase;line-height:1.3}
+.produto .desc{color:var(--tinta-2);font-size:16px;line-height:1.5}
+.produto .extra{font-size:14px;color:var(--ouro-esc);font-weight:600}
+.opcoes{margin-top:auto;padding-top:8px;display:grid;gap:6px}
+.opcao{display:flex;align-items:center;gap:10px;justify-content:space-between;border-top:1px dashed rgba(42,28,23,.2);padding-top:8px}
+.opcao span{font-size:15px;color:var(--tinta-2)}
+.opcao b{font-weight:700;font-variant-numeric:tabular-nums;margin-left:auto}
+.opcao button{flex:none;width:36px;height:36px;border-radius:50%;border:1px solid var(--tinta);background:transparent;color:var(--tinta);font:600 20px/1 var(--corpo);cursor:pointer}
+.opcao button:hover{background:var(--tinta);color:var(--creme)}
+.opcao button.ok{background:var(--tinta);color:var(--ouro)}
+.produto.sem-foto{background:var(--cacau);color:var(--claro);padding:22px 20px 18px;position:relative}
+.produto.sem-foto::before{content:"";display:block;height:8px;margin-bottom:16px;background:radial-gradient(circle,var(--ouro) 1.6px,transparent 2px) 0 50%/12px 8px repeat-x}
+.produto.sem-foto .desc,.produto.sem-foto .opcao span{color:var(--apagado)}
+.produto.sem-foto .extra{color:var(--ouro)}
+.produto.sem-foto .opcao{border-top-color:rgba(227,196,140,.25)}
+.produto.sem-foto .opcao button{border-color:var(--ouro);color:var(--ouro)}
+.produto.sem-foto .opcao button:hover,.produto.sem-foto .opcao button.ok{background:var(--ouro);color:var(--cacau)}
+.produto.sem-foto .corpo{padding-top:0}
+.nota-secao{margin-top:18px;font-size:15px;color:var(--tinta-2);font-style:italic}
+
+/* presentes */
+.presentes{padding-block:96px;background:var(--cacau-2)}
+.presentes .cx{display:grid;grid-template-columns:1fr 1.1fr;gap:48px;align-items:center}
+.presentes h2{font-family:var(--titulo);font-size:clamp(34px,4.4vw,52px);margin:12px 0 18px;line-height:1.1}
+.presentes p{color:var(--creme-2);max-width:32em}
+.mosaico{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.mosaico img{width:100%;aspect-ratio:1;object-fit:cover}
+.mosaico img:first-child{grid-row:span 2;aspect-ratio:auto;height:100%}
+@media (max-width:860px){.presentes .cx{grid-template-columns:1fr}}
+
+/* como encomendar */
+.passos{padding-block:88px}
+.passos h2{font-family:var(--titulo);font-size:clamp(32px,4vw,46px);text-align:center;margin:10px 0 40px}
+.passos ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:24px;counter-reset:p}
+.passos li{border-top:1px solid rgba(227,196,140,.4);padding-top:20px;counter-increment:p}
+.passos li::before{content:counter(p);font-family:var(--titulo);font-size:40px;color:var(--ouro);display:block;line-height:1;margin-bottom:12px}
+.passos h3{font-family:var(--corpo);font-weight:700;font-size:18px;letter-spacing:.16em;text-transform:uppercase;margin-bottom:8px}
+.passos p{color:var(--creme-2)}
+@media (max-width:760px){.passos ol{grid-template-columns:1fr}}
+
+/* lojas */
+.lojas{background:var(--creme);color:var(--tinta);padding-block:88px}
+.lojas h2{font-family:var(--titulo);font-size:clamp(32px,4vw,46px);text-align:center;margin:10px 0 40px}
+.lojas .rotulo{color:var(--ouro-esc);display:block;text-align:center}
+.duas{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.loja{background:#fff;border:1px solid rgba(42,28,23,.1);padding:30px}
+.loja h3{font-family:var(--titulo);font-size:26px;margin-bottom:6px}
+.loja .sub{color:var(--tinta-2);margin-bottom:18px}
+.loja dl{display:grid;grid-template-columns:auto 1fr;gap:8px 18px;margin:0 0 22px;font-size:17px}
+.loja dt{color:var(--tinta-2)}
+.loja dd{margin:0;font-weight:600}
+.loja .acoes{display:flex;flex-wrap:wrap;gap:10px}
+.loja .bt{min-height:44px;font-size:13px;padding:0 18px}
+.loja .bt-escuro{background:var(--tinta);color:var(--creme)}
+.loja .bt-borda{border-color:var(--tinta);color:var(--tinta)}
+@media (max-width:760px){.duas{grid-template-columns:1fr}}
+
+.rodape{padding-block:46px 120px;text-align:center;color:var(--apagado);font-size:15px}
+.rodape .marca{display:block;font-size:26px;color:var(--claro);margin-bottom:10px}
+.rodape .redes{display:flex;justify-content:center;gap:22px;margin:16px 0;letter-spacing:.14em;text-transform:uppercase;font-weight:600;font-size:14px}
+.rodape .redes a{text-decoration:none;color:var(--ouro)}
+.rodape small{display:block;margin-top:18px;font-size:13px;opacity:.75}
+
+/* sacola */
+.sacola{position:fixed;left:16px;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:45;max-width:560px;margin:0 auto;background:var(--ouro);color:var(--cacau);display:flex;align-items:center;gap:14px;padding:10px 10px 10px 20px;box-shadow:0 18px 40px -12px rgba(0,0,0,.6)}
+.sacola p{flex:1;font-weight:700;letter-spacing:.06em;min-width:0}
+.sacola p small{display:block;font-weight:600;font-size:14px;opacity:.75}
+.sacola .bt{background:var(--cacau);color:var(--ouro);min-height:44px;padding:0 18px;font-size:13px}
+.gaveta{position:fixed;inset:0;z-index:50;background:rgba(12,7,5,.7);display:flex;justify-content:flex-end}
+.gaveta-caixa{background:var(--creme);color:var(--tinta);width:100%;max-width:460px;height:100%;overflow:auto;padding:24px 22px calc(28px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:16px}
+.gaveta-caixa header{display:flex;justify-content:space-between;align-items:center}
+.gaveta-caixa h3{font-family:var(--titulo);font-size:28px}
+.fechar{background:none;border:0;font:600 14px var(--corpo);letter-spacing:.16em;text-transform:uppercase;color:var(--tinta-2);cursor:pointer;padding:6px}
+.itens{list-style:none;margin:0;padding:0}
+.itens li{display:grid;grid-template-columns:1fr auto;gap:4px 12px;padding:12px 0;border-bottom:1px solid rgba(42,28,23,.12)}
+.itens b{font-weight:700;font-size:16px;letter-spacing:.06em;text-transform:uppercase}
+.itens small{color:var(--tinta-2);font-size:14px}
+.itens .lado{grid-row:1/3;grid-column:2;display:flex;flex-direction:column;align-items:flex-end;gap:6px}
+.itens .lado strong{font-variant-numeric:tabular-nums}
+.qtd{display:flex;align-items:center;border:1px solid rgba(42,28,23,.3)}
+.qtd button{width:32px;height:32px;border:0;background:none;font:700 18px/1 var(--corpo);color:var(--tinta);cursor:pointer}
+.qtd output{min-width:24px;text-align:center;font-weight:700;font-variant-numeric:tabular-nums}
+.total{display:flex;justify-content:space-between;font-weight:700;font-size:20px;letter-spacing:.06em;font-variant-numeric:tabular-nums}
+.campo{display:grid;gap:6px}
+.campo label,.campo legend{font-weight:700;font-size:14px;letter-spacing:.14em;text-transform:uppercase;padding:0}
+fieldset.campo{border:0;margin:0;padding:0}
+.campo input,.campo textarea{min-height:46px;border:1px solid rgba(42,28,23,.3);background:#fff;padding:10px 12px;font:500 17px var(--corpo);color:var(--tinta);border-radius:0;width:100%}
+.campo textarea{min-height:80px;resize:vertical}
+.campo small{color:var(--tinta-2);font-size:14px}
+.escolha{display:flex;gap:8px}
+.escolha button{flex:1;min-height:44px;border:1px solid rgba(42,28,23,.3);background:#fff;font:600 14px var(--corpo);letter-spacing:.12em;text-transform:uppercase;color:var(--tinta);cursor:pointer}
+.escolha button[aria-pressed="true"]{background:var(--tinta);color:var(--ouro);border-color:var(--tinta)}
+.erro{color:#A3262A;font-weight:600}
+.gaveta .bt-ouro{width:100%;background:var(--tinta);color:var(--ouro)}
+.vazio{color:var(--tinta-2)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.produto .foto img{transition:none}}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></symbol>
+</svg>
+
+<header class="topo" id="topo">
+  <div class="cx">
+    <a href="#inicio" class="marca">CHOKO BROWNIE</a>
+    <nav aria-label="Seções"><a href="#cardapio">Cardápio</a><a href="#presentes">Presentes</a><a href="#encomendar">Como encomendar</a><a href="#lojas">Lojas</a></nav>
+    <a class="bt bt-ouro" href="https://wa.me/5585999845563?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20fazer%20uma%20encomenda." target="_blank" rel="noopener">Encomendar</a>
+  </div>
+</header>
+
+<main id="inicio">
+  <section class="capa">
+    <img src="img/capa.jpg" alt="Fatia de bolo de pistache com framboesa e crumble, da Choko Brownie" width="1400" height="1974" fetchpriority="high">
+    <div class="cx">
+      <h1>CHOKO BROWNIE</h1>
+      <p class="ano">Cardápio 2026</p>
+      <p class="frase">aqui contém os melhores doces do mundo!</p>
+      <div class="acoes">
+        <a class="bt bt-ouro" href="#cardapio">Ver o cardápio</a>
+        <a class="bt bt-linha" href="https://wa.me/5585999845563?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20fazer%20uma%20encomenda." target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-wa"/></svg>Falar no WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="faixa"><ul>
+    <li>Encomendas com <b>1 dia</b> de antecedência</li>
+    <li>Terça a sábado, a partir das <b>10h30</b></li>
+    <li>Cambeba · Fortaleza</li>
+  </ul></div>
+
+  <section class="historia">
+    <div class="cx">
+      <figure>
+        <img src="img/brownie.jpg" alt="Brownies da Choko empilhados num prato dourado" loading="lazy">
+        <img class="mini" src="img/embalagem-brownie.jpg" alt="Brownie na embalagem preta com dourado da Choko Brownie" loading="lazy">
+      </figure>
+      <div>
+        <span class="rotulo">Onde tudo começou</span>
+        <h2>Desde 2010 fazendo os seus dias mais doces</h2>
+        <p>Antes dos bolos, das tortas e das caixas de presente, veio o brownie: casquinha fina e crocante por fora, super cremoso por dentro. Ele continua sendo o coração da casa.</p>
+        <p>Sabores: brigadeiro, brigadeiro branco, ninho e doce de leite.</p>
+        <div class="tabela">
+          <div><span>Brownie (6,5 × 6,5 cm)</span><span class="num">R$ 9,50</span></div>
+          <div><span>Acima de 40 unidades</span><span class="num">R$ 8,80 cada</span></div>
+          <div><span>Minibrownie (5 × 5 cm), a partir de 20</span><span class="num">R$ 4,80 cada</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cardapio" id="cardapio">
+    <div class="cx cab">
+      <span class="rotulo">Cardápio de encomendas</span>
+      <h2>Escolha, monte e encomende</h2>
+      <p>Toque no + para colocar na sua encomenda. No final, ela vai pronta para o nosso WhatsApp.</p>
+    </div>
+    <nav class="abas" aria-label="Categorias do cardápio"><div class="cx" id="abas"></div></nav>
+    <div class="cx" id="secoes"></div>
+  </section>
+
+  <section class="presentes" id="presentes">
+    <div class="cx">
+      <div class="mosaico">
+        <img src="img/cesta-presentear.jpg" alt="Cesta de presente Choko Brownie com chocolates, geleia e espumante" loading="lazy">
+        <img src="img/caixa-surpresa.jpg" alt="Caixa surpresa com mini torta brownie em coração e bombons" loading="lazy">
+        <img src="img/caixa-chandon.jpg" alt="Caixa com bombons de morango e baby Chandon" loading="lazy">
+      </div>
+      <div>
+        <span class="rotulo">Para presentear</span>
+        <h2>Um presente que ninguém esquece</h2>
+        <p>Caixas com bombons de morango, mini tortas em formato de coração, chocolates finos e cestas completas. Também montamos a sua cesta com os seus produtos favoritos: é só falar com a gente.</p>
+        <div style="margin-top:26px;display:flex;flex-wrap:wrap;gap:12px">
+          <a class="bt bt-ouro" href="#sec-presentes">Ver presentes</a>
+          <a class="bt bt-linha" href="https://wa.me/5585999845563?text=Ol%C3%A1!%20Quero%20montar%20uma%20cesta%20de%20presente." target="_blank" rel="noopener">Montar minha cesta</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="passos" id="encomendar">
+    <div class="cx">
+      <span class="rotulo" style="display:block;text-align:center">Como encomendar</span>
+      <h2>Do cardápio para a sua mesa</h2>
+      <ol>
+        <li><h3>Escolha</h3><p>Coloque na sacola os doces, bolos e presentes que você quer, no tamanho certo.</p></li>
+        <li><h3>Envie</h3><p>Escolha a data, se vai retirar ou receber, e envie. O pedido chega pronto no nosso WhatsApp.</p></li>
+        <li><h3>Confirme</h3><p>A gente confirma sabores, valor final e pagamento. Encomendas com pelo menos 1 dia de antecedência.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="lojas" id="lojas">
+    <div class="cx">
+      <span class="rotulo">Venha nos visitar</span>
+      <h2>Nossas lojas</h2>
+      <div class="duas">
+        <article class="loja">
+          <h3>Casa Choko Brownie</h3>
+          <p class="sub">Doces, presentes e encomendas</p>
+          <dl>
+            <dt>Endereço</dt><dd>Rua Crisanto Moreira da Rocha, 1600, lojas 9 e 10, Cambeba</dd>
+            <dt>Terça a sexta</dt><dd class="num">10h30 às 19h</dd>
+            <dt>Sábado</dt><dd class="num">10h30 às 18h</dd>
+            <dt>WhatsApp</dt><dd class="num">(85) 99984-5563</dd>
+          </dl>
+          <div class="acoes">
+            <a class="bt bt-escuro" href="https://wa.me/5585999845563?text=Ol%C3%A1!%20Vim%20pelo%20site." target="_blank" rel="noopener">WhatsApp</a>
+            <a class="bt bt-borda" href="https://goo.gl/maps/Xwhqicg5CRuMexHB9" target="_blank" rel="noopener">Como chegar</a>
+          </div>
+        </article>
+        <article class="loja">
+          <h3>CKB Express</h3>
+          <p class="sub">A excelência Choko Brownie no formato to go</p>
+          <dl>
+            <dt>Endereço</dt><dd>Rua Crisanto Moreira da Rocha, 1550, Cambeba</dd>
+            <dt>Para levar</dt><dd>Brownies, cookies, bites e cheesecakes</dd>
+            <dt>Delivery</dt><dd>iFood</dd>
+          </dl>
+          <div class="acoes">
+            <a class="bt bt-escuro" href="https://www.ifood.com.br/delivery/fortaleza-ce/choko-brownie-express---doces-e-sobremesas-sapiranga-coite/7c6a1c7e-de0a-48f5-a677-c8b683f54951" target="_blank" rel="noopener">Pedir no iFood</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="rodape">
+  <div class="cx">
+    <span class="marca">CHOKO BROWNIE</span>
+    <span>Doces · Presentes · Fortaleza, CE</span>
+    <div class="redes"><a href="https://www.instagram.com/chokobrownie/" target="_blank" rel="noopener">Instagram</a><a href="mailto:chokobrownie@hotmail.com">E-mail</a><a href="https://www.ifood.com.br/delivery/fortaleza-ce/choko-brownie-express---doces-e-sobremesas-sapiranga-coite/7c6a1c7e-de0a-48f5-a677-c8b683f54951" target="_blank" rel="noopener">iFood</a></div>
+    <small>Choko Brownie Confeitaria · CNPJ 39.647.958/0001-04<br>Site de demonstração criado pela <a href="https://rivi-sites.netlify.app" target="_blank" rel="noopener" style="color:var(--ouro)">Rivi</a>.</small>
+  </div>
+</footer>
+
+<div class="sacola" id="sacola" hidden>
+  <p id="sacola-txt">0 itens<small>R$ 0,00</small></p>
+  <button class="bt" type="button" id="abrir">Ver encomenda</button>
+</div>
+
+<div class="gaveta" id="gaveta" hidden role="dialog" aria-modal="true" aria-labelledby="gaveta-titulo">
+  <div class="gaveta-caixa">
+    <header><h3 id="gaveta-titulo">Sua encomenda</h3><button class="fechar" type="button" id="fechar">Fechar</button></header>
+    <ul class="itens" id="itens"></ul>
+    <div class="total"><span>Total estimado</span><span id="total">R$ 0,00</span></div>
+    <p class="vazio" id="aviso-partir" hidden>Alguns itens têm valor "a partir de". O valor final é confirmado no WhatsApp.</p>
+    <div class="campo"><label for="data">Data da encomenda</label><input type="date" id="data"><small>Com pelo menos 1 dia de antecedência, de terça a sábado.</small></div>
+    <fieldset class="campo"><legend>Como prefere receber?</legend>
+      <div class="escolha" id="modo"><button type="button" data-v="Retirar na loja" aria-pressed="true">Retirar</button><button type="button" data-v="Entrega" aria-pressed="false">Entrega</button></div>
+    </fieldset>
+    <div class="campo" id="campo-end" hidden><label for="end">Endereço de entrega</label><input type="text" id="end" autocomplete="street-address" placeholder="Rua, número e bairro"></div>
+    <div class="campo"><label for="nome">Seu nome</label><input type="text" id="nome" autocomplete="name"></div>
+    <div class="campo"><label for="obs">Sabores e detalhes</label><textarea id="obs" placeholder="Ex.: brigadeiros meio a meio preto e ninho; bolo para 15 pessoas com frase Feliz aniversário"></textarea></div>
+    <p class="erro" id="erro" hidden></p>
+    <button class="bt bt-ouro" type="button" id="enviar"><svg aria-hidden="true"><use href="#i-wa"/></svg>Enviar pelo WhatsApp</button>
+  </div>
+</div>
+
+<script>
+(() => {
+  "use strict";
+  const WHATS = "5585999845563";
+  // [id, nome, descrição, foto, selo, [[opção, preço, "a partir de"?]], extra]
+  const SECOES = [
+    { id: "brownies", nome: "Brownies & bem casados", sub: "Onde tudo começou", itens: [
+      ["brownie", "Brownie", "Casquinha crocante e super cremoso por dentro. Sabores: brigadeiro, brigadeiro branco, ninho e doce de leite.", "brownie", "", [["Unidade (6,5 × 6,5 cm)", 9.5], ["Acima de 40, cada", 8.8]]],
+      ["minibrownie", "Minibrownie", "5 × 5 cm, nos mesmos sabores do brownie. Vendido em múltiplos de 10.", "", "", [["20 unidades", 96], ["50 unidades", 240], ["100 unidades", 440]]],
+      ["minicup", "Minicupbrownie", "Coberturas: brigadeiro preto, brigadeiro branco ou doce de leite.", "minicupbrownie", "", [["20 unidades", 80], ["50 unidades", 185], ["100 unidades", 370]]],
+      ["bemcasado", "Bem casado", "Recheios: tradicional, brigadeiro preto, limão siciliano, doce de leite, crocante, pistache (+R$ 1,90) e limão com frutas vermelhas (+R$ 0,50).", "bem-casado", "", [["Unidade em celofane", 6], ["100 unidades", 550]], "Laço: + R$ 0,70 por unidade"],
+      ["bcbrownie", "Bem casado de brownie", "Sabores: brigadeiro preto, brigadeiro branco, doce de leite, crocante e ganache meio amargo.", "bem-casado-brownie", "", [["Unidade em celofane", 7.2], ["50 unidades", 330]], "Laço: + R$ 0,70 por unidade"],
+      ["paodemel", "Pão de mel", "Casquinha fininha de chocolate envolvendo bolo de pão de mel com especiarias e doce de leite cremoso.", "pao-de-mel", "", [["Unidade", 18]]],
+    ]},
+    { id: "doces", nome: "Doces finos & brigadeiros", sub: "Peso 18 g, acompanham forminha marrom", itens: [
+      ["bombom", "Bombom de morango", "Morango selecionado envolto em brigadeiro branco e banhado em chocolate meio amargo.", "bombom-morango", "", [["Tradicional", 14.9], ["Fit (enrolado na tâmara)", 15.5]]],
+      ["morangoninho", "Morango de ninho", "Morango envolto em cremoso brigadeiro de leite Ninho.", "", "", [["Unidade", 12.5]]],
+      ["morangopistache", "Morango de pistache", "Morango envolto no nosso brigadeiro de pistache.", "", "", [["Unidade", 18.9]]],
+      ["pavlova", "Mini pavlova", "Cestinha de suspiro recheada com creme de chantilly e geleia de morango.", "mini-pavlova", "", [["20 unidades", 96]]],
+      ["tartelete", "Petit tartelete", "Limão com merengue ou crème brûlée.", "", "", [["20 unidades", 80]]],
+      ["gourmet", "Brigadeiros gourmet", "Preto, branco, ninho, casadinho, crocante de castanha, café com leite, churros, café e coco queimado.", "brigadeiro-gourmet", "", [["20 unidades", 66], ["50 unidades", 135], ["100 unidades", 215]]],
+      ["premium", "Brigadeiros premium", "Belga ao leite, meio amargo, crème brûlée, banoffe, caramelo salgado, Biscoff, palha italiana, romeu e julieta, surpresa de uva, Nutella crocante, Ferrero Rocher, coco com amêndoas e ao leite recheado com brownie.", "brigadeiros-premium", "", [["20 unidades", 77], ["50 unidades", 155], ["100 unidades", 295]]],
+      ["extrapremium", "Brigadeiros extra premium", "Crispearls de caramelo salgado, pistache e surpresa de Oreo.", "brigadeiro-extra", "", [["20 unidades", 90], ["50 unidades", 185], ["100 unidades", 330]]],
+    ]},
+    { id: "bolos", nome: "Bolos", sub: "Peso médio da fatia: 100 g", itens: [
+      ["chantininho", "Chantininho", "Bolo decorado no estilo vintage. Escolha o sabor entre os do naked cake. O valor final depende do modelo e dos adicionais.", "chantininho", "", [["15 fatias", 260, 1], ["25 fatias", 320, 1]]],
+      ["naked", "Naked cake", "Massa amanteigada ou chocolatuda, com até 2 sabores: brigadeiro preto, branco, doce de leite, ninho, Nutella, crocante, limão siciliano, ninho com Nutella, coco ou café.", "naked-cake", "", [["15 fatias", 155], ["25 fatias", 200], ["35 fatias", 265]], "Brigadeiros ou morangos por cima: + R$ 20 (15 ou 25 fatias) ou + R$ 23 (35 fatias)"],
+      ["nakedpremium", "Naked premium", "Limão siciliano com frutas vermelhas, ninho com geleia de morango, Ferrero Rocher ou coco com amêndoas.", "naked-premium", "", [["15 fatias", 180], ["25 fatias", 225], ["35 fatias", 285]]],
+      ["maria", "Bolo Maria", "Massa amanteigada com crocante artesanal, brigadeiro preto e brigadeiros por cima. Vem com topo de Happy Birthday e laço de organza.", "bolo-maria", "", [["8 fatias", 140]]],
+      ["deus", "Deus cake", "Massa de cacau 100%. Tradicional com ganache meio amargo, Nutella crocante, ou ao leite com morangos.", "deus-cake", "", [["Tradicional, 15 fatias", 230], ["Nutella crocante, 15 fatias", 245], ["Ao leite com morangos, 15 fatias", 245]]],
+      ["redvelvet", "Red velvet americano", "Recheio de cream cheese com geleia artesanal e pedaços de morango, decorado com morangos.", "red-velvet", "", [["15 fatias", 190], ["25 fatias", 250]]],
+      ["merengue", "Bolo merengue", "Massa amanteigada com brigadeiro de limão siciliano e merengue italiano maçaricado.", "bolo-merengue", "", [["15 fatias", 215], ["25 fatias", 270], ["35 fatias", 325]]],
+    ]},
+    { id: "linhacha", nome: "Linha chá", sub: "Bolos de 10, 20 ou 30 fatias", itens: [
+      ["brulee", "Crème brûlée com frutas vermelhas", "Brigadeiro de crème brûlée com geleia de frutas vermelhas, docinhos brûlée, morangos e mirtilos.", "creme-brulee", "Best seller", [["10 fatias", 155], ["20 fatias", 210], ["30 fatias", 275]]],
+      ["pistache", "Pistache", "Camadas de brigadeiro de pistache, pedacinhos de pistache e ganache de chocolate branco.", "bolo-pistache", "Best seller", [["10 fatias", 200], ["20 fatias", 255], ["30 fatias", 315]]],
+      ["pistachefram", "Pistache com framboesa", "Brigadeiro e creme de pistache com geleia de frutas vermelhas e crumble de pistache artesanal.", "pistache-framboesa", "Novo", [["10 fatias", 200], ["20 fatias", 255], ["30 fatias", 315]]],
+      ["maracuja", "Maracujá com baunilha", "Ganache de baunilha de verdade, brigadeiro de maracujá e crumble amanteigado à parte.", "maracuja-baunilha", "Novo", [["10 fatias", 200], ["20 fatias", 255], ["30 fatias", 315]]],
+      ["abacaxi", "Abacaxi com coco", "Brigadeiro de coco com geleia artesanal de abacaxi. Gostinho de casa de vó.", "abacaxi-coco", "", [["10 fatias", 155], ["20 fatias", 210], ["30 fatias", 275]]],
+      ["belga", "Chocolate belga", "Massa chocolatuda, brigadeiro belga, ganache de chocolate belga ao leite e splits de chocolate.", "", "", [["10 fatias", 200], ["20 fatias", 255], ["30 fatias", 315]]],
+      ["floresta", "Floresta negra", "Massa cacau 100% com ganache ao leite, chantilly e cerejas marrasquino.", "floresta-negra", "", [["10 fatias", 200], ["20 fatias", 255], ["30 fatias", 315]]],
+      ["nozes", "Doce de leite com nozes", "Brigadeiro de doce de leite intercalado com brigadeiro de nozes.", "", "", [["10 fatias", 165], ["20 fatias", 220], ["30 fatias", 285]]],
+      ["romeu", "Romeu e julieta", "Brigadeiro de queijo parmesão com goiabada.", "", "", [["10 fatias", 155], ["20 fatias", 210], ["30 fatias", 275]]],
+      ["olhodesogra", "Olho de sogra", "Brigadeiro de coco e de doce de leite com geleia de ameixas, finalizado com merengue.", "", "", [["10 fatias", 155], ["20 fatias", 210], ["30 fatias", 275]]],
+    ]},
+    { id: "tortas", nome: "Tortas brownie", sub: "Altura de 7 cm", itens: [
+      ["dubai", "Torta brownie Dubai", "Brownie com muito creme de pistache crocante (feito com massa árabe kneff), ganache ao leite e pistache.", "torta-dubai", "Novo", [["10 fatias", 260]]],
+      ["tgourmet", "Torta brownie gourmet", "Brigadeiro preto, branco, coco, crocante, doce de leite, doce de leite crocante ou Snickers (+R$ 8).", "torta-doce-de-leite-crocante", "", [["10 fatias", 150], ["15 a 20 fatias", 185], ["25 a 30 fatias", 250]], "Brigadeiros ou morangos por cima: + R$ 20 ou + R$ 23 (25/30 fatias)"],
+      ["praline", "Torta praliné de Nutella", "Brigadeiro de Nutella, camada de Nutella pura e praliné de castanha banhado no chocolate.", "torta-praline-nutella", "", [["10 fatias", 165], ["15 a 20 fatias", 210], ["25 a 30 fatias", 275]]],
+      ["tpremium", "Torta brownie premium", "Ganache meio amargo, brigadeiro branco com pedaços de morango ou com geleia de morango.", "", "", [["10 fatias", 165], ["15 a 20 fatias", 210], ["25 a 30 fatias", 275]]],
+      ["brookie", "Torta brookie", "Base de brownie com casquinha de cookie e fios de Nutella.", "", "", [["8 a 10 fatias", 150]]],
+    ]},
+    { id: "afogadinhos", nome: "Afogadinhos", sub: "Bolinhos afogados em cobertura", itens: [
+      ["afog1", "Afogadinho amanteigado", "Brigadeiro preto, brigadeiro branco, ninho ou limão.", "", "", [["6 a 8 fatias", 66], ["15 fatias", 109]]],
+      ["afog2", "Afogadinho amanteigado especial", "Ninho com geleia de morango, goiabada com brigadeiro de queijo, doce de leite com crocante ou ninho com Nutella.", "afogadinho-ninho-morango", "", [["6 a 8 fatias", 72], ["15 fatias", 119]]],
+      ["afog3", "Afogadinho chocolatudo", "Chocolatudo, duo preto e branco ou duo preto e ninho.", "", "", [["6 a 8 fatias", 66], ["15 fatias", 109]]],
+      ["afog4", "Afogadinho praliné", "Massa chocolatuda com cobertura e praliné.", "afogadinho-praline", "", [["6 a 8 fatias", 72], ["15 fatias", 119]]],
+      ["afog5", "Afogadinho chocolate belga", "Massa chocolatuda coberta de chocolate belga.", "", "", [["6 a 8 fatias", 75], ["15 fatias", 125]]],
+      ["caseirinho", "Caseirinho de brownie", "Massa do nosso brownie com cobertura de brigadeiro (400 g) ou crocante.", "caseirinho", "", [["Brigadeiro", 44], ["Crocante", 48]]],
+    ], nota: "Acrescente cakeboard de MDF e caixa por R$ 15." },
+    { id: "sobremesas", nome: "Sobremesas & cheesecakes", sub: "Taças, boxes e cheesecakes de 10 fatias", itens: [
+      ["tacapavlova", "Taça pavlova", "Suspiro, morango e creme leve de chantilly, com toque de creme de leite Ninho.", "taca-pavlova", "Best seller", [["Mini, 1 kg", 160], ["Média, 1,5 kg", 230]]],
+      ["tacaduo", "Taça brownie duo praliné", "Brownie com ganache ao leite e meio amargo, finalizada com praliné de castanha.", "taca-duo-praline", "Best seller", [["Mini, 1 kg", 170], ["Média, 1,5 kg", 245], ["Grande, 3 kg", 380]]],
+      ["tacaninho", "Taça brownie com creme de ninho", "Brownie com brigadeiro preto cremoso e creme de leite Ninho.", "taca-brownie-ninho", "Best seller", [["Mini, 1 kg", 160], ["Média, 1,5 kg", 230], ["Grande, 3 kg", 360]]],
+      ["tacauva", "Taça surpresa de uva", "Brigadeiro branco, farofinha de biscoito, uvas e chantilly.", "", "", [["Mini, 1 kg", 160], ["Média, 1,5 kg", 230], ["Grande, 3 kg", 360]]],
+      ["cheesepistache", "Cheesecake de pistache", "As melhores cheesecakes da sua vida. Serve 10 fatias.", "cheesecake-pistache", "", [["10 fatias", 260]]],
+      ["cheesebelga", "Cheesecake belga", "Com toque de caramelo flor de sal e Biscoff.", "", "", [["10 fatias", 220]]],
+      ["cheesefrutas", "Cheesecake de frutas vermelhas", "Versão americana, bem queijuda.", "", "", [["10 fatias", 220]]],
+      ["boxcrunch", "Box crunch cake", "Bolo de chocolate molhadinho, brigadeiro preto e crocante folhado com chocolate e Nutella.", "box-crunch-cake", "", [["1,5 kg", 185]]],
+      ["boxolho", "Box olho de sogra", "Creme de doce de leite, geleia de ameixa, doce de leite e beijinhos de coco.", "box-olho-de-sogra", "", [["1,4 kg", 185]]],
+      ["boxtiramisu", "Box tiramisu", "Biscoito champagne no café com creme leve de cream cheese. Surreal.", "", "", [["1,3 kg", 185]]],
+      ["banoffe", "Torta banoffe", "Serve 10 fatias.", "", "", [["10 fatias", 145]]],
+    ]},
+    { id: "presentes", nome: "Presentes", sub: "Para quem você ama", itens: [
+      ["cesta", "Cesta presentear", "Caixa de 9 chocolates finos, Choko Lotus, castanha banhada, geleia de morango artesanal, bem casado, bem casado de brownie, palha italiana de pistache e baby Chandon.", "cesta-presentear", "", [["Cesta completa", 258]]],
+      ["surpresa", "Caixa surpresa", "Mini torta brownie em formato de coração com 16 brigadeiros premium ou 6 bombons de morango.", "caixa-surpresa", "", [["Com 16 brigadeiros", 180], ["Com 6 bombons", 180]]],
+      ["chandon", "Caixa com baby Chandon", "Caixa com fechamento de ímã, 6 bombons de morango tradicional e 1 baby Chandon.", "caixa-chandon", "", [["Caixa", 170]]],
+      ["medalha", "Caixa medalha Nossa Senhora", "Medalha de Nossa Senhora das Graças em moldura acrílica, 8 chocolates e 2 pães de mel.", "caixa-medalha", "", [["Caixa", 195.9]]],
+      ["aguabenta", "Caixa porta água benta", "Porta água benta de Nossa Senhora, 8 doces e 3 bem casados.", "caixa-agua-benta", "", [["Caixa", 145]]],
+      ["bombons", "Caixa de bombons de morango", "Caixa cartonada com bombons de morango.", "bombom-morango", "", [["6 bombons", 125.9], ["8 bombons", 155.9]]],
+      ["tortinha", "Tortinha Happy Birthday", "Mini torta individual na caixinha com laço.", "tortinha-happy-birthday", "", [["Unidade", 35]]],
+      ["choc9", "Caixa 9 chocolates", "Nutella crocante, pistache, belga triplo caramelo e Dubai.", "", "", [["Caixa", 78.9]]],
+      ["doces", "Caixa de doces presente", "Seleção de doces da casa.", "", "", [["6 doces", 35], ["12 doces", 57]]],
+    ], nota: "Monte a sua cesta com os seus produtos favoritos: fale com a gente para escolher." },
+  ];
+
+  const brl = (n) => n.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
+  const esc = (t) => String(t).replace(/[&<>"']/g, (c) => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+  const $ = (id) => document.getElementById(id);
+  const PRODUTOS = {};
+  SECOES.forEach((s) => s.itens.forEach(([id, nome, desc, foto, selo, opcoes, extra]) => (PRODUTOS[id] = { id, nome, desc, foto, selo, opcoes, extra })));
+
+  // monta o cardápio
+  $("abas").innerHTML = SECOES.map((s) => `<a href="#sec-${s.id}" data-sec="${s.id}">${esc(s.nome)}</a>`).join("");
+  $("secoes").innerHTML = SECOES.map((s) => `
+    <section class="secao" id="sec-${s.id}" aria-labelledby="t-${s.id}">
+      <div class="secao-cab"><h3 id="t-${s.id}">${esc(s.nome)}</h3><p>${esc(s.sub)}</p></div>
+      <div class="grade">${s.itens.map(([id]) => {
+        const p = PRODUTOS[id];
+        return `<article class="produto${p.foto ? "" : " sem-foto"}">
+          ${p.foto ? `<div class="foto">${p.selo ? `<span class="selo">${esc(p.selo)}</span>` : ""}<img src="img/${p.foto}.jpg" alt="${esc(p.nome)}" loading="lazy"></div>` : ""}
+          <div class="corpo">
+            <h4>${esc(p.nome)}</h4>
+            <p class="desc">${esc(p.desc)}</p>
+            ${p.extra ? `<p class="extra">${esc(p.extra)}</p>` : ""}
+            ${!p.foto && p.selo ? `<p class="extra">${esc(p.selo)}</p>` : ""}
+            <div class="opcoes">${p.opcoes.map(([rot, preco, partir], k) => `
+              <div class="opcao"><span>${esc(rot)}</span><b>${partir ? "a partir de " : ""}${brl(preco)}</b>
+              <button type="button" data-add="${id}" data-op="${k}" aria-label="Colocar ${esc(p.nome)}, ${esc(rot)}, na encomenda">+</button></div>`).join("")}
+            </div>
+          </div>
+        </article>`;
+      }).join("")}</div>
+      ${s.nota ? `<p class="nota-secao">${esc(s.nota)}</p>` : ""}
+    </section>`).join("");
+
+  // aba ativa conforme a rolagem
+  const abas = [...document.querySelectorAll("#abas a")];
+  if ("IntersectionObserver" in window) {
+    const obs = new IntersectionObserver((ents) => ents.forEach((e) => {
+      if (e.isIntersecting) {
+        const id = e.target.id.replace("sec-", "");
+        abas.forEach((a) => a.setAttribute("aria-current", a.dataset.sec === id));
+        const ativa = abas.find((a) => a.dataset.sec === id);
+        if (ativa) ativa.parentElement.scrollTo({ left: ativa.offsetLeft - 20, behavior: "smooth" });
+      }
+    }), { rootMargin: "-45% 0px -50% 0px" });
+    document.querySelectorAll(".secao").forEach((s) => obs.observe(s));
+  }
+
+  // topo
+  const topo = $("topo");
+  const aoRolar = () => topo.classList.toggle("rolou", window.scrollY > 60);
+  aoRolar(); window.addEventListener("scroll", aoRolar, { passive: true });
+
+  // encomenda
+  const sacola = {}; // chave "id|op" -> qtd
+  let modo = "Retirar na loja";
+  function linhas() {
+    return Object.entries(sacola).map(([k, q]) => {
+      const [id, op] = k.split("|"); const p = PRODUTOS[id]; const [rot, preco, partir] = p.opcoes[op];
+      return { k, q, p, rot, preco, partir, sub: preco * q };
+    });
+  }
+  function desenhar() {
+    const ls = linhas(), qtd = ls.reduce((a, l) => a + l.q, 0), total = ls.reduce((a, l) => a + l.sub, 0);
+    $("sacola").hidden = qtd === 0;
+    $("sacola-txt").innerHTML = qtd + (qtd === 1 ? " item" : " itens") + "<small>" + brl(total) + "</small>";
+    $("itens").innerHTML = ls.length ? ls.map((l) => `
+      <li><div><b>${esc(l.p.nome)}</b><br><small>${esc(l.rot)}</small></div>
+        <div class="lado"><strong>${l.partir ? "a partir de " : ""}${brl(l.sub)}</strong>
+          <div class="qtd"><button type="button" data-k="${l.k}" data-d="-1" aria-label="Diminuir ${esc(l.p.nome)}">−</button><output>${l.q}</output><button type="button" data-k="${l.k}" data-d="1" aria-label="Aumentar ${esc(l.p.nome)}">+</button></div>
+        </div></li>`).join("") : '<li class="vazio">Sua encomenda está vazia.</li>';
+    $("total").textContent = brl(total);
+    $("aviso-partir").hidden = !ls.some((l) => l.partir);
+    document.querySelectorAll("[data-add]").forEach((b) => b.classList.toggle("ok", !!sacola[b.dataset.add + "|" + b.dataset.op]));
+    if (!qtd) $("gaveta").hidden = true;
+  }
+  document.addEventListener("click", (e) => {
+    const add = e.target.closest("[data-add]");
+    if (add) { const k = add.dataset.add + "|" + add.dataset.op; sacola[k] = (sacola[k] || 0) + 1; desenhar(); return; }
+    const d = e.target.closest("[data-d]");
+    if (d) { const k = d.dataset.k; sacola[k] = (sacola[k] || 0) + Number(d.dataset.d); if (sacola[k] <= 0) delete sacola[k]; desenhar(); }
+  });
+
+  // data mínima: amanhã, sem domingo e segunda
+  const amanha = new Date(); amanha.setDate(amanha.getDate() + 1);
+  const iso = (d) => d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+  $("data").min = iso(amanha);
+
+  $("abrir").addEventListener("click", () => { $("erro").hidden = true; $("gaveta").hidden = false; $("fechar").focus(); });
+  $("fechar").addEventListener("click", () => ($("gaveta").hidden = true));
+  $("gaveta").addEventListener("click", (e) => { if (e.target.id === "gaveta") $("gaveta").hidden = true; });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") $("gaveta").hidden = true; });
+  document.querySelectorAll("#modo button").forEach((b) => b.addEventListener("click", () => {
+    modo = b.dataset.v;
+    document.querySelectorAll("#modo button").forEach((o) => o.setAttribute("aria-pressed", o === b));
+    $("campo-end").hidden = modo !== "Entrega";
+  }));
+
+  $("enviar").addEventListener("click", () => {
+    const erro = $("erro"), data = $("data").value, nome = $("nome").value.trim(), end = $("end").value.trim();
+    const falha = (m) => { erro.textContent = m; erro.hidden = false; };
+    if (!data) return falha("Escolha a data da encomenda.");
+    const d = new Date(data + "T12:00:00");
+    if (data < $("data").min) return falha("As encomendas precisam de pelo menos 1 dia de antecedência.");
+    if (d.getDay() === 0 || d.getDay() === 1) return falha("Funcionamos de terça a sábado. Escolha outro dia.");
+    if (modo === "Entrega" && !end) return falha("Coloque o endereço de entrega.");
+    if (!nome) return falha("Coloque o seu nome.");
+    erro.hidden = true;
+    const ls = linhas();
+    const dias = ["domingo","segunda","terça","quarta","quinta","sexta","sábado"];
+    const msg = "Olá, Choko! Quero fazer uma encomenda:\n" +
+      ls.map((l) => "- " + l.q + "x " + l.p.nome + " (" + l.rot + ")" + " " + (l.partir ? "a partir de " : "") + brl(l.sub)).join("\n") +
+      "\nTotal estimado: " + brl(ls.reduce((a, l) => a + l.sub, 0)) +
+      "\nData: " + dias[d.getDay()] + ", " + data.split("-").reverse().join("/") +
+      "\n" + modo + (modo === "Entrega" ? ": " + end : "") +
+      "\nNome: " + nome + ($("obs").value.trim() ? "\nDetalhes: " + $("obs").value.trim() : "");
+    window.open("https://wa.me/" + WHATS + "?text=" + encodeURIComponent(msg), "_blank", "noopener");
+  });
+
+  desenhar();
+})();
+</script>
+</body>
+</html>
