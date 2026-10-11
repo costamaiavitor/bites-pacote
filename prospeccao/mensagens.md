@@ -108,3 +108,65 @@ Direct: [abrir conversa com @anearlynew](https://ig.me/m/anearlynew)
 Direct: [abrir conversa com @vilaalencarina](https://ig.me/m/vilaalencarina)
 
 > boa tarde, tudo bem? conheci a vila alencarina e achei o espaço muito bonito. vocês divulgam a programação e o cardápio só pelo instagram? eu e meu sócio fazemos sites aqui em fortaleza e fiquei imaginando um site com tudo isso num lugar só. se quiser, eu monto uma prévia do site de vocês sem compromisso, só pra vocês verem como ficaria
+
+## Clínicas de estética
+
+### CB Clínic
+[procurar no Google Maps](https://www.google.com/maps/search/?api=1&query=cb%20clinic%20fortaleza%20dion%C3%ADsio%20torres)
+
+> boa tarde, tudo bem? vi que a cb clínic abriu há pouco tempo aqui no dionísio torres e gostei muito da proposta. vocês já têm site? eu e meu sócio fazemos sites aqui em fortaleza, e uma clínica nesse padrão merece um site à altura, com os procedimentos e agendamento online. se quiser, monto uma prévia do site de vocês sem compromisso, só pra verem como ficaria
+
+### Clínica Akemi
+[procurar no Google Maps](https://www.google.com/maps/search/?api=1&query=Cl%C3%ADnica%20Akemi%20Fortaleza%20Meireles)
+
+> boa tarde, tudo bem? conheci a clínica akemi e gostei muito. vi que o agendamento de vocês é pelo trinks, mas não achei um site próprio. eu e meu sócio fazemos sites aqui em fortaleza, e dá pra ter um site com os procedimentos e o agendamento de vocês no mesmo lugar. se quiser, monto uma prévia do site de vocês sem compromisso, só pra verem como ficaria
+
+### Ingrid Clínica de Estética
+[abrir WhatsApp com a mensagem](https://wa.me/5585981782653?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20perfil%20da%20cl%C3%ADnica%20de%20voc%C3%AAs%20e%20gostei%20muito%20do%20trabalho.%20voc%C3%AAs%20t%C3%AAm%20site%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20aqui%20em%20fortaleza%2C%20com%20os%20procedimentos%2C%20fotos%20do%20espa%C3%A7o%20e%20agendamento%20direto%20pelo%20whatsapp.%20se%20quiser%2C%20monto%20uma%20pr%C3%A9via%20do%20site%20de%20voc%C3%AAs%20sem%20compromisso%2C%20s%C3%B3%20pra%20verem%20como%20ficaria)
+
+> boa tarde, tudo bem? vi o perfil da clínica de vocês e gostei muito do trabalho. vocês têm site? eu e meu sócio fazemos sites aqui em fortaleza, com os procedimentos, fotos do espaço e agendamento direto pelo whatsapp. se quiser, monto uma prévia do site de vocês sem compromisso, só pra verem como ficaria
+
+### Pele de Pêssego
+[abrir direct @peledepessegoce](https://ig.me/m/peledepessegoce)
+
+> boa tarde, tudo bem? vi o perfil da pele de pêssego e gostei muito do trabalho. vocês têm site ou atendem só pelo instagram? eu e meu sócio fazemos sites aqui em fortaleza, com os procedimentos e agendamento pelo whatsapp. se quiser, monto uma prévia do site de vocês sem compromisso, só pra verem como ficaria
+
+### Isabelly Brandão Estética
+[abrir direct @isabrandaoesteticaa](https://ig.me/m/isabrandaoesteticaa)
+
+> boa tarde, tudo bem? vi seu perfil e gostei muito do seu trabalho. você tem site ou atende só pelo instagram? eu e meu sócio fazemos sites aqui em fortaleza, com seus procedimentos e agendamento pelo whatsapp. se quiser, monto uma prévia do site de vocês sem compromisso, só pra verem como ficaria
+
+### Racquel Ramos Estética
+[abrir direct @racquelramos.estetica](https://ig.me/m/racquelramos.estetica)
+
+> boa tarde, tudo bem? vi seu perfil e gostei muito do seu trabalho. você tem site ou atende só pelo instagram? eu e meu sócio fazemos sites aqui em fortaleza, com seus procedimentos e agendamento pelo whatsapp. se quiser, monto uma prévia do site de vocês sem compromisso, só pra verem como ficaria
+
+### Nyna Estética
+[abrir direct @nynaestetica](https://ig.me/m/nynaestetica)
+
+> boa tarde, tudo bem? vi o perfil de vocês e gostei muito do trabalho com microagulhamento e drenagem. vocês têm site? eu e meu sócio fazemos sites aqui em fortaleza, com os procedimentos e agendamento pelo whatsapp. se quiser, monto uma prévia do site de vocês sem compromisso, só pra verem como ficaria
+
+### Nuovapelle Benessere
+[procurar no Google Maps](https://www.google.com/maps/search/?api=1&query=Nuovapelle%20Benessere%20Fortaleza)
+
+> boa tarde, tudo bem? conheci a nuovapelle e gostei muito. vocês têm site? eu e meu sócio fazemos sites aqui em fortaleza, com os tratamentos, fotos do espaço e agendamento pelo whatsapp. se quiser, monto uma prévia do site de vocês sem compromisso, só pra verem como ficaria
+
+### Bel Vitale Estética Avançada
+[procurar no Google Maps](https://www.google.com/maps/search/?api=1&query=Bel%20Vitale%20Est%C3%A9tica%20Avan%C3%A7ada%20Fortaleza)
+
+> boa tarde, tudo bem? conheci a bel vitale e gostei muito. vocês têm site? eu e meu sócio fazemos sites aqui em fortaleza, com os procedimentos, fotos do espaço e agendamento pelo whatsapp. se quiser, monto uma prévia do site de vocês sem compromisso, só pra verem como ficaria
+
+### Clínica de Estética Luzia Demes
+[procurar no Google Maps](https://www.google.com/maps/search/?api=1&query=Cl%C3%ADnica%20de%20Est%C3%A9tica%20Luzia%20Demes%20Fortaleza)
+
+> boa tarde, tudo bem? conheci a clínica de vocês e gostei muito. vocês têm site? eu e meu sócio fazemos sites aqui em fortaleza, com os procedimentos, fotos do espaço e agendamento pelo whatsapp. se quiser, monto uma prévia do site de vocês sem compromisso, só pra verem como ficaria
+
+### Luzir Saúde & Estética
+[procurar no Google Maps](https://www.google.com/maps/search/?api=1&query=Luzir%20Sa%C3%BAde%20e%20Est%C3%A9tica%20Fortaleza)
+
+> boa tarde, tudo bem? conheci a luzir e gostei muito. vocês têm site? eu e meu sócio fazemos sites aqui em fortaleza, com os tratamentos faciais e corporais e agendamento pelo whatsapp. se quiser, monto uma prévia do site de vocês sem compromisso, só pra verem como ficaria
+
+### Bio Esthetique
+[procurar no Google Maps](https://www.google.com/maps/search/?api=1&query=Bio%20Esthetique%20Fortaleza%20Aldeota)
+
+> boa tarde, tudo bem? conheci a bio esthetique e gostei muito. vocês têm site? eu e meu sócio fazemos sites aqui em fortaleza, com os procedimentos, fotos do espaço e agendamento pelo whatsapp. se quiser, monto uma prévia do site de vocês sem compromisso, só pra verem como ficaria
