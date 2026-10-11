@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rivi — Sites para empresas em Fortaleza</title>
+<meta name="description" content="Rivi: sites rápidos, bonitos e feitos para o celular, para empresas de Fortaleza. Site institucional, landing page e catálogo com pedido no WhatsApp.">
+<meta name="theme-color" content="#F5F2EA">
+<meta property="og:title" content="Rivi — Sites para empresas em Fortaleza">
+<meta property="og:description" content="Sites rápidos, bonitos e feitos para o celular. Você fala direto com quem faz.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2315140F'/%3E%3Ctext x='14' y='45' font-family='Arial' font-weight='900' font-size='36' fill='%23F5F2EA'%3Er%3C/text%3E%3Ccircle cx='46' cy='41' r='6' fill='%23FF5A1F'/%3E%3C/svg%3E">
+<script>document.documentElement.classList.add("js")</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Instrument+Sans:wght@400..700&display=swap" rel="stylesheet">
+<style>
+:root{
+  color-scheme:light;
+  --papel:#F5F2EA; --papel-2:#EDE8DC; --branco:#FFFDF8;
+  --tinta:#15140F; --tinta-2:#55514A; --linha:#DCD5C6;
+  --laranja:#FF5A1F; --laranja-esc:#D9420B; --laranja-claro:#FFE2D4;
+  --verde:#25D366;
+  --display:"Bricolage Grotesque",system-ui,sans-serif;
+  --corpo:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --larg:1120px; --raio:20px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:80px}
+body{margin:0;background:var(--papel);color:var(--tinta);font-family:var(--corpo);font-size:17px;line-height:1.55}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--display);line-height:1.02;text-wrap:balance;letter-spacing:-.025em;margin:0;font-weight:800}
+p{margin:0}
+:focus-visible{outline:3px solid var(--laranja);outline-offset:3px;border-radius:8px}
+.cx{max-width:var(--larg);margin:0 auto;padding:0 20px}
+.so-leitor{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* botões */
+.bt{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 24px;border-radius:999px;
+  font-weight:650;font-size:16px;text-decoration:none;border:2px solid var(--tinta);transition:transform .2s,background-color .2s,color .2s,box-shadow .2s}
+.bt svg{width:20px;height:20px;flex:none}
+.bt-pri{background:var(--tinta);color:var(--papel);box-shadow:4px 4px 0 var(--laranja)}
+.bt-pri:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--laranja)}
+.bt-sec{background:transparent}
+.bt-sec:hover{background:var(--tinta);color:var(--papel)}
+.bt-pq{min-height:42px;padding:0 18px;font-size:15px}
+
+/* topo */
+.topo{position:sticky;top:0;z-index:50;background:rgba(245,242,234,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid transparent;transition:border-color .3s}
+.topo.rolou{border-bottom-color:var(--linha)}
+.topo .cx{display:flex;align-items:center;gap:24px;height:68px}
+.logo{font-family:var(--display);font-weight:800;font-size:30px;letter-spacing:-.04em;text-decoration:none;line-height:1}
+.logo i{font-style:normal;color:var(--laranja)}
+.nav{display:flex;gap:26px;margin-left:auto}
+.nav a{text-decoration:none;font-weight:550;font-size:15px;color:var(--tinta-2)}
+.nav a:hover{color:var(--tinta)}
+@media (max-width:820px){.nav{display:none}.topo .bt{margin-left:auto}}
+
+/* hero */
+.hero{padding:56px 0 72px;overflow:hidden}
+.hero .cx{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
+.selo{display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:600;background:var(--branco);border:1px solid var(--linha);padding:6px 14px 6px 10px;border-radius:999px;margin-bottom:22px}
+.selo b{width:8px;height:8px;border-radius:50%;background:var(--laranja);box-shadow:0 0 0 4px var(--laranja-claro)}
+.hero h1{font-size:clamp(42px,6.6vw,78px)}
+.hero h1 em{font-style:normal;color:var(--laranja);position:relative;white-space:nowrap}
+.hero h1 em::after{content:"";position:absolute;left:2%;right:2%;bottom:.04em;height:.1em;background:var(--laranja);border-radius:9px;opacity:.25}
+.hero .sub{font-size:clamp(18px,2vw,20px);color:var(--tinta-2);max-width:34em;margin:24px 0 32px}
+.acoes{display:flex;flex-wrap:wrap;gap:14px}
+.hero-vis{position:relative;height:540px}
+.janela{position:absolute;right:0;top:40px;width:min(100%,420px);background:var(--branco);border:2px solid var(--tinta);border-radius:16px;overflow:hidden;box-shadow:10px 10px 0 var(--papel-2);transform:rotate(2deg)}
+.janela-barra{display:flex;gap:6px;padding:12px 14px;border-bottom:2px solid var(--tinta);background:var(--papel)}
+.janela-barra span{width:10px;height:10px;border-radius:50%;border:1.5px solid var(--tinta)}
+.janela-corpo{padding:22px;display:grid;gap:12px}
+.esq{height:12px;border-radius:6px;background:var(--papel-2)}
+.esq.t{height:26px;width:72%;background:var(--tinta)}
+.esq.l{width:90%}.esq.m{width:60%}
+.esq.bt-f{height:34px;width:42%;border-radius:999px;background:var(--laranja);margin-top:6px}
+.esq-grade{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:10px}
+.esq-grade div{aspect-ratio:1;border-radius:10px;background:var(--papel-2)}
+.celular{position:absolute;left:4%;top:0;width:250px;aspect-ratio:390/844;border:9px solid var(--tinta);border-radius:40px;overflow:hidden;background:var(--tinta);box-shadow:0 30px 60px -20px rgba(21,20,15,.45);transform:rotate(-4deg)}
+.celular img{width:100%;height:100%;object-fit:cover;object-position:top;border-radius:30px}
+.chip{position:absolute;display:flex;align-items:center;gap:10px;background:var(--branco);border:2px solid var(--tinta);border-radius:14px;padding:10px 14px;font-size:14px;font-weight:600;line-height:1.25;box-shadow:4px 4px 0 var(--tinta)}
+.chip small{display:block;font-weight:500;color:var(--tinta-2);font-size:12.5px}
+.chip .ic{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;flex:none}
+.chip .ic svg{width:20px;height:20px}
+.chip-wa{right:4%;bottom:70px}.chip-wa .ic{background:var(--verde);color:#fff}
+.chip-cel{left:0;bottom:16px}.chip-cel .ic{background:var(--laranja-claro);color:var(--laranja-esc)}
+@media (max-width:900px){
+  .hero{padding:32px 0 56px}
+  .hero .cx{grid-template-columns:1fr}
+  .hero-vis{height:470px;max-width:440px;width:100%;margin:8px auto 0}
+  .celular{width:210px;left:2%}
+  .janela{width:76%;top:56px}
+}
+@media (max-width:420px){.hero-vis{height:420px}.celular{width:185px}.chip{font-size:13px;padding:8px 10px}.chip-wa{right:0}}
+
+/* faixa */
+.faixa{background:var(--tinta);color:var(--papel);overflow:hidden;padding:18px 0;border-block:2px solid var(--tinta)}
+.faixa-trilho{display:flex;gap:44px;width:max-content;animation:rolar 32s linear infinite}
+.faixa span{font-family:var(--display);font-weight:700;font-size:22px;white-space:nowrap;display:flex;align-items:center;gap:44px}
+.faixa span::after{content:"";width:10px;height:10px;border-radius:50%;background:var(--laranja)}
+@keyframes rolar{to{transform:translateX(-50%)}}
+
+/* seções */
+.secao{padding:96px 0}
+.cab{max-width:680px;margin-bottom:48px}
+.rotulo{display:inline-block;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--laranja-esc);margin-bottom:14px}
+.cab h2{font-size:clamp(34px,5vw,56px)}
+.cab p{color:var(--tinta-2);margin-top:16px;font-size:18px}
+@media (max-width:600px){.secao{padding:72px 0}}
+
+/* por que */
+.porque{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.porque article{padding:28px;border-top:3px solid var(--tinta)}
+.porque .n{font-family:var(--display);font-weight:800;font-size:15px;color:var(--laranja-esc)}
+.porque h3{font-size:24px;margin:12px 0 10px;letter-spacing:-.015em}
+.porque p{color:var(--tinta-2)}
+@media (max-width:820px){.porque{grid-template-columns:1fr;gap:4px}.porque article{padding:24px 0}}
+
+/* serviços */
+.servicos{background:var(--branco);border-block:1px solid var(--linha)}
+.grade-serv{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.card{background:var(--papel);border:2px solid var(--tinta);border-radius:var(--raio);padding:30px;display:flex;flex-direction:column;gap:12px;transition:transform .25s,box-shadow .25s}
+.card:hover{transform:translate(-3px,-3px);box-shadow:6px 6px 0 var(--tinta)}
+.card .ic{width:52px;height:52px;border-radius:14px;background:var(--tinta);color:var(--papel);display:grid;place-items:center}
+.card .ic svg{width:26px;height:26px}
+.card h3{font-size:26px;letter-spacing:-.015em;margin-top:6px}
+.card p{color:var(--tinta-2)}
+.card ul{list-style:none;padding:0;margin:6px 0 0;display:flex;flex-wrap:wrap;gap:8px}
+.card li{font-size:13.5px;font-weight:600;background:var(--branco);border:1px solid var(--linha);padding:4px 12px;border-radius:999px}
+.card.destaque{background:var(--laranja);}
+.card.destaque p{color:var(--tinta)}
+.card.destaque .ic{background:var(--branco);color:var(--laranja-esc)}
+.extra{margin-top:20px;display:flex;align-items:center;gap:20px;flex-wrap:wrap;border:2px dashed var(--tinta-2);border-radius:var(--raio);padding:22px 28px}
+.extra p{flex:1;min-width:240px;color:var(--tinta-2)}
+.extra strong{color:var(--tinta)}
+@media (max-width:760px){.grade-serv{grid-template-columns:1fr}.card{padding:24px}}
+
+/* incluso */
+.incluso{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:2px solid var(--tinta);border-radius:var(--raio);overflow:hidden;background:var(--branco)}
+.incluso div{padding:26px;border-right:2px solid var(--tinta);border-bottom:2px solid var(--tinta);display:flex;gap:14px;align-items:flex-start}
+.incluso div:nth-child(3n){border-right:0}
+.incluso div:nth-last-child(-n+3){border-bottom:0}
+.incluso svg{width:24px;height:24px;flex:none;color:var(--laranja-esc);margin-top:2px}
+.incluso b{display:block;font-size:17px}
+.incluso span{color:var(--tinta-2);font-size:15px}
+@media (max-width:820px){
+  .incluso{grid-template-columns:1fr}
+  .incluso div{border-right:0!important;border-bottom:2px solid var(--tinta)!important}
+  .incluso div:last-child{border-bottom:0!important}
+}
+
+/* projetos */
+.projeto{display:grid;grid-template-columns:1fr 1fr;border:2px solid var(--tinta);border-radius:var(--raio);overflow:hidden;background:var(--branco)}
+.projeto-vis{background:#C4246B repeating-linear-gradient(90deg,#E9418B 0 22px,#F46AA6 22px 44px);display:grid;place-items:center;padding:40px 20px 0;min-height:380px;overflow:hidden}
+.projeto-vis .celular{position:static;transform:none;width:230px;border-bottom:0;border-radius:36px 36px 0 0;box-shadow:0 0 0 2px var(--tinta)}
+.projeto-vis .celular img{border-radius:28px 28px 0 0}
+.projeto-txt{padding:40px;display:flex;flex-direction:column;gap:16px;justify-content:center}
+.tag{align-self:flex-start;font-size:12.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;border:1.5px solid var(--tinta);padding:4px 10px;border-radius:999px}
+.projeto-txt h3{font-size:clamp(32px,4vw,44px)}
+.projeto-txt p{color:var(--tinta-2)}
+.projeto-txt ul{margin:0;padding-left:20px;color:var(--tinta-2)}
+.projeto-txt li{margin:4px 0}
+.prox{margin-top:20px;border:2px dashed var(--tinta-2);border-radius:var(--raio);padding:28px;text-align:center;color:var(--tinta-2)}
+.prox b{font-family:var(--display);font-size:24px;color:var(--tinta);display:block;margin-bottom:4px;letter-spacing:-.015em}
+@media (max-width:820px){.projeto{grid-template-columns:1fr}.projeto-txt{padding:28px 24px}.projeto-vis{min-height:0;padding-top:32px}.projeto-vis .celular{width:200px}}
+
+/* processo */
+.processo{background:var(--tinta);color:var(--papel)}
+.processo .rotulo{color:var(--laranja)}
+.processo .cab p{color:#BDB7AA}
+.passos{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;counter-reset:p;list-style:none;padding:0;margin:0}
+.passos li{border-top:2px solid #45423A;padding-top:22px;counter-increment:p}
+.passos li::before{content:"0" counter(p);font-family:var(--display);font-weight:800;font-size:52px;color:var(--laranja);display:block;line-height:1;margin-bottom:14px}
+.passos h3{font-size:24px;margin-bottom:8px;letter-spacing:-.015em}
+.passos p{color:#BDB7AA;font-size:16px}
+@media (max-width:900px){.passos{grid-template-columns:1fr 1fr;row-gap:36px}}
+@media (max-width:520px){.passos{grid-template-columns:1fr}}
+
+/* quem somos */
+.socios{display:grid;grid-template-columns:1.1fr 1fr;gap:48px;align-items:center}
+.socios .cab{margin:0}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.pessoa{background:var(--branco);border:2px solid var(--tinta);border-radius:var(--raio);padding:24px;text-align:center}
+.av{width:96px;height:96px;margin:0 auto 16px;border-radius:50%;border:2px solid var(--tinta);display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:44px}
+.pessoa:first-child .av{background:var(--laranja)}
+.pessoa:last-child .av{background:var(--papel-2)}
+.pessoa b{font-family:var(--display);font-size:24px;display:block;letter-spacing:-.015em}
+.pessoa span{color:var(--tinta-2);font-size:14.5px}
+@media (max-width:820px){.socios{grid-template-columns:1fr;gap:32px}}
+
+/* faq */
+.faq{max-width:820px}
+.faq details{border-bottom:2px solid var(--tinta)}
+.faq details:first-of-type{border-top:2px solid var(--tinta)}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 0;font-family:var(--display);font-weight:700;font-size:clamp(19px,2.4vw,23px);letter-spacing:-.015em}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";flex:none;width:36px;height:36px;border-radius:50%;border:2px solid var(--tinta);display:grid;place-items:center;font-size:22px;font-weight:600;transition:transform .25s,background-color .25s}
+.faq details[open] summary::after{transform:rotate(45deg);background:var(--laranja)}
+.faq details p{padding:0 56px 24px 0;color:var(--tinta-2)}
+
+/* cta final */
+.final{padding:0 0 96px}
+.final-caixa{background:var(--laranja);border:2px solid var(--tinta);border-radius:28px;padding:clamp(36px,6vw,72px);display:grid;grid-template-columns:1.3fr auto;gap:32px;align-items:center;box-shadow:10px 10px 0 var(--tinta)}
+.final h2{font-size:clamp(36px,5.4vw,64px)}
+.final p{margin-top:14px;font-size:18px;max-width:30em}
+.final .bt-pri{box-shadow:4px 4px 0 var(--branco)}
+.final .bt-pri:hover{box-shadow:6px 6px 0 var(--branco)}
+@media (max-width:820px){.final-caixa{grid-template-columns:1fr;box-shadow:6px 6px 0 var(--tinta)}.final{padding-bottom:72px}}
+
+/* rodapé */
+.rodape{border-top:1px solid var(--linha);padding:32px 0 40px;font-size:15px;color:var(--tinta-2)}
+.rodape .cx{display:flex;flex-wrap:wrap;gap:16px 32px;align-items:center;justify-content:space-between}
+.rodape .logo{font-size:24px;color:var(--tinta)}
+
+/* botão flutuante */
+.wa-flut{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:60;width:58px;height:58px;border-radius:50%;background:var(--verde);color:#fff;display:grid;place-items:center;border:2px solid var(--tinta);box-shadow:3px 3px 0 var(--tinta);transition:transform .2s}
+.wa-flut:hover{transform:scale(1.06)}
+.wa-flut svg{width:30px;height:30px}
+
+/* animação de entrada (só com JS) */
+.js .surge{opacity:0;transform:translateY(24px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1)}
+.js .surge.visivel{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .faixa-trilho{animation:none}
+  .js .surge{opacity:1;transform:none;transition:none}
+  .bt,.card{transition:none}
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></symbol>
+  <symbol id="i-seta" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-ok" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M4 12.5 9.5 18 20 6.5"/></symbol>
+</svg>
+
+<header class="topo" id="topo">
+  <div class="cx">
+    <a href="#inicio" class="logo" aria-label="Rivi, início">rivi<i>.</i></a>
+    <nav class="nav" aria-label="Seções">
+      <a href="#servicos">Serviços</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#perguntas">Dúvidas</a>
+    </nav>
+    <a href="#contato" class="bt bt-pri bt-pq" data-wa>Pedir orçamento</a>
+  </div>
+</header>
+
+<main id="inicio">
+
+  <section class="hero">
+    <div class="cx">
+      <div class="surge">
+        <span class="selo"><b></b>Sites para empresas · Fortaleza</span>
+        <h1>Sua empresa merece um site que <em>traz cliente</em>.</h1>
+        <p class="sub">Criamos sites rápidos, bonitos e feitos pro celular, com botão direto pro seu WhatsApp. Sem enrolação, e você fala direto com quem faz.</p>
+        <div class="acoes">
+          <a href="#contato" class="bt bt-pri" data-wa><svg aria-hidden="true"><use href="#i-wa"/></svg>Chamar no WhatsApp</a>
+          <a href="#projetos" class="bt bt-sec">Ver projeto <svg aria-hidden="true"><use href="#i-seta"/></svg></a>
+        </div>
+      </div>
+
+      <div class="hero-vis surge" aria-hidden="true">
+        <div class="janela">
+          <div class="janela-barra"><span></span><span></span><span></span></div>
+          <div class="janela-corpo">
+            <div class="esq t"></div>
+            <div class="esq l"></div>
+            <div class="esq m"></div>
+            <div class="esq bt-f"></div>
+            <div class="esq-grade"><div></div><div></div><div></div></div>
+          </div>
+        </div>
+        <div class="celular"><img src="img/bites-celular.jpg" alt="" width="390" height="844"></div>
+        <div class="chip chip-wa"><span class="ic"><svg><use href="#i-wa"/></svg></span><span>Novo contato<small>chegou pelo site</small></span></div>
+        <div class="chip chip-cel"><span class="ic"><svg><use href="#i-ok"/></svg></span><span>Feito pro celular<small>e pro computador</small></span></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="faixa" aria-hidden="true">
+    <div class="faixa-trilho">
+      <span>Site institucional</span><span>Landing page</span><span>Catálogo com pedido</span><span>Botão de WhatsApp</span><span>Aparece no Google</span><span>Domínio próprio</span>
+      <span>Site institucional</span><span>Landing page</span><span>Catálogo com pedido</span><span>Botão de WhatsApp</span><span>Aparece no Google</span><span>Domínio próprio</span>
+    </div>
+  </div>
+
+  <section class="secao">
+    <div class="cx">
+      <div class="cab surge">
+        <span class="rotulo">Por que ter um site</span>
+        <h2>Instagram ajuda. Mas ele não é seu.</h2>
+        <p>Quem procura sua empresa no Google precisa encontrar um lugar confiável, que explique o que você faz e leve direto pro contato.</p>
+      </div>
+      <div class="porque">
+        <article class="surge">
+          <span class="n">01</span>
+          <h3>Passa confiança</h3>
+          <p>Um site bem feito mostra que sua empresa é séria antes mesmo da primeira conversa.</p>
+        </article>
+        <article class="surge">
+          <span class="n">02</span>
+          <h3>Te encontram no Google</h3>
+          <p>Quem pesquisa pelo seu serviço em Fortaleza chega até você, e não só até o concorrente.</p>
+        </article>
+        <article class="surge">
+          <span class="n">03</span>
+          <h3>Vira conversa</h3>
+          <p>Cada página leva pro seu WhatsApp. A visita vira contato e o contato vira cliente.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="secao servicos" id="servicos">
+    <div class="cx">
+      <div class="cab surge">
+        <span class="rotulo">Serviços</span>
+        <h2>O site certo pro momento da sua empresa.</h2>
+      </div>
+      <div class="grade-serv">
+        <article class="card surge">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 14h8"/></svg></span>
+          <h3>Site institucional</h3>
+          <p>Sua empresa apresentada do jeito certo: quem vocês são, o que fazem, fotos, localização e contato.</p>
+          <ul><li>Várias páginas</li><li>Mapa</li><li>Galeria</li></ul>
+        </article>
+        <article class="card surge">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M5 8l7-5 7 5"/><path d="M5 21h14"/></svg></span>
+          <h3>Landing page</h3>
+          <p>Uma página única e focada numa oferta. Ideal pra lançamento, promoção ou pra captar clientes.</p>
+          <ul><li>Página única</li><li>Rápida de fazer</li><li>Foco em contato</li></ul>
+        </article>
+        <article class="card destaque surge">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 7h12l-1 13H7L6 7Z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg></span>
+          <h3>Catálogo ou cardápio com pedido</h3>
+          <p>O cliente escolhe os produtos no site e o pedido chega prontinho no seu WhatsApp, sem pagar comissão de aplicativo.</p>
+          <ul><li>Sacola de compras</li><li>Pedido no WhatsApp</li><li>Sem taxa por venda</li></ul>
+        </article>
+        <article class="card surge">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18v3h3l6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4 2.5-2.5Z"/></svg></span>
+          <h3>Manutenção mensal</h3>
+          <p>Hospedagem, segurança e atualizações. Mudou um preço, uma foto ou um horário? Manda pra gente que a gente troca.</p>
+          <ul><li>Hospedagem</li><li>Ajustes</li><li>Site sempre no ar</li></ul>
+        </article>
+      </div>
+      <div class="extra surge">
+        <p><strong>Quer mais visitas no site?</strong> Também podemos cuidar dos seus anúncios no Instagram e no Google, pra levar mais gente até ele.</p>
+        <a href="#contato" class="bt bt-sec bt-pq" data-wa data-wa-msg="Oi! Vi o site de vocês e queria saber mais sobre anúncios.">Saber mais</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="secao">
+    <div class="cx">
+      <div class="cab surge">
+        <span class="rotulo">Já vem incluso</span>
+        <h2>Tudo que um bom site precisa.</h2>
+      </div>
+      <div class="incluso surge">
+        <div><svg aria-hidden="true"><use href="#i-ok"/></svg><p><b>Feito pro celular</b><span>A maioria dos seus clientes vai abrir pelo telefone.</span></p></div>
+        <div><svg aria-hidden="true"><use href="#i-ok"/></svg><p><b>Botão de WhatsApp</b><span>Um toque e o cliente já está falando com você.</span></p></div>
+        <div><svg aria-hidden="true"><use href="#i-ok"/></svg><p><b>Pronto pro Google</b><span>Estrutura certa pra sua empresa aparecer nas buscas.</span></p></div>
+        <div><svg aria-hidden="true"><use href="#i-ok"/></svg><p><b>Carrega rápido</b><span>Ninguém espera site lento, e o Google também não.</span></p></div>
+        <div><svg aria-hidden="true"><use href="#i-ok"/></svg><p><b>Domínio próprio</b><span>suaempresa.com.br, registrado no seu nome.</span></p></div>
+        <div><svg aria-hidden="true"><use href="#i-ok"/></svg><p><b>O site é seu</b><span>Sem prender você: domínio e site ficam com a sua empresa.</span></p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="secao" id="projetos" style="padding-top:0">
+    <div class="cx">
+      <div class="cab surge">
+        <span class="rotulo">Projetos</span>
+        <h2>Um pouco do que a gente faz.</h2>
+      </div>
+      <article class="projeto surge">
+        <div class="projeto-vis">
+          <div class="celular"><img src="img/bites-celular.jpg" alt="Tela inicial do site da Bites no celular, com o pacote de pipoca rosa e o botão Abrir o pacote" width="390" height="844" loading="lazy"></div>
+        </div>
+        <div class="projeto-txt">
+          <span class="tag">Projeto conceito</span>
+          <h3>Bites</h3>
+          <p>Loja de uma página para uma marca de pipoca gourmet de Fortaleza.</p>
+          <ul>
+            <li>Sacola de compras com sabores e quantidades</li>
+            <li>Pedido enviado pronto pro WhatsApp</li>
+            <li>Identidade visual com animações próprias</li>
+          </ul>
+          <a href="../index.html" class="bt bt-sec bt-pq" style="align-self:flex-start" target="_blank" rel="noopener">Ver o site <svg aria-hidden="true"><use href="#i-seta"/></svg></a>
+        </div>
+      </article>
+      <div class="prox surge">
+        <b>O próximo pode ser o seu.</b>
+        Estamos montando nosso portfólio e temos condições especiais para os primeiros clientes.
+      </div>
+    </div>
+  </section>
+
+  <section class="secao processo" id="como-funciona">
+    <div class="cx">
+      <div class="cab surge">
+        <span class="rotulo">Como funciona</span>
+        <h2>Do primeiro papo ao site no ar.</h2>
+        <p>Um processo simples, sem reunião desnecessária e sem termo técnico.</p>
+      </div>
+      <ol class="passos">
+        <li class="surge"><h3>Conversa</h3><p>Você conta sobre a sua empresa pelo WhatsApp. Em poucos minutos entendemos o que você precisa.</p></li>
+        <li class="surge"><h3>Proposta</h3><p>Mandamos o valor fechado e o prazo. Sem surpresa no meio do caminho.</p></li>
+        <li class="surge"><h3>Criação</h3><p>Montamos o site e te mostramos. Você pede os ajustes e a gente faz.</p></li>
+        <li class="surge"><h3>No ar</h3><p>Colocamos no seu domínio, ligamos o WhatsApp e deixamos tudo pronto pro Google.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="secao">
+    <div class="cx socios">
+      <div class="cab surge">
+        <span class="rotulo">Quem somos</span>
+        <h2>Dois sócios. Nenhum intermediário.</h2>
+        <p>Somos o Rian e o Vitor, de Fortaleza. Aqui não tem atendente repassando recado: quem conversa com você é quem faz o seu site.</p>
+      </div>
+      <div class="duo">
+        <div class="pessoa surge"><div class="av" aria-hidden="true">R</div><b>Rian</b><span>Sócio fundador</span></div>
+        <div class="pessoa surge"><div class="av" aria-hidden="true">V</div><b>Vitor</b><span>Sócio fundador</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="secao" id="perguntas" style="padding-top:0">
+    <div class="cx">
+      <div class="cab surge">
+        <span class="rotulo">Dúvidas</span>
+        <h2>Perguntas frequentes.</h2>
+      </div>
+      <div class="faq surge">
+        <details>
+          <summary>Quanto custa um site?</summary>
+          <p>Depende do tipo de site e de quantas páginas ele tem. Depois de uma conversa rápida, mandamos um valor fechado, sem compromisso.</p>
+        </details>
+        <details>
+          <summary>Quanto tempo leva pra ficar pronto?</summary>
+          <p>Combinamos o prazo antes de começar. Páginas mais simples costumam ficar prontas em poucos dias.</p>
+        </details>
+        <details>
+          <summary>Preciso ter domínio e hospedagem?</summary>
+          <p>Não. A gente te ajuda a registrar o domínio no nome da sua empresa e cuida da hospedagem pra você.</p>
+        </details>
+        <details>
+          <summary>O site fica no meu nome?</summary>
+          <p>Sim. O domínio é registrado no seu nome e o site é da sua empresa. Você não fica preso a nós.</p>
+        </details>
+        <details>
+          <summary>E se eu quiser mudar alguma coisa depois?</summary>
+          <p>Com a manutenção mensal, é só mandar pelo WhatsApp o que quer mudar, como preço, foto, texto ou horário, e a gente atualiza.</p>
+        </details>
+        <details>
+          <summary>Vocês também fazem anúncios?</summary>
+          <p>Fazemos. Se você quiser mais visitas no site, podemos cuidar dos seus anúncios no Instagram e no Google.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="final" id="contato">
+    <div class="cx">
+      <div class="final-caixa surge">
+        <div>
+          <h2>Bora colocar sua empresa na internet?</h2>
+          <p>Chama a gente no WhatsApp, conta sobre o seu negócio e receba um orçamento sem compromisso.</p>
+        </div>
+        <a href="#contato" class="bt bt-pri" data-wa><svg aria-hidden="true"><use href="#i-wa"/></svg>Chamar no WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="rodape">
+  <div class="cx">
+    <a href="#inicio" class="logo">rivi<i>.</i></a>
+    <span>Sites para empresas · Fortaleza, CE</span>
+    <span>© <span id="ano">2026</span> Rivi</span>
+  </div>
+</footer>
+
+<a href="#contato" class="wa-flut" data-wa aria-label="Chamar no WhatsApp"><svg aria-hidden="true"><use href="#i-wa"/></svg></a>
+
+<script>
+// Número do WhatsApp com DDI + DDD, só dígitos. Ex.: "5585999999999".
+// Enquanto estiver vazio, os botões levam até a seção de contato.
+const WHATSAPP = "";
+const MSG_PADRAO = "Oi! Vi o site de vocês e queria um orçamento.";
+
+
+if (WHATSAPP) {
+  document.querySelectorAll("[data-wa]").forEach(a => {
+    const msg = a.dataset.waMsg || MSG_PADRAO;
+    a.href = "https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(msg);
+    a.target = "_blank";
+    a.rel = "noopener";
+  });
+}
+
+document.getElementById("ano").textContent = new Date().getFullYear();
+
+const topo = document.getElementById("topo");
+const marcarTopo = () => topo.classList.toggle("rolou", window.scrollY > 8);
+marcarTopo();
+window.addEventListener("scroll", marcarTopo, { passive: true });
+
+const surgem = document.querySelectorAll(".surge");
+if ("IntersectionObserver" in window) {
+  const obs = new IntersectionObserver(entradas => {
+    entradas.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("visivel"); obs.unobserve(e.target); }
+    });
+  }, { threshold: 0.12, rootMargin: "0px 0px -40px 0px" });
+  surgem.forEach(el => obs.observe(el));
+} else {
+  surgem.forEach(el => el.classList.add("visivel"));
+}
+</script>
+</body>
+</html>
