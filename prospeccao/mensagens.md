@@ -61,49 +61,50 @@ Revisem e ajustem ao jeito de vocês antes de enviar. Mandem um por um, não em 
 
 > boa tarde, tudo bem? conheci o pachamama e gostei muito da proposta do espaço. vocês divulgam a agenda só pelo instagram? eu e meu sócio fazemos sites aqui em fortaleza e fiquei imaginando um site com a programação e o cardápio de vocês num lugar só
 
-## Abertos aos domingos (Instagram: copie e cole no direct)
+## Abertos aos domingos: links e mensagens
 
 ### Carneiro do Ordones
-(procurar o Instagram no Maps)
+Instagram: [procurar no Google Maps](https://www.google.com/maps/search/?api=1&query=Carneiro%20do%20Ordones%20Fortaleza)
 
-> boa tarde, tudo bem? conheço o ordones e fui procurar o site de vocês pra ver as unidades, mas ele ainda está como coming soon. eu e meu sócio fazemos sites aqui em fortaleza, se vocês ainda estiverem procurando alguém pra fazer, posso mostrar algumas ideias
+> boa tarde, tudo bem? conheço o ordones e fui procurar o site de vocês pra ver as unidades, mas ele ainda está como coming soon. eu e meu sócio fazemos sites aqui em fortaleza. se quiser, eu monto uma prévia do site de vocês sem compromisso, só pra vocês verem como ficaria
 
 ### Kina do Feijão Verde
-(procurar o Instagram no Maps)
+Instagram: [procurar no Google Maps](https://www.google.com/maps/search/?api=1&query=Kina%20do%20Feij%C3%A3o%20Verde%20Fortaleza)
+WhatsApp (fixo, pode não ter): [tentar com a mensagem pronta](https://wa.me/558532537655?text=boa%20tarde%2C%20tudo%20bem%3F%20conheci%20o%20kina%20do%20feij%C3%A3o%20verde%20e%20gostei%20muito.%20voc%C3%AAs%20t%C3%AAm%20site%20ou%20o%20card%C3%A1pio%20fica%20s%C3%B3%20no%20instagram%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20aqui%20em%20fortaleza%2C%20e%20um%20card%C3%A1pio%20online%20com%20pedido%20direto%20no%20whatsapp%20ajuda%20bastante%20quem%20pede%20pra%20casa.%20se%20quiser%2C%20eu%20monto%20uma%20pr%C3%A9via%20do%20site%20de%20voc%C3%AAs%20sem%20compromisso%2C%20s%C3%B3%20pra%20voc%C3%AAs%20verem%20como%20ficaria)
 
-> boa tarde, tudo bem? conheci o kina do feijão verde e gostei muito. vocês têm site ou o cardápio fica só no instagram? pergunto porque eu e meu sócio fazemos sites aqui em fortaleza, e um cardápio online com pedido direto no whatsapp ajuda bastante quem pede pra casa
+> boa tarde, tudo bem? conheci o kina do feijão verde e gostei muito. vocês têm site ou o cardápio fica só no instagram? eu e meu sócio fazemos sites aqui em fortaleza, e um cardápio online com pedido direto no whatsapp ajuda bastante quem pede pra casa. se quiser, eu monto uma prévia do site de vocês sem compromisso, só pra vocês verem como ficaria
 
 ### Meu Feijão Verde
-(procurar o Instagram no Maps)
+Instagram: [procurar no Google Maps](https://www.google.com/maps/search/?api=1&query=Meu%20Feij%C3%A3o%20Verde%20Fortaleza)
 
-> boa tarde, tudo bem? vi o meu feijão verde numa matéria do o povo e fiquei com vontade de ir. vocês têm site? eu e meu sócio fazemos sites aqui em fortaleza e a gente monta cardápio online onde o pedido já chega pronto no whatsapp
+> boa tarde, tudo bem? vi o meu feijão verde numa matéria do o povo e fiquei com vontade de ir. vocês têm site? eu e meu sócio fazemos sites aqui em fortaleza e a gente monta cardápio online onde o pedido já chega pronto no whatsapp. se quiser, eu monto uma prévia do site de vocês sem compromisso, só pra vocês verem como ficaria
 
 ### Boteco do Ciço
-(procurar o Instagram no Maps)
+Instagram: [procurar no Google Maps](https://www.google.com/maps/search/?api=1&query=Boteco%20do%20Ci%C3%A7o%20Fortaleza)
 
-> boa tarde, tudo bem? conheci o boteco do ciço e gostei muito. vocês têm site com o cardápio e as duas unidades? pergunto porque eu e meu sócio fazemos sites aqui em fortaleza e fiquei imaginando um site simples com isso tudo num lugar só
+> boa tarde, tudo bem? conheci o boteco do ciço e gostei muito. vocês têm site com o cardápio e as duas unidades? eu e meu sócio fazemos sites aqui em fortaleza e fiquei imaginando um site simples com isso tudo num lugar só. se quiser, eu monto uma prévia do site de vocês sem compromisso, só pra vocês verem como ficaria
 
 ### Marco Zero Café
-[Abrir perfil @marcozerocafe](https://instagram.com/marcozerocafe)
+Direct: [abrir conversa com @marcozerocafe](https://ig.me/m/marcozerocafe)
 
-> boa tarde, tudo bem? vi o marco zero café e achei o lugar muito bonito. vocês recebem pedido só pelo instagram e whatsapp? eu e meu sócio fazemos sites aqui em fortaleza e a gente monta cardápio online onde o cliente escolhe tudo e o pedido chega pronto no whatsapp
+> boa tarde, tudo bem? vi o marco zero café e achei o lugar muito bonito. vocês recebem pedido só pelo instagram e whatsapp? eu e meu sócio fazemos sites aqui em fortaleza e a gente monta cardápio online onde o cliente escolhe tudo e o pedido chega pronto no whatsapp. se quiser, eu monto uma prévia do site de vocês sem compromisso, só pra vocês verem como ficaria
 
 ### Maré Café
-[Abrir perfil @marecafe__](https://instagram.com/marecafe__)
+Direct: [abrir conversa com @marecafe__](https://ig.me/m/marecafe__)
 
-> boa tarde, tudo bem? conheci o maré café e achei massa um café ali do lado do mar. vocês têm site ou o cardápio fica só no instagram? eu e meu sócio fazemos sites aqui em fortaleza e fiquei imaginando um cardápio online pra quem passa pela vila do mar
+> boa tarde, tudo bem? conheci o maré café e achei massa um café ali do lado do mar. vocês têm site ou o cardápio fica só no instagram? eu e meu sócio fazemos sites aqui em fortaleza e fiquei imaginando um cardápio online pra quem passa pela vila do mar. se quiser, eu monto uma prévia do site de vocês sem compromisso, só pra vocês verem como ficaria
 
 ### Consulado Café
-[Abrir perfil @cafeconsulado](https://instagram.com/cafeconsulado)
+Direct: [abrir conversa com @cafeconsulado](https://ig.me/m/cafeconsulado)
 
-> boa tarde, tudo bem? vi o consulado café e gostei muito do lugar. vocês recebem pedido pelo whatsapp? pergunto porque eu e meu sócio fazemos sites aqui em fortaleza e a gente monta cardápio online onde o pedido já chega pronto no whatsapp de vocês
+> boa tarde, tudo bem? vi o consulado café e gostei muito do lugar. vocês recebem pedido pelo whatsapp? eu e meu sócio fazemos sites aqui em fortaleza e a gente monta cardápio online onde o pedido já chega pronto no whatsapp de vocês. se quiser, eu monto uma prévia do site de vocês sem compromisso, só pra vocês verem como ficaria
 
 ### Nearly New
-[Abrir perfil @anearlynew](https://instagram.com/anearlynew)
+Direct: [abrir conversa com @anearlynew](https://ig.me/m/anearlynew)
 
-> boa tarde, tudo bem? conheci a nearly new e gostei muito das peças. vocês vendem só pelo instagram? eu e meu sócio fazemos sites aqui em fortaleza e a gente monta vitrine online onde o cliente escolhe a peça e o pedido chega pronto no whatsapp
+> boa tarde, tudo bem? conheci a nearly new e gostei muito das peças. vocês vendem só pelo instagram? eu e meu sócio fazemos sites aqui em fortaleza e a gente monta vitrine online onde o cliente escolhe a peça e o pedido chega pronto no whatsapp. se quiser, eu monto uma prévia do site de vocês sem compromisso, só pra vocês verem como ficaria
 
 ### Vila Alencarina
-[Abrir perfil @vilaalencarina](https://instagram.com/vilaalencarina)
+Direct: [abrir conversa com @vilaalencarina](https://ig.me/m/vilaalencarina)
 
-> boa tarde, tudo bem? conheci a vila alencarina e achei o espaço muito bonito. vocês divulgam a programação e o cardápio só pelo instagram? eu e meu sócio fazemos sites aqui em fortaleza e fiquei imaginando um site com tudo isso num lugar só
+> boa tarde, tudo bem? conheci a vila alencarina e achei o espaço muito bonito. vocês divulgam a programação e o cardápio só pelo instagram? eu e meu sócio fazemos sites aqui em fortaleza e fiquei imaginando um site com tudo isso num lugar só. se quiser, eu monto uma prévia do site de vocês sem compromisso, só pra vocês verem como ficaria
