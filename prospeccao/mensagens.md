@@ -134,12 +134,12 @@ Direct: [abrir conversa com @vilaalencarina](https://ig.me/m/vilaalencarina)
 ### Isabelly Brandão Estética
 [abrir direct @isabrandaoesteticaa](https://ig.me/m/isabrandaoesteticaa)
 
-> boa tarde, tudo bem? vi seu perfil e gostei muito do seu trabalho. você tem site ou atende só pelo instagram? eu e meu sócio fazemos sites aqui em fortaleza, com seus procedimentos e agendamento pelo whatsapp. se quiser, monto uma prévia do site de vocês sem compromisso, só pra verem como ficaria
+> boa tarde, tudo bem? vi seu perfil e gostei muito do seu trabalho. você tem site ou atende só pelo instagram? eu e meu sócio fazemos sites aqui em fortaleza, com seus procedimentos e agendamento pelo whatsapp. se quiser, monto uma prévia do seu site sem compromisso, só pra você ver como ficaria
 
 ### Racquel Ramos Estética
 [abrir direct @racquelramos.estetica](https://ig.me/m/racquelramos.estetica)
 
-> boa tarde, tudo bem? vi seu perfil e gostei muito do seu trabalho. você tem site ou atende só pelo instagram? eu e meu sócio fazemos sites aqui em fortaleza, com seus procedimentos e agendamento pelo whatsapp. se quiser, monto uma prévia do site de vocês sem compromisso, só pra verem como ficaria
+> boa tarde, tudo bem? vi seu perfil e gostei muito do seu trabalho. você tem site ou atende só pelo instagram? eu e meu sócio fazemos sites aqui em fortaleza, com seus procedimentos e agendamento pelo whatsapp. se quiser, monto uma prévia do seu site sem compromisso, só pra você ver como ficaria
 
 ### Nyna Estética
 [abrir direct @nynaestetica](https://ig.me/m/nynaestetica)
