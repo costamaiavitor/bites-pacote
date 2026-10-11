@@ -1,0 +1,8 @@
+[build]
+  publish = "site"
+
+# o painel antigo (Decap) vira o novo
+[[redirects]]
+  from = "/admin"
+  to = "/admin.html"
+  status = 200

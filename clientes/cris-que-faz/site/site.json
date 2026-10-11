@@ -1,0 +1,32 @@
+{
+  "whatsapp": "5585988836699",
+  "instagram": "https://instagram.com/cris_que_faz",
+  "instagramHandle": "@cris_que_faz",
+  "email": "contato@crisquefaz.com.br",
+  "cidade": "Atendemos toda a região · entrega local e envio para todo o Brasil",
+  "horario": "Seg a Sáb · 9h às 18h",
+  "produtos": [
+    {
+      "categoria": "Cúpula",
+      "destaque": true,
+      "fit": "contain",
+      "cor": "green",
+      "imagem": "/fotos/whatsapp-image-2026-06-23-at-10.34.07.jpeg",
+      "nome": "Cúpula Floral",
+      "preco": 200,
+      "descricao": "Cúpula Floral"
+    },
+    {
+      "destaque": false,
+      "cor": "rust",
+      "descricao": "Cúpula de vidro com base em madeira pinus com medidas 20x20 cm, arranjo de flores naturais desidratadas no interior",
+      "preco": 435,
+      "fit": "contain",
+      "imagem": "/fotos/whatsapp-image-2026-06-23-at-10.34.07.jpeg",
+      "categoria": "Cúpula",
+      "nome": "cupula 20x20 cm",
+      "tag": " Mais vendido"
+    }
+  ],
+  "capa": "/fotos/whatsapp-image-2026-06-23-at-10.34.07.jpeg"
+}
