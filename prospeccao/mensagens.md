@@ -170,3 +170,45 @@ Direct: [abrir conversa com @vilaalencarina](https://ig.me/m/vilaalencarina)
 [procurar no Google Maps](https://www.google.com/maps/search/?api=1&query=Bio%20Esthetique%20Fortaleza%20Aldeota)
 
 > boa tarde, tudo bem? conheci a bio esthetique e gostei muito. vocês têm site? eu e meu sócio fazemos sites aqui em fortaleza, com os procedimentos, fotos do espaço e agendamento pelo whatsapp. se quiser, monto uma prévia do site de vocês sem compromisso, só pra verem como ficaria
+
+## Barbearias e pet shops (agendamento com calendário)
+
+### RV Barbearia
+[abrir WhatsApp com a mensagem](https://wa.me/5585991295314?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20rv%20barbearia%20aqui%20no%20rodolfo%20te%C3%B3filo.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20aqui%20em%20fortaleza%2C%20e%20a%20gente%20monta%20site%20com%20agendamento%3A%20o%20cliente%20escolhe%20o%20dia%20e%20o%20hor%C3%A1rio%20num%20calend%C3%A1rio%20e%20o%20pedido%20j%C3%A1%20chega%20pronto%20no%20whatsapp%20de%20voc%C3%AAs.%20se%20quiser%2C%20monto%20uma%20pr%C3%A9via%20sem%20compromisso%20pra%20voc%C3%AAs%20verem%20como%20fica)
+
+> boa tarde, tudo bem? vi a rv barbearia aqui no rodolfo teófilo. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites aqui em fortaleza, e a gente monta site com agendamento: o cliente escolhe o dia e o horário num calendário e o pedido já chega pronto no whatsapp de vocês. se quiser, monto uma prévia sem compromisso pra vocês verem como fica
+
+### Barbearia 085
+[abrir WhatsApp com a mensagem](https://wa.me/5585989074557?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20barbearia%20085%20aqui%20no%20j%C3%B3quei%20clube.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20aqui%20em%20fortaleza%2C%20e%20a%20gente%20monta%20site%20com%20agendamento%3A%20o%20cliente%20escolhe%20o%20dia%20e%20o%20hor%C3%A1rio%20num%20calend%C3%A1rio%20e%20o%20pedido%20j%C3%A1%20chega%20pronto%20no%20whatsapp%20de%20voc%C3%AAs.%20se%20quiser%2C%20monto%20uma%20pr%C3%A9via%20sem%20compromisso%20pra%20voc%C3%AAs%20verem%20como%20fica)
+
+> boa tarde, tudo bem? vi a barbearia 085 aqui no jóquei clube. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites aqui em fortaleza, e a gente monta site com agendamento: o cliente escolhe o dia e o horário num calendário e o pedido já chega pronto no whatsapp de vocês. se quiser, monto uma prévia sem compromisso pra vocês verem como fica
+
+### Dz Barbearia
+[abrir WhatsApp com a mensagem](https://wa.me/5585985825692?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20dz%20barbearia%20aqui%20na%20sapiranga.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20aqui%20em%20fortaleza%2C%20e%20a%20gente%20monta%20site%20com%20agendamento%3A%20o%20cliente%20escolhe%20o%20dia%20e%20o%20hor%C3%A1rio%20num%20calend%C3%A1rio%20e%20o%20pedido%20j%C3%A1%20chega%20pronto%20no%20whatsapp%20de%20voc%C3%AAs.%20se%20quiser%2C%20monto%20uma%20pr%C3%A9via%20sem%20compromisso%20pra%20voc%C3%AAs%20verem%20como%20fica)
+
+> boa tarde, tudo bem? vi a dz barbearia aqui na sapiranga. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites aqui em fortaleza, e a gente monta site com agendamento: o cliente escolhe o dia e o horário num calendário e o pedido já chega pronto no whatsapp de vocês. se quiser, monto uma prévia sem compromisso pra vocês verem como fica
+
+### Fj Barbearia
+[abrir WhatsApp com a mensagem](https://wa.me/5585987354939?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20a%20fj%20barbearia%20aqui%20no%20monte%20castelo.%20voc%C3%AAs%20agendam%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20aqui%20em%20fortaleza%2C%20e%20a%20gente%20monta%20site%20com%20agendamento%3A%20o%20cliente%20escolhe%20o%20dia%20e%20o%20hor%C3%A1rio%20num%20calend%C3%A1rio%20e%20o%20pedido%20j%C3%A1%20chega%20pronto%20no%20whatsapp%20de%20voc%C3%AAs.%20se%20quiser%2C%20monto%20uma%20pr%C3%A9via%20sem%20compromisso%20pra%20voc%C3%AAs%20verem%20como%20fica)
+
+> boa tarde, tudo bem? vi a fj barbearia aqui no monte castelo. vocês agendam só pelo whatsapp? eu e meu sócio fazemos sites aqui em fortaleza, e a gente monta site com agendamento: o cliente escolhe o dia e o horário num calendário e o pedido já chega pronto no whatsapp de vocês. se quiser, monto uma prévia sem compromisso pra vocês verem como fica
+
+### Pet Pegada Banho e Tosa
+[abrir WhatsApp com a mensagem](https://wa.me/5585998527714?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20pet%20pegada%20aqui%20no%20jos%C3%A9%20walter.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20aqui%20em%20fortaleza%2C%20e%20a%20gente%20monta%20site%20com%20agendamento%3A%20o%20cliente%20escolhe%20o%20dia%20e%20o%20hor%C3%A1rio%20num%20calend%C3%A1rio%20e%20o%20pedido%20j%C3%A1%20chega%20pronto%20no%20whatsapp%20de%20voc%C3%AAs.%20se%20quiser%2C%20monto%20uma%20pr%C3%A9via%20sem%20compromisso%20pra%20voc%C3%AAs%20verem%20como%20fica)
+
+> boa tarde, tudo bem? vi o pet pegada aqui no josé walter. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites aqui em fortaleza, e a gente monta site com agendamento: o cliente escolhe o dia e o horário num calendário e o pedido já chega pronto no whatsapp de vocês. se quiser, monto uma prévia sem compromisso pra vocês verem como fica
+
+### Petshop Bicharada
+[abrir WhatsApp com a mensagem](https://wa.me/5585991071438?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20perfil%20da%20bicharada%20e%20gostei%20muito.%20o%20agendamento%20do%20banho%20e%20tosa%20e%20do%20t%C3%A1xi%20dog%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20aqui%20em%20fortaleza%2C%20e%20a%20gente%20monta%20site%20com%20agendamento%3A%20o%20cliente%20escolhe%20o%20dia%20e%20o%20hor%C3%A1rio%20num%20calend%C3%A1rio%20e%20o%20pedido%20j%C3%A1%20chega%20pronto%20no%20whatsapp%20de%20voc%C3%AAs.%20se%20quiser%2C%20monto%20uma%20pr%C3%A9via%20sem%20compromisso%20pra%20voc%C3%AAs%20verem%20como%20fica)
+
+> boa tarde, tudo bem? vi o perfil da bicharada e gostei muito. o agendamento do banho e tosa e do táxi dog é só pelo whatsapp? eu e meu sócio fazemos sites aqui em fortaleza, e a gente monta site com agendamento: o cliente escolhe o dia e o horário num calendário e o pedido já chega pronto no whatsapp de vocês. se quiser, monto uma prévia sem compromisso pra vocês verem como fica
+
+### Pet Shop Pit Bull Banho e Tosa
+[abrir WhatsApp com a mensagem](https://wa.me/5585986266685?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20pet%20shop%20de%20voc%C3%AAs.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20aqui%20em%20fortaleza%2C%20e%20a%20gente%20monta%20site%20com%20agendamento%3A%20o%20cliente%20escolhe%20o%20dia%20e%20o%20hor%C3%A1rio%20num%20calend%C3%A1rio%20e%20o%20pedido%20j%C3%A1%20chega%20pronto%20no%20whatsapp%20de%20voc%C3%AAs.%20se%20quiser%2C%20monto%20uma%20pr%C3%A9via%20sem%20compromisso%20pra%20voc%C3%AAs%20verem%20como%20fica)
+
+> boa tarde, tudo bem? vi o pet shop de vocês. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites aqui em fortaleza, e a gente monta site com agendamento: o cliente escolhe o dia e o horário num calendário e o pedido já chega pronto no whatsapp de vocês. se quiser, monto uma prévia sem compromisso pra vocês verem como fica
+
+### Pet Point
+[abrir WhatsApp com a mensagem](https://wa.me/5585988240982?text=boa%20tarde%2C%20tudo%20bem%3F%20vi%20o%20pet%20point%20aqui%20no%20meireles.%20o%20agendamento%20do%20banho%20e%20tosa%20%C3%A9%20s%C3%B3%20pelo%20whatsapp%3F%20eu%20e%20meu%20s%C3%B3cio%20fazemos%20sites%20aqui%20em%20fortaleza%2C%20e%20a%20gente%20monta%20site%20com%20agendamento%3A%20o%20cliente%20escolhe%20o%20dia%20e%20o%20hor%C3%A1rio%20num%20calend%C3%A1rio%20e%20o%20pedido%20j%C3%A1%20chega%20pronto%20no%20whatsapp%20de%20voc%C3%AAs.%20se%20quiser%2C%20monto%20uma%20pr%C3%A9via%20sem%20compromisso%20pra%20voc%C3%AAs%20verem%20como%20fica)
+
+> boa tarde, tudo bem? vi o pet point aqui no meireles. o agendamento do banho e tosa é só pelo whatsapp? eu e meu sócio fazemos sites aqui em fortaleza, e a gente monta site com agendamento: o cliente escolhe o dia e o horário num calendário e o pedido já chega pronto no whatsapp de vocês. se quiser, monto uma prévia sem compromisso pra vocês verem como fica
