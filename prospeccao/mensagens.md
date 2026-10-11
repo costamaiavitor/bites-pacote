@@ -60,3 +60,50 @@ Revisem e ajustem ao jeito de vocês antes de enviar. Mandem um por um, não em 
 [Abrir perfil @pachamamacultural](https://instagram.com/pachamamacultural)
 
 > boa tarde, tudo bem? conheci o pachamama e gostei muito da proposta do espaço. vocês divulgam a agenda só pelo instagram? eu e meu sócio fazemos sites aqui em fortaleza e fiquei imaginando um site com a programação e o cardápio de vocês num lugar só
+
+## Abertos aos domingos (Instagram: copie e cole no direct)
+
+### Carneiro do Ordones
+(procurar o Instagram no Maps)
+
+> boa tarde, tudo bem? sou cliente do ordones e fui procurar o site de vocês pra ver as unidades, mas ele ainda está como coming soon. eu e meu sócio fazemos sites aqui em fortaleza, se vocês ainda estiverem procurando alguém pra fazer, posso mostrar algumas ideias
+
+### Kina do Feijão Verde
+(procurar o Instagram no Maps)
+
+> boa tarde, tudo bem? conheci o kina do feijão verde e gostei muito. vocês têm site ou o cardápio fica só no instagram? pergunto porque eu e meu sócio fazemos sites aqui em fortaleza, e um cardápio online com pedido direto no whatsapp ajuda bastante quem pede pra casa
+
+### Meu Feijão Verde
+(procurar o Instagram no Maps)
+
+> boa tarde, tudo bem? vi o meu feijão verde numa matéria do o povo e fiquei com vontade de ir. vocês têm site? eu e meu sócio fazemos sites aqui em fortaleza e a gente monta cardápio online onde o pedido já chega pronto no whatsapp
+
+### Boteco do Ciço
+(procurar o Instagram no Maps)
+
+> boa tarde, tudo bem? conheci o boteco do ciço e gostei muito. vocês têm site com o cardápio e as duas unidades? pergunto porque eu e meu sócio fazemos sites aqui em fortaleza e fiquei imaginando um site simples com isso tudo num lugar só
+
+### Marco Zero Café
+[Abrir perfil @marcozerocafe](https://instagram.com/marcozerocafe)
+
+> boa tarde, tudo bem? vi o marco zero café e achei o lugar muito bonito. vocês recebem pedido só pelo instagram e whatsapp? eu e meu sócio fazemos sites aqui em fortaleza e a gente monta cardápio online onde o cliente escolhe tudo e o pedido chega pronto no whatsapp
+
+### Maré Café
+[Abrir perfil @marecafe__](https://instagram.com/marecafe__)
+
+> boa tarde, tudo bem? conheci o maré café e achei massa um café ali do lado do mar. vocês têm site ou o cardápio fica só no instagram? eu e meu sócio fazemos sites aqui em fortaleza e fiquei imaginando um cardápio online pra quem passa pela vila do mar
+
+### Consulado Café
+[Abrir perfil @cafeconsulado](https://instagram.com/cafeconsulado)
+
+> boa tarde, tudo bem? vi o consulado café e gostei muito do lugar. vocês recebem pedido pelo whatsapp? pergunto porque eu e meu sócio fazemos sites aqui em fortaleza e a gente monta cardápio online onde o pedido já chega pronto no whatsapp de vocês
+
+### Nearly New
+[Abrir perfil @anearlynew](https://instagram.com/anearlynew)
+
+> boa tarde, tudo bem? conheci a nearly new e gostei muito das peças. vocês vendem só pelo instagram? eu e meu sócio fazemos sites aqui em fortaleza e a gente monta vitrine online onde o cliente escolhe a peça e o pedido chega pronto no whatsapp
+
+### Vila Alencarina
+[Abrir perfil @vilaalencarina](https://instagram.com/vilaalencarina)
+
+> boa tarde, tudo bem? conheci a vila alencarina e achei o espaço muito bonito. vocês divulgam a programação e o cardápio só pelo instagram? eu e meu sócio fazemos sites aqui em fortaleza e fiquei imaginando um site com tudo isso num lugar só
