@@ -110,14 +110,21 @@ a{color:inherit}
 .opcao button{flex:none;width:36px;height:36px;border-radius:50%;border:1px solid var(--tinta);background:transparent;color:var(--tinta);font:600 20px/1 var(--corpo);cursor:pointer}
 .opcao button:hover{background:var(--tinta);color:var(--creme)}
 .opcao button.ok{background:var(--tinta);color:var(--ouro)}
-.produto.sem-foto{background:var(--cacau);color:var(--claro);padding:22px 20px 18px;position:relative}
-.produto.sem-foto::before{content:"";display:block;height:8px;margin-bottom:16px;background:radial-gradient(circle,var(--ouro) 1.6px,transparent 2px) 0 50%/12px 8px repeat-x}
-.produto.sem-foto .desc,.produto.sem-foto .opcao span{color:var(--apagado)}
-.produto.sem-foto .extra{color:var(--ouro)}
-.produto.sem-foto .opcao{border-top-color:rgba(227,196,140,.25)}
-.produto.sem-foto .opcao button{border-color:var(--ouro);color:var(--ouro)}
-.produto.sem-foto .opcao button:hover,.produto.sem-foto .opcao button.ok{background:var(--ouro);color:var(--cacau)}
-.produto.sem-foto .corpo{padding-top:0}
+.lista{margin-top:34px;background:var(--cacau);color:var(--claro);padding:26px 28px 10px}
+.lista::before{content:"";display:block;height:8px;margin-bottom:16px;background:radial-gradient(circle,var(--ouro) 1.6px,transparent 2px) 0 50%/12px 8px repeat-x}
+.lista-titulo{font-weight:600;font-size:14px;letter-spacing:.32em;text-transform:uppercase;color:var(--ouro);margin-bottom:6px}
+.lista-itens{display:grid;grid-template-columns:1fr 1fr;column-gap:44px}
+.linha{padding:18px 0;border-bottom:1px solid rgba(227,196,140,.18);display:flex;flex-direction:column;gap:6px;min-width:0}
+.linha h4{margin:0;font-family:var(--corpo);font-weight:700;font-size:17px;letter-spacing:.14em;text-transform:uppercase}
+.selo-txt{font-size:11px;letter-spacing:.2em;color:var(--cacau);background:var(--ouro);padding:3px 7px;margin-left:6px;vertical-align:2px}
+.linha .desc{color:var(--apagado);font-size:15px}
+.linha .extra{color:var(--ouro)}
+.linha .opcoes{padding-top:4px;gap:4px}
+.linha .opcao{border-top-color:rgba(227,196,140,.18);padding-top:6px}
+.linha .opcao span{color:var(--apagado)}
+.linha .opcao button{border-color:var(--ouro);color:var(--ouro);width:32px;height:32px;font-size:18px}
+.linha .opcao button:hover,.linha .opcao button.ok{background:var(--ouro);color:var(--cacau)}
+@media (max-width:760px){.lista{padding:22px 18px 6px}.lista-itens{grid-template-columns:1fr}}
 .nota-secao{margin-top:18px;font-size:15px;color:var(--tinta-2);font-style:italic}
 
 /* presentes */
@@ -369,7 +376,7 @@ fieldset.campo{border:0;margin:0;padding:0}
   const SECOES = [
     { id: "brownies", nome: "Brownies & bem casados", sub: "Onde tudo começou", itens: [
       ["brownie", "Brownie", "Casquinha crocante e super cremoso por dentro. Sabores: brigadeiro, brigadeiro branco, ninho e doce de leite.", "brownie", "", [["Unidade (6,5 × 6,5 cm)", 9.5], ["Acima de 40, cada", 8.8]]],
-      ["minibrownie", "Minibrownie", "5 × 5 cm, nos mesmos sabores do brownie. Vendido em múltiplos de 10.", "", "", [["20 unidades", 96], ["50 unidades", 240], ["100 unidades", 440]]],
+      ["minibrownie", "Minibrownie", "5 × 5 cm, nos mesmos sabores do brownie. Vendido em múltiplos de 10.", "minibrownie", "", [["20 unidades", 96], ["50 unidades", 240], ["100 unidades", 440]]],
       ["minicup", "Minicupbrownie", "Coberturas: brigadeiro preto, brigadeiro branco ou doce de leite.", "minicupbrownie", "", [["20 unidades", 80], ["50 unidades", 185], ["100 unidades", 370]]],
       ["bemcasado", "Bem casado", "Recheios: tradicional, brigadeiro preto, limão siciliano, doce de leite, crocante, pistache (+R$ 1,90) e limão com frutas vermelhas (+R$ 0,50).", "bem-casado", "", [["Unidade em celofane", 6], ["100 unidades", 550]], "Laço: + R$ 0,70 por unidade"],
       ["bcbrownie", "Bem casado de brownie", "Sabores: brigadeiro preto, brigadeiro branco, doce de leite, crocante e ganache meio amargo.", "bem-casado-brownie", "", [["Unidade em celofane", 7.2], ["50 unidades", 330]], "Laço: + R$ 0,70 por unidade"],
@@ -427,7 +434,7 @@ fieldset.campo{border:0;margin:0;padding:0}
       ["tacaninho", "Taça brownie com creme de ninho", "Brownie com brigadeiro preto cremoso e creme de leite Ninho.", "taca-brownie-ninho", "Best seller", [["Mini, 1 kg", 160], ["Média, 1,5 kg", 230], ["Grande, 3 kg", 360]]],
       ["tacauva", "Taça surpresa de uva", "Brigadeiro branco, farofinha de biscoito, uvas e chantilly.", "", "", [["Mini, 1 kg", 160], ["Média, 1,5 kg", 230], ["Grande, 3 kg", 360]]],
       ["cheesepistache", "Cheesecake de pistache", "As melhores cheesecakes da sua vida. Serve 10 fatias.", "cheesecake-pistache", "", [["10 fatias", 260]]],
-      ["cheesebelga", "Cheesecake belga", "Com toque de caramelo flor de sal e Biscoff.", "", "", [["10 fatias", 220]]],
+      ["cheesebelga", "Cheesecake belga", "Com toque de caramelo flor de sal e Biscoff.", "cheesecake-belga", "", [["10 fatias", 220]]],
       ["cheesefrutas", "Cheesecake de frutas vermelhas", "Versão americana, bem queijuda.", "", "", [["10 fatias", 220]]],
       ["boxcrunch", "Box crunch cake", "Bolo de chocolate molhadinho, brigadeiro preto e crocante folhado com chocolate e Nutella.", "box-crunch-cake", "", [["1,5 kg", 185]]],
       ["boxolho", "Box olho de sogra", "Creme de doce de leite, geleia de ameixa, doce de leite e beijinhos de coco.", "box-olho-de-sogra", "", [["1,4 kg", 185]]],
@@ -453,27 +460,40 @@ fieldset.campo{border:0;margin:0;padding:0}
   const PRODUTOS = {};
   SECOES.forEach((s) => s.itens.forEach(([id, nome, desc, foto, selo, opcoes, extra]) => (PRODUTOS[id] = { id, nome, desc, foto, selo, opcoes, extra })));
 
+  const opcoesHtml = (p) => p.opcoes.map(([rot, preco, partir], k) => `
+    <div class="opcao"><span>${esc(rot)}</span><b>${partir ? "a partir de " : ""}${brl(preco)}</b>
+    <button type="button" data-add="${p.id}" data-op="${k}" aria-label="Colocar ${esc(p.nome)}, ${esc(rot)}, na encomenda">+</button></div>`).join("");
+
   // monta o cardápio
   $("abas").innerHTML = SECOES.map((s) => `<a href="#sec-${s.id}" data-sec="${s.id}">${esc(s.nome)}</a>`).join("");
   $("secoes").innerHTML = SECOES.map((s) => `
     <section class="secao" id="sec-${s.id}" aria-labelledby="t-${s.id}">
       <div class="secao-cab"><h3 id="t-${s.id}">${esc(s.nome)}</h3><p>${esc(s.sub)}</p></div>
-      <div class="grade">${s.itens.map(([id]) => {
+      <div class="grade">${s.itens.filter(([id]) => PRODUTOS[id].foto).map(([id]) => {
         const p = PRODUTOS[id];
-        return `<article class="produto${p.foto ? "" : " sem-foto"}">
-          ${p.foto ? `<div class="foto">${p.selo ? `<span class="selo">${esc(p.selo)}</span>` : ""}<img src="img/${p.foto}.jpg" alt="${esc(p.nome)}" loading="lazy"></div>` : ""}
+        return `<article class="produto">
+          <div class="foto">${p.selo ? `<span class="selo">${esc(p.selo)}</span>` : ""}<img src="img/${p.foto}.jpg" alt="${esc(p.nome)}" loading="lazy"></div>
           <div class="corpo">
             <h4>${esc(p.nome)}</h4>
             <p class="desc">${esc(p.desc)}</p>
             ${p.extra ? `<p class="extra">${esc(p.extra)}</p>` : ""}
-            ${!p.foto && p.selo ? `<p class="extra">${esc(p.selo)}</p>` : ""}
-            <div class="opcoes">${p.opcoes.map(([rot, preco, partir], k) => `
-              <div class="opcao"><span>${esc(rot)}</span><b>${partir ? "a partir de " : ""}${brl(preco)}</b>
-              <button type="button" data-add="${id}" data-op="${k}" aria-label="Colocar ${esc(p.nome)}, ${esc(rot)}, na encomenda">+</button></div>`).join("")}
-            </div>
+            <div class="opcoes">${opcoesHtml(p)}</div>
           </div>
         </article>`;
       }).join("")}</div>
+      ${s.itens.some(([id]) => !PRODUTOS[id].foto) ? `
+      <div class="lista">
+        <p class="lista-titulo">Também no cardápio</p>
+        <div class="lista-itens">${s.itens.filter(([id]) => !PRODUTOS[id].foto).map(([id]) => {
+          const p = PRODUTOS[id];
+          return `<article class="linha">
+            <h4>${esc(p.nome)}${p.selo ? ` <span class="selo-txt">${esc(p.selo)}</span>` : ""}</h4>
+            <p class="desc">${esc(p.desc)}</p>
+            ${p.extra ? `<p class="extra">${esc(p.extra)}</p>` : ""}
+            <div class="opcoes">${opcoesHtml(p)}</div>
+          </article>`;
+        }).join("")}</div>
+      </div>` : ""}
       ${s.nota ? `<p class="nota-secao">${esc(s.nota)}</p>` : ""}
     </section>`).join("");
 
