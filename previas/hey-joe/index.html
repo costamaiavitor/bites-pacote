@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Hey Joe Food n' Bar — Prévia</title>
+<meta name="description" content="Prévia de site para o Hey Joe Food n' Bar, feita pela Rivi.">
+<meta name="theme-color" content="#151211">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Permanent+Marker&family=Archivo:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+/* Layout: segue o cardápio impresso da casa (carimbo vermelho, papel, títulos condensados) e o clima escuro do happy hour. */
+:root{
+  color-scheme:light;
+  --tinta:#151211; --tinta-2:#211C1A; --vermelho:#E1262B; --vermelho-esc:#B81B20;
+  --papel:#ECE6DA; --papel-2:#F5F1E8; --linha:#CFC6B5; --apagado:#6E655B; --claro:#F5F1E8;
+  --titulo:"Anton",Impact,"Arial Narrow",sans-serif; --mao:"Permanent Marker","Comic Sans MS",cursive; --corpo:"Archivo",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--tinta);color:var(--tinta);font:16px/1.55 var(--corpo)}
+h1,h2,h3{font-family:var(--titulo);font-weight:400;margin:0;line-height:.95;text-transform:uppercase;letter-spacing:.01em}
+p{margin:0}
+a{color:inherit}
+img{max-width:100%;display:block}
+:focus-visible{outline:3px solid var(--vermelho);outline-offset:3px;border-radius:4px}
+[hidden]{display:none!important}
+.cx{max-width:1120px;margin:0 auto;padding-inline:20px}
+.mao{font-family:var(--mao);text-transform:none;color:var(--vermelho);display:inline-block;transform:rotate(-6deg)}
+
+.aviso{background:#000;color:#BDB4A8;font-size:13px;text-align:center;padding:7px 16px}
+.topo{position:sticky;top:0;z-index:20;background:rgba(21,18,17,.94);backdrop-filter:blur(8px);color:var(--claro);border-bottom:1px solid #2C2624}
+.topo .cx{display:flex;align-items:center;gap:18px;min-height:64px}
+.topo .logo img{height:48px;width:auto}
+.topo nav{margin-left:auto;display:flex;gap:22px;font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:.06em}
+.topo nav a{text-decoration:none;opacity:.8}
+.topo nav a:hover{opacity:1}
+.bt{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 20px;border-radius:4px;border:0;font:800 15px var(--corpo);text-transform:uppercase;letter-spacing:.05em;text-decoration:none;cursor:pointer}
+.bt-verm{background:var(--vermelho);color:#fff}
+.bt-verm:hover{background:var(--vermelho-esc)}
+.bt-borda{border:2px solid currentColor;background:transparent}
+.topo .bt{min-height:40px;padding:0 14px;font-size:13px}
+@media (max-width:760px){.topo nav{display:none}.topo .bt{margin-left:auto}}
+
+/* topo */
+.hero{color:var(--claro);padding-block:48px 0;overflow:hidden;position:relative}
+.hero .cx{display:grid;grid-template-columns:1.15fr .85fr;gap:24px;align-items:center}
+.hero h1{font-size:clamp(52px,9vw,112px)}
+.hero h1 span{color:var(--vermelho)}
+.hero .mao{font-size:clamp(26px,3.6vw,40px);margin:6px 0 0 6px}
+.hero p.sub{color:#CFC6BA;font-size:18px;max-width:30em;margin:22px 0 26px}
+.hero .acoes{display:flex;gap:12px;flex-wrap:wrap}
+.hero .foto{position:relative;align-self:end}
+.hero .foto img{width:min(420px,100%);height:auto;margin-inline:auto;filter:drop-shadow(0 30px 40px rgba(0,0,0,.6))}
+.selo{position:absolute;right:0;top:8%;width:120px;height:120px;border-radius:50%;background:var(--vermelho);color:#fff;display:grid;place-items:center;text-align:center;transform:rotate(10deg);font:400 17px/1 var(--titulo);text-transform:uppercase;padding:14px}
+.selo b{display:block;font-size:34px}
+.faixa{margin-top:40px;background:var(--vermelho);color:#fff;font:400 22px/1 var(--titulo);text-transform:uppercase;white-space:nowrap;overflow:hidden;padding:14px 0;transform:rotate(-1.5deg);margin-inline:-20px}
+.faixa span{display:inline-block;padding-right:40px;animation:corre 30s linear infinite}
+@keyframes corre{to{transform:translateX(-50%)}}
+@media (max-width:820px){.hero .cx{grid-template-columns:1fr}.hero .foto img{width:min(230px,60vw);height:auto;margin-top:10px}.selo{width:100px;height:100px;font-size:15px}.selo b{font-size:28px}}
+@media (prefers-reduced-motion:reduce){.faixa span{animation:none}html{scroll-behavior:auto}}
+
+/* happy hour */
+.hh{color:var(--claro);padding-block:90px 80px}
+.hh .cx{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:center}
+.hh .foto{position:relative}
+.hh .foto img{border-radius:6px;width:100%;height:auto;aspect-ratio:1;object-fit:cover}
+.hh .foto .mao{position:absolute;left:-10px;bottom:-18px;background:var(--papel);color:var(--tinta);padding:6px 14px;font-size:22px}
+.hh h2{font-size:clamp(48px,7vw,88px)}
+.hh h2 em{font-style:normal;color:var(--vermelho)}
+.hh .quando{display:inline-block;margin:16px 0 26px;border:2px solid var(--claro);border-radius:999px;padding:6px 16px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;font-size:14px}
+.ofertas{display:grid;gap:10px}
+.oferta{display:grid;grid-template-columns:110px 1fr;gap:16px;align-items:center;background:var(--tinta-2);border:1px solid #2F2826;border-radius:6px;padding:14px 16px}
+.oferta b{font:400 40px/1 var(--titulo);color:var(--vermelho)}
+.oferta b small{font-size:20px}
+.oferta strong{display:block;text-transform:uppercase;letter-spacing:.04em}
+.oferta span{color:#B7AEA2;font-size:14px}
+.hh .obs{color:#8E857A;font-size:13px;margin-top:14px}
+@media (max-width:860px){.hh .cx{grid-template-columns:1fr}.hh .foto{max-width:460px}}
+
+/* cardápio */
+.cardapio{background:var(--papel);padding-block:80px 90px;position:relative}
+.cardapio::before{content:"";position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='.06'/%3E%3C/svg%3E");pointer-events:none}
+.cardapio .cx{position:relative}
+.cab{display:flex;align-items:end;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.cardapio h2{font-size:clamp(46px,6.5vw,80px);color:var(--vermelho)}
+.cab p{color:var(--apagado);max-width:26em}
+.abas{position:sticky;top:64px;z-index:5;background:var(--papel);display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:16px 0 12px;margin-top:22px;border-bottom:2px solid var(--tinta)}
+.abas::-webkit-scrollbar{display:none}
+.aba{flex:none;min-height:42px;padding:0 14px;border:0;border-radius:4px;background:transparent;font:400 19px/1 var(--titulo);text-transform:uppercase;letter-spacing:.02em;color:var(--tinta);cursor:pointer}
+.aba[aria-selected="true"]{background:var(--tinta);color:var(--papel)}
+.filtros{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0 4px}
+.chip{min-height:36px;padding:0 14px;border-radius:999px;border:1.5px solid var(--tinta);background:transparent;font:700 13px var(--corpo);text-transform:uppercase;letter-spacing:.04em;cursor:pointer;color:var(--tinta)}
+.chip[aria-pressed="true"]{background:var(--vermelho);border-color:var(--vermelho);color:#fff}
+.grupo{display:grid;grid-template-columns:1fr 300px;gap:40px;margin-top:22px}
+.grupo .fotos{display:grid;gap:16px;align-content:start;position:sticky;top:150px}
+.grupo .fotos img{border-radius:6px;width:100%;height:auto;object-fit:cover;aspect-ratio:4/5;background:#2A2422}
+.grupo .fotos img.recorte{background:transparent;object-fit:contain;aspect-ratio:auto}
+.subt{font:400 26px/1 var(--titulo);text-transform:uppercase;margin:26px 0 6px;color:var(--tinta)}
+.subt:first-child{margin-top:4px}
+.itens{list-style:none;margin:0;padding:0}
+.item{padding:14px 0;border-bottom:1px dashed var(--linha)}
+.item .l1{display:flex;align-items:baseline;gap:8px}
+.item h3{font:800 16px/1.25 var(--corpo);text-transform:uppercase;letter-spacing:.02em}
+.item .pont{flex:1;border-bottom:2px dotted #A99E8C;transform:translateY(-4px);min-width:20px}
+.item .preco{font:400 21px/1 var(--titulo);color:var(--vermelho);white-space:nowrap}
+.item p{color:var(--apagado);font-size:14.5px;margin-top:4px;max-width:44em}
+.tag{display:inline-block;font:800 11px/1 var(--corpo);text-transform:uppercase;letter-spacing:.06em;padding:4px 7px;border-radius:3px;background:#DCEBD8;color:#2D5A27;margin-left:6px;vertical-align:2px}
+.tag.vg{background:#2D5A27;color:#fff}
+.vazio{color:var(--apagado);padding:20px 0}
+@media (max-width:860px){.grupo{grid-template-columns:1fr}.grupo .fotos{position:static;grid-template-columns:1fr 1fr}.grupo .fotos img{aspect-ratio:1}}
+
+/* reservas */
+.reserva{background:var(--vermelho);color:#fff;padding-block:80px}
+.reserva .cx{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:start}
+.reserva h2{font-size:clamp(48px,7vw,84px)}
+.reserva .lead{font-size:18px;margin-top:16px;max-width:24em;color:#FFE3E0}
+.reserva .mao{color:#fff;font-size:28px;margin-top:22px}
+.ficha{background:var(--papel-2);color:var(--tinta);border-radius:6px;padding:22px;display:grid;gap:18px;box-shadow:12px 12px 0 var(--tinta)}
+.campo{display:grid;gap:8px;border:0;margin:0;padding:0;min-width:0}
+.campo legend,.campo label{font-weight:800;font-size:13px;text-transform:uppercase;letter-spacing:.06em;padding:0}
+.opcoes{display:flex;flex-wrap:wrap;gap:8px}
+.opcao{min-height:44px;padding:0 14px;border:1.5px solid var(--linha);border-radius:4px;background:#fff;font:700 15px/1 var(--corpo);color:var(--tinta);cursor:pointer;font-variant-numeric:tabular-nums}
+.opcao[aria-pressed="true"]{background:var(--tinta);border-color:var(--tinta);color:#fff}
+.opcao:disabled{color:#BDB4A8;border-color:#E6E0D4;cursor:not-allowed;text-decoration:line-through}
+.dias{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;scrollbar-width:thin}
+.dia{flex:none;width:64px;min-height:70px;border:1.5px solid var(--linha);border-radius:4px;background:#fff;cursor:pointer;font:400 26px/1 var(--titulo);color:var(--tinta);display:grid;place-items:center;gap:2px;padding:8px 0}
+.dia small{font:800 11px/1 var(--corpo);text-transform:uppercase;letter-spacing:.05em;color:var(--apagado)}
+.dia[aria-pressed="true"]{background:var(--tinta);border-color:var(--tinta);color:#fff}
+.dia[aria-pressed="true"] small{color:#CFC6BA}
+.dia:disabled{opacity:.35;cursor:not-allowed}
+.contador{display:flex;align-items:center;gap:12px}
+.contador button{width:44px;height:44px;border-radius:4px;border:1.5px solid var(--linha);background:#fff;font:700 22px/1 var(--corpo);cursor:pointer;color:var(--tinta)}
+.contador output{font:400 30px/1 var(--titulo);min-width:2ch;text-align:center}
+input[type=text]{width:100%;min-height:48px;border:1.5px solid var(--linha);border-radius:4px;padding:0 12px;font:600 16px var(--corpo);color:var(--tinta);background:#fff}
+input[type=text]:focus{border-color:var(--tinta);outline:none}
+.resumo{background:var(--papel);border-radius:4px;padding:12px 14px;font-size:15px}
+.resumo .falta{color:var(--vermelho-esc);font-weight:700}
+.bt-wa{background:#1FA855;color:#fff;width:100%}
+.bt-wa[aria-disabled="true"]{opacity:.4;pointer-events:none}
+.bt svg{width:20px;height:20px}
+@media (max-width:860px){.reserva .cx{grid-template-columns:1fr}.ficha{box-shadow:8px 8px 0 var(--tinta)}}
+
+/* história e endereço */
+.casa{color:var(--claro);padding-block:90px}
+.casa .cx{display:grid;grid-template-columns:1fr 1fr;gap:56px}
+.casa h2{font-size:clamp(40px,5.5vw,64px)}
+.linha-tempo{list-style:none;margin:26px 0 0;padding:0;display:grid;gap:18px}
+.linha-tempo li{display:grid;grid-template-columns:90px 1fr;gap:16px}
+.linha-tempo b{font:400 34px/1 var(--titulo);color:var(--vermelho)}
+.linha-tempo span{color:#CFC6BA}
+.onde dl{display:grid;grid-template-columns:auto 1fr;gap:12px 20px;margin:26px 0 24px}
+.onde dt{color:#8E857A;font-weight:700;text-transform:uppercase;font-size:13px;letter-spacing:.06em;padding-top:2px}
+.onde dd{margin:0;font-weight:700}
+.onde .acoes{display:flex;gap:10px;flex-wrap:wrap}
+@media (max-width:820px){.casa .cx{grid-template-columns:1fr}}
+
+.rodape{background:#000;color:#8E857A;padding-block:30px 40px;font-size:14px}
+.rodape .cx{display:flex;gap:20px;align-items:center;flex-wrap:wrap;justify-content:space-between}
+.rodape img{height:36px;width:auto}
+.rodape a{color:var(--claro)}
+
+.modal{position:fixed;inset:0;z-index:50;background:rgba(0,0,0,.7);display:grid;place-items:center;padding:16px}
+.modal-caixa{background:var(--papel-2);border-radius:6px;max-width:440px;width:100%;padding:22px;display:grid;gap:14px}
+.modal-caixa h3{font-size:28px;color:var(--vermelho)}
+.modal-caixa pre{white-space:pre-wrap;font:600 15px/1.5 var(--corpo);background:#E3F3E6;border-radius:6px;padding:12px 14px;margin:0}
+.modal-caixa p{color:var(--apagado);font-size:15px}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></symbol>
+</svg>
+
+<div class="aviso">Prévia feita pela Rivi para o Hey Joe Food n' Bar. Cardápio e preços tirados do menu atual da casa; horários de reserva são exemplo.</div>
+
+<header class="topo">
+  <div class="cx">
+    <a href="#" class="logo" aria-label="Hey Joe Food n' Bar"><img src="img/logo.png" alt="Hey Joe Food n' Bar" width="542" height="291"></a>
+    <nav aria-label="Seções"><a href="#cardapio">Cardápio</a><a href="#happy-hour">Happy hour</a><a href="#reservar">Reservas</a><a href="#casa">A casa</a></nav>
+    <a class="bt bt-verm" href="https://www.ifood.com.br/delivery/fortaleza-ce/hey-joe-aldeota/1d8cde47-ea3c-41ae-aae4-89122c7da4a9" target="_blank" rel="noopener">Pedir no iFood</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="cx">
+      <div>
+        <h1>Burgers, parrilla, <span>drinks</span> e boa música</h1>
+        <span class="mao">gostoso demais!</span>
+        <p class="sub">Começou num food truck em 2015 e virou ponto de encontro na Vila Pita. Burger de fraldinha no pão brioche da casa, opções veganas de verdade e drink caprichado.</p>
+        <div class="acoes">
+          <a class="bt bt-verm" href="#reservar">Reservar mesa</a>
+          <a class="bt bt-borda" href="#cardapio">Ver cardápio</a>
+        </div>
+      </div>
+      <div class="foto">
+        <img src="img/burger.png" alt="Burger do Hey Joe no pão brioche, com queijo e crispy de batata" width="618" height="716">
+        <div class="selo"><span><b>17h</b>happy hour ter a dom</span></div>
+      </div>
+    </div>
+    <div class="faixa" aria-hidden="true"><span>Burgers · Parrilla · Drinks · Boa música · Vila Pita · Burgers · Parrilla · Drinks · Boa música · Vila Pita · </span><span>Burgers · Parrilla · Drinks · Boa música · Vila Pita · Burgers · Parrilla · Drinks · Boa música · Vila Pita · </span></div>
+  </section>
+
+  <section class="hh" id="happy-hour">
+    <div class="cx">
+      <div class="foto">
+        <img src="img/brinde.jpg" alt="Brinde com chope e gin tônica sobre a mesa, com fritas, pastéis e bolinhos" width="943" height="884" loading="lazy">
+        <span class="mao">drink good times</span>
+      </div>
+      <div>
+        <h2>Happy <em>hour</em></h2>
+        <span class="quando">Terça a domingo · 17h às 19h30</span>
+        <div class="ofertas">
+          <div class="oferta"><b>50<small>%</small></b><p><strong>Drinks selecionados</strong><span>Gin tônica, Aperol, Moscow Mule, Sunrise e os drinks da Jack Daniel's.</span></p></div>
+          <div class="oferta"><b>R$ 6<small>,90</small></b><p><strong>Chopes e cervejas</strong><span>Brauhaus Pilsen e Session IPA, Budweiser e Brahma Duplo Malte com preço especial.</span></p></div>
+          <div class="oferta"><b>30<small>%</small></b><p><strong>Comes para partilhar</strong><span>Batata, macaxeira, pastéis, bolinho de vatapá e falafel com até 30% off.</span></p></div>
+        </div>
+        <p class="obs">Exceto feriados, vésperas e datas especiais.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cardapio" id="cardapio">
+    <div class="cx">
+      <div class="cab">
+        <h2>Cardápio</h2>
+        <p>Do mesmo menu impresso da casa, só que agora dá pra filtrar o que é vegetariano ou vegano.</p>
+      </div>
+      <div class="abas" role="tablist" id="abas"></div>
+      <div class="filtros" id="filtros">
+        <button type="button" class="chip" data-f="veg" aria-pressed="false">Vegetariano</button>
+        <button type="button" class="chip" data-f="vgn" aria-pressed="false">Vegano</button>
+      </div>
+      <div class="grupo">
+        <div id="lista" role="tabpanel"></div>
+        <div class="fotos" id="fotos"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reserva" id="reservar">
+    <div class="cx">
+      <div>
+        <h2>Reserve sua mesa</h2>
+        <p class="lead">Escolha o dia, o horário e quantas pessoas vêm. O pedido chega pronto no WhatsApp da casa e a gente confirma por lá.</p>
+        <span class="mao">aniversário? avisa a gente!</span>
+      </div>
+      <form class="ficha" id="ficha" aria-label="Reservar mesa">
+        <fieldset class="campo">
+          <legend>Dia</legend>
+          <div class="dias" id="dias"></div>
+        </fieldset>
+        <fieldset class="campo">
+          <legend>Horário</legend>
+          <div class="opcoes" id="horas"></div>
+        </fieldset>
+        <fieldset class="campo">
+          <legend>Pessoas</legend>
+          <div class="contador"><button type="button" id="menos" aria-label="Menos uma pessoa">−</button><output id="pessoas" aria-live="polite">2</output><button type="button" id="mais" aria-label="Mais uma pessoa">+</button></div>
+        </fieldset>
+        <fieldset class="campo">
+          <legend>Ocasião</legend>
+          <div class="opcoes" id="ocasioes">
+            <button type="button" class="opcao" data-v="Happy hour" aria-pressed="false">Happy hour</button>
+            <button type="button" class="opcao" data-v="Aniversário" aria-pressed="false">Aniversário</button>
+            <button type="button" class="opcao" data-v="Jantar" aria-pressed="false">Jantar</button>
+            <button type="button" class="opcao" data-v="Empresa" aria-pressed="false">Empresa</button>
+          </div>
+        </fieldset>
+        <div class="campo"><label for="nome">Seu nome</label><input type="text" id="nome" autocomplete="name" placeholder="Ex.: Joana"></div>
+        <div class="resumo" id="resumo" aria-live="polite"></div>
+        <a class="bt bt-wa" id="enviar" href="#reservar" aria-disabled="true"><svg aria-hidden="true"><use href="#i-wa"/></svg>Pedir reserva</a>
+      </form>
+    </div>
+  </section>
+
+  <section class="casa" id="casa">
+    <div class="cx">
+      <div>
+        <h2>Do food truck pra <span style="color:var(--vermelho)">Vila Pita</span></h2>
+        <ul class="linha-tempo">
+          <li><b>2015</b><span>O Hey Joe nasce num food truck, com burger de fraldinha e muito rock.</span></li>
+          <li><b>2017</b><span>Chega à Vila Pita, na Aldeota, e ganha casa com bar, parrilla e música.</span></li>
+          <li><b>Hoje</b><span>Burger artesanal, opções veganas, drinks autorais e happy hour de terça a domingo.</span></li>
+        </ul>
+      </div>
+      <div class="onde">
+        <h2>Onde estamos</h2>
+        <dl>
+          <dt>Endereço</dt><dd>Vila Pita · Rua Norvinda Pires, Aldeota, Fortaleza</dd>
+          <dt>Happy hour</dt><dd>Terça a domingo, 17h às 19h30</dd>
+          <dt>Reservas</dt><dd>(85) 99158-0837</dd>
+          <dt>Delivery</dt><dd>iFood, unidade Aldeota</dd>
+        </dl>
+        <div class="acoes">
+          <a class="bt bt-verm" href="https://www.google.com/maps/search/?api=1&amp;query=Hey+Joe+Food+n+Bar+Vila+Pita+Fortaleza" target="_blank" rel="noopener">Ver no mapa</a>
+          <a class="bt bt-borda" href="https://instagram.com/heyjoefoodnbar" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="rodape">
+  <div class="cx">
+    <img src="img/logo.png" alt="Hey Joe Food n' Bar" width="542" height="291" loading="lazy">
+    <span>Prévia criada pela <a href="https://rivi-sites.netlify.app" target="_blank" rel="noopener">Rivi</a>. Não é o site oficial do Hey Joe Food n' Bar.</span>
+  </div>
+</footer>
+
+<div class="modal" id="modal" hidden role="dialog" aria-modal="true" aria-labelledby="modal-titulo">
+  <div class="modal-caixa">
+    <h3 id="modal-titulo">Assim a reserva chega no WhatsApp</h3>
+    <pre id="modal-msg"></pre>
+    <p>Esta é uma prévia, então nada foi enviado. No site de verdade, esse botão abre o WhatsApp de reservas do Hey Joe com a mensagem pronta.</p>
+    <button class="bt bt-verm" type="button" id="modal-ok">Entendi</button>
+  </div>
+</div>
+
+<script>
+(() => {
+  // veg = vegetariano, vgn = tem versão vegana
+  const CARDAPIO = [
+    { id: "partilhar", nome: "Para partilhar", fotos: [["img/fritas.jpg","Batata frita com páprica na cestinha"],["img/falafel.jpg","Bolinhos de falafel"]], grupos: [{ itens: [
+      ["Batata frita", 28, "Com páprica defumada. Molho da casa, gorgonzola, chipotle ou vegano.", "veg vgn"],
+      ["Macaxeira frita", 30, "Com páprica defumada. Molho da casa, gorgonzola, chipotle ou vegano.", "veg vgn"],
+      ["Chilli fries", 39, "Batata frita, chilli com carne, cheddar cremoso, sour cream e vinagrete picante."],
+      ["Chilli fries veggie", 39, "Batata frita, chilli com proteína de soja, cheddar cremoso, sour cream e vinagrete picante.", "veg"],
+      ["Batata ao molho de queijo manteiga", 39, "Com parmesão ou cheddar cremoso, finalizada com bacon, cebolinha e páprica."],
+      ["Camarão crocante", 50, "Com couve crispy, molho thai de abacaxi com pimenta e chipotle."],
+      ["Bolinho de vatapá de camarão (3 un)", 28, ""],
+      ["Tacos de pernil BBQ (2 un)", 30, "Redução de vinho, chipotle e picles de cebola roxa."],
+      ["Frango crocante ao molho thai", 33, "Tiras de frango empanado com molho thai de abacaxi com pimenta."],
+      ["Porção de pastéis (8 un)", 30, "Carne com azeitona, queijo, carne de sol com queijo ou frango com cream cheese."],
+      ["Club pork", 39, "Picanha suína curada e defumada na casa, com burrata, pesto e tomate no pão artesanal."],
+      ["Mini hamburguinhos (3 un)", 40, "Joe Cheddar, Clássico, Chilli Burger ou Chicken Joe."],
+      ["Bolinho de falafel (3 un)", 21, "Grão de bico, um dos favoritos. Versão vegetariana com sour cream ou vegana com maionese da casa.", "veg vgn"]
+    ]}]},
+    { id: "burgers", nome: "Burgers e sandubas", fotos: [["img/burger.png","Burger com crispy de batata no pão brioche","recorte"]], grupos: [{ itens: [
+      ["Joe Cheddar · 160g", 43, "Fraldinha, molho da casa, cebola caramelizada, bacon e cheddar caseiro no brioche da casa. Smash 80g: R$ 34."],
+      ["Cheeseburguer clássico · 160g", 38, "Fraldinha, molho da casa, cebola roxa, tomate, alface e mussarela. Smash 80g: R$ 34."],
+      ["Cheesebacon · 160g", 43, "Fraldinha, molho da casa, bacon, cebola roxa, tomate, alface e mussarela."],
+      ["Blue cheese burguer · 160g", 43, "Fraldinha, molho de gorgonzola, cebola caramelizada, crispy de batata doce e mussarela."],
+      ["Chilli burguer · 160g", 40, "Fraldinha, molho chipotle, crispy de batata doce, tomate, alface e mussarela."],
+      ["Joe burguer · 160g", 43, "Fraldinha, molho de ricota e parmesão, cebola caramelizada, alface e tomate no pão australiano integral."],
+      ["Pepperoni burger · 160g", 43, "Fraldinha com cheddar, pepperoni e molho da casa no brioche."],
+      ["Filé com queijo", 47, "Tiras de filé mignon, mussarela, maionese da casa e vinagrete na ciabatta de fermentação natural."],
+      ["Chicken Joe · 160g", 38, "Peito de frango, molho de ricota e parmesão, alface, rúcula e mussarela no pão de cenoura. Smash 80g: R$ 30."],
+      ["Chicken ao pesto · 160g", 40, "Frango ao pesto, crispy de batata doce, alface, tomate e mussarela. Smash 80g: R$ 32."],
+      ["Falafel burguer", 38, "Falafel empanado com tahine, sour cream, cebola roxa e vinagrete. Versão vegana na ciabatta.", "veg vgn"],
+      ["Lentilha burguer", 38, "Lentilha com cheddar, cebola caramelizada e crispy de batata doce. Versão vegana na ciabatta.", "veg vgn"]
+    ]}]},
+    { id: "parrilla", nome: "Parrilla", fotos: [], grupos: [{ itens: [
+      ["Bife ancho (250g)", 60, "Corte clássico de contra filé. Acompanha vinagrete picante e farofa da casa."]
+    ]}]},
+    { id: "doces", nome: "Sobremesas", fotos: [["img/redvelvet.png","Fatia de bolo red velvet","recorte"]], grupos: [
+      { titulo: "Cakes", itens: [
+        ["Bolo chocolatudo", 20, "Chocolate 50% com brigadeiro e caramelo salgado.", "veg"],
+        ["Bolo pink lemonade", 22, "Limão siciliano com chocolate branco e frutas vermelhas.", "veg"],
+        ["Cheesecake clássico", 25, "Frutas vermelhas, caramelo salgado ou doce de leite.", "veg"]
+      ]},
+      { titulo: "Sorvetes artesanais", itens: [
+        ["Sorvete de ninho no copinho", 20, "", "veg"],
+        ["Sorvete de nutella no copinho", 22, "", "veg"],
+        ["Ninho com nutella no copinho", 22, "", "veg"],
+        ["Sorvete de abacaxi no copinho", 22, "Vegano.", "veg vgn"],
+        ["Capri", 26, "Sorvete de ninho com brownie quentinho, ganache e farofa de brownie.", "veg"],
+        ["Brownie com sorvete", 29.9, "Sorvete de ninho, geleia de morango, crumble de castanha e ganache quente.", "veg"]
+      ]},
+      { titulo: "Milkshakes", itens: [
+        ["Danoninho", 25, "Ninho, morango, geleia de morango e pipoca de ninho da casa.", "veg"],
+        ["Doce de leite", 25, "Ninho, doce de leite e caramelo salgado.", "veg"],
+        ["Paçoquita", 25, "Ninho, paçoquita, caramelo salgado e pipoca de ninho.", "veg"],
+        ["Ovomaltine com nutella", 25, "Nutella, ovomaltine e calda de chocolate.", "veg"],
+        ["Ovomaltine com ninho", 25, "Ninho, ovomaltine e calda de chocolate.", "veg"]
+      ]}
+    ]},
+    { id: "drinks", nome: "Drinks", fotos: [["img/brinde.jpg","Brinde com chope e gin tônica"]], grupos: [
+      { titulo: "Signature", itens: [
+        ["Sunflower", 27.9, "Gin infusionado de morango, bitter artesanal, limão, xarope de maçã verde, citrus e tônica."],
+        ["Sunrise", 33, "Gin, xarope artesanal de maracujá, tônica e limão."],
+        ["Pink vodka lemonade", 26.9, "Vodka, limão, xarope de melancia e morango, água com gás e hibisco."],
+        ["Californication", 27, "Vodka, maracujá, triple-sec, limão, bitter artesanal, citrus e tônica."]
+      ]},
+      { titulo: "Clássicos", itens: [
+        ["Caipirinha limão", 19.9, ""], ["Caipirinha morango", 21.9, ""], ["Caipiroska limão", 22.9, ""], ["Caipiroska morango", 24.9, ""],
+        ["Moscow mule", 27, "Vodka, limão, xarope de açúcar e espuma de gengibre."],
+        ["Negroni", 27, "Campari, gin e vermouth rosso."],
+        ["Sex on the beach", 25, "Vodka, licor de pêssego, laranja e xarope de morango."],
+        ["Aperol spritz", 32, "Aperol, espumante brut e água com gás."],
+        ["Gin tônica", 27, "Gin, tônica e limão."],
+        ["Margarita Jimador", 30, "Tequila, triple-sec e limão."]
+      ]},
+      { titulo: "Da Jack Daniel's", itens: [
+        ["Maracujack", 28, "Jack Daniel's, maracujá artesanal e citrus."],
+        ["Jack & coke", 28, "Jack Daniel's com coca-cola ou coca zero."],
+        ["Jack apple & tonic", 28, "Jack Apple, limão e tônica."],
+        ["Jack honey & lemonade", 28, "Jack Honey, limão e soda."],
+        ["Gentleman sour", 30, "Gentleman Jack, limão e xarope de açúcar."]
+      ]}
+    ]},
+    { id: "cervejas", nome: "Chopes e cervejas", fotos: [], grupos: [
+      { titulo: "Chopes 300ml", itens: [["Brauhaus Pilsen", 11.9, ""], ["Brauhaus Session IPA", 14.9, ""]]},
+      { titulo: "600ml", itens: [["Budweiser", 16.9, ""], ["Brahma Duplo Malte", 15.9, ""], ["Spaten", 17.9, ""], ["Stella Artois", 20.9, ""], ["Stella Pure Gold", 22.9, ""]]},
+      { titulo: "Long neck", itens: [["Budweiser", 11.9, ""], ["Budweiser Zero", 11.9, ""], ["Corona Extra", 13.9, ""], ["Spaten", 12.3, ""], ["Stella Artois", 13.9, ""], ["Stella Pure Gold", 13.9, ""]]}
+    ]},
+    { id: "sem-alcool", nome: "Sem álcool", fotos: [], grupos: [
+      { titulo: "Mocktails e sodas", itens: [
+        ["Yellow fizz", 14.9, "Low sugar: manga e maracujá, limão e sprite zero."],
+        ["Florence", 14.9, "Zero açúcar: frutas vermelhas, morango, sprite zero e limão."],
+        ["Soda italiana de morango", 14, ""], ["Soda italiana de maçã verde", 14, ""],
+        ["Chai vegano", 14, "Chá gelado de especiarias com limão.", "veg vgn"]
+      ]},
+      { titulo: "Sucos", itens: [["Laranja", 13, ""], ["Laranja com morango", 15, ""], ["Morango", 15, ""], ["Pink lemonade", 15, "Hibisco com morango e limão taiti."]]},
+      { titulo: "Refri e água", itens: [["Coca-cola, Sprite, Fanta ou Schweppes", 9.9, "Lata 350ml."], ["Pepsi, Guaraná ou H2OH!", 8.3, ""], ["Água com ou sem gás", 6.9, ""]]}
+    ]}
+  ];
+
+  const $ = (id) => document.getElementById(id);
+  const brl = (v) => "R$ " + (Number.isInteger(v) ? v : v.toFixed(2).replace(".", ","));
+  const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  let atual = CARDAPIO[0].id; const filtro = { veg: false, vgn: false };
+
+  CARDAPIO.forEach((c) => {
+    const b = document.createElement("button");
+    b.type = "button"; b.className = "aba"; b.textContent = c.nome; b.setAttribute("role", "tab"); b.dataset.id = c.id;
+    b.addEventListener("click", () => { atual = c.id; desenhar(); });
+    $("abas").appendChild(b);
+  });
+  document.querySelectorAll(".chip").forEach((b) => b.addEventListener("click", () => {
+    filtro[b.dataset.f] = !filtro[b.dataset.f]; b.setAttribute("aria-pressed", filtro[b.dataset.f]); desenhar();
+  }));
+
+  function desenhar() {
+    document.querySelectorAll(".aba").forEach((b) => b.setAttribute("aria-selected", b.dataset.id === atual));
+    const c = CARDAPIO.find((x) => x.id === atual); let html = "", total = 0;
+    c.grupos.forEach((g) => {
+      const itens = g.itens.filter((i) => (!filtro.veg || (i[3] || "").includes("veg")) && (!filtro.vgn || (i[3] || "").includes("vgn")));
+      if (!itens.length) return; total += itens.length;
+      if (g.titulo) html += '<h3 class="subt">' + esc(g.titulo) + "</h3>";
+      html += '<ul class="itens">' + itens.map((i) => {
+        const t = i[3] || ""; const tags = (t.includes("vgn") ? '<span class="tag vg">vegano</span>' : t.includes("veg") ? '<span class="tag">veg</span>' : "");
+        return '<li class="item"><div class="l1"><h3>' + esc(i[0]) + tags + '</h3><span class="pont"></span><span class="preco">' + brl(i[1]) + "</span></div>" + (i[2] ? "<p>" + esc(i[2]) + "</p>" : "") + "</li>";
+      }).join("") + "</ul>";
+    });
+    $("lista").innerHTML = total ? html : '<p class="vazio">Nada com esse filtro nesta parte do cardápio. Tente outra aba.</p>';
+    $("fotos").innerHTML = c.fotos.map((f) => '<img src="' + f[0] + '" alt="' + esc(f[1]) + '" loading="lazy"' + (f[2] ? ' class="recorte"' : "") + ">").join("");
+    $("fotos").hidden = !c.fotos.length;
+  }
+  desenhar();
+
+  // reservas
+  const SEMANA = ["dom", "seg", "ter", "qua", "qui", "sex", "sáb"], SEMANA_LONGA = ["domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado"];
+  const HORAS = ["17:00", "17:30", "18:00", "18:30", "19:00", "19:30", "20:00", "20:30", "21:00", "21:30"];
+  const est = { dia: null, hora: null, pessoas: 2, ocasiao: null };
+  const hoje = new Date(); hoje.setHours(0, 0, 0, 0);
+  for (let k = 0; k < 14; k++) {
+    const d = new Date(hoje); d.setDate(hoje.getDate() + k);
+    const b = document.createElement("button");
+    b.type = "button"; b.className = "dia"; b.setAttribute("aria-pressed", "false");
+    b.innerHTML = "<small>" + (k === 0 ? "hoje" : SEMANA[d.getDay()]) + "</small>" + d.getDate();
+    b.setAttribute("aria-label", SEMANA_LONGA[d.getDay()] + ", " + d.getDate() + "/" + (d.getMonth() + 1) + (d.getDay() === 1 ? ", fechado" : ""));
+    b.disabled = d.getDay() === 1;
+    b.addEventListener("click", () => { est.dia = d; est.hora = null; document.querySelectorAll(".dia").forEach((x) => x.setAttribute("aria-pressed", x === b)); desenharHoras(); atualizar(); });
+    $("dias").appendChild(b);
+  }
+  function desenharHoras() {
+    const box = $("horas"); box.innerHTML = "";
+    if (!est.dia) { box.innerHTML = '<p style="color:var(--apagado);font-size:15px">Escolha um dia primeiro.</p>'; return; }
+    const agora = new Date();
+    HORAS.forEach((h) => {
+      const [hh, mm] = h.split(":").map(Number), q = new Date(est.dia); q.setHours(hh, mm, 0, 0);
+      const b = document.createElement("button");
+      b.type = "button"; b.className = "opcao"; b.textContent = h; b.disabled = q - agora < 60 * 60 * 1000;
+      b.setAttribute("aria-pressed", est.hora === h);
+      b.addEventListener("click", () => { est.hora = h; desenharHoras(); atualizar(); });
+      box.appendChild(b);
+    });
+    if (!box.querySelector(".opcao:not(:disabled)")) box.innerHTML = '<p style="color:var(--apagado);font-size:15px">Não há mais horários hoje. Escolha outro dia.</p>';
+  }
+  document.querySelectorAll("#ocasioes .opcao").forEach((b) => b.addEventListener("click", () => {
+    est.ocasiao = b.dataset.v; document.querySelectorAll("#ocasioes .opcao").forEach((o) => o.setAttribute("aria-pressed", o === b)); atualizar();
+  }));
+  $("menos").addEventListener("click", () => { est.pessoas = Math.max(1, est.pessoas - 1); $("pessoas").textContent = est.pessoas; atualizar(); });
+  $("mais").addEventListener("click", () => { est.pessoas = Math.min(30, est.pessoas + 1); $("pessoas").textContent = est.pessoas; atualizar(); });
+  $("nome").addEventListener("input", atualizar);
+
+  const dataTxt = (d) => SEMANA_LONGA[d.getDay()] + ", " + String(d.getDate()).padStart(2, "0") + "/" + String(d.getMonth() + 1).padStart(2, "0");
+  function atualizar() {
+    const falta = [];
+    if (!est.dia) falta.push("o dia"); if (!est.hora) falta.push("o horário"); if (!est.ocasiao) falta.push("a ocasião"); if (!$("nome").value.trim()) falta.push("seu nome");
+    if (falta.length) { $("resumo").innerHTML = '<span class="falta">Falta escolher ' + falta.slice(0, -1).join(", ") + (falta.length > 1 ? " e " : "") + falta.slice(-1) + ".</span>"; $("enviar").setAttribute("aria-disabled", "true"); return; }
+    $("resumo").textContent = "Mesa para " + est.pessoas + (est.pessoas > 1 ? " pessoas" : " pessoa") + ", " + dataTxt(est.dia) + " às " + est.hora + " (" + est.ocasiao.toLowerCase() + ").";
+    $("enviar").setAttribute("aria-disabled", "false");
+  }
+  function mensagem() {
+    return "Olá! Quero reservar uma mesa no Hey Joe.\nDia: " + dataTxt(est.dia) + " às " + est.hora + "\nPessoas: " + est.pessoas + "\nOcasião: " + est.ocasiao + "\nNome: " + $("nome").value.trim();
+  }
+  $("enviar").addEventListener("click", (e) => { e.preventDefault(); if ($("enviar").getAttribute("aria-disabled") === "true") return; $("modal-msg").textContent = mensagem(); $("modal").hidden = false; $("modal-ok").focus(); });
+  $("modal-ok").addEventListener("click", () => { $("modal").hidden = true; });
+  $("modal").addEventListener("click", (e) => { if (e.target.id === "modal") $("modal").hidden = true; });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") $("modal").hidden = true; });
+  desenharHoras(); atualizar();
+})();
+</script>
+</body>
+</html>
