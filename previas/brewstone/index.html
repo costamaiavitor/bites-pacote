@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Brewstone Pub — Prévia</title>
+<meta name="description" content="Prévia de site para o Brewstone Pub, feita pela Rivi.">
+<meta name="theme-color" content="#15222D">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+/*
+  Brewstone: cervejaria com pub, cozinha de chef e rooftop.
+  Cores do próprio logo (rosa salmão e laranja) sobre um azul de noite; partes claras num rosa-espuma.
+  O destaque é a lousa de torneiras: cada cerveja com a sua cor real e uma barra de amargor.
+*/
+:root{
+  color-scheme:light;
+  --noite:#15222D; --noite-2:#1D2D3A; --rosa:#FAB9AE; --laranja:#F47033; --coral:#F58B77;
+  --espuma:#FBEEEA; --tinta:#1B1F24; --cinza:#5E6268; --linha:#E8D5CF;
+  --titulo:"Big Shoulders Display","Arial Narrow",sans-serif; --corpo:"Source Serif 4",Georgia,serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--noite);color:var(--tinta);font:18px/1.6 var(--corpo)}
+h1,h2,h3{font-family:var(--titulo);font-weight:800;margin:0;line-height:.98;letter-spacing:.005em}
+p{margin:0}
+a{color:inherit}
+img{max-width:100%;height:auto;display:block}
+:focus-visible{outline:3px solid var(--laranja);outline-offset:3px;border-radius:2px}
+[hidden]{display:none!important}
+.cx{max-width:1160px;margin:0 auto;padding-inline:20px}
+.claro{background:var(--espuma);color:var(--tinta)}
+.escuro{background:var(--noite);color:#EEF0F2}
+
+.aviso{background:#0D161E;color:#B9C1C8;font:14px/1.4 var(--corpo);text-align:center;padding:8px 16px}
+.topo{background:var(--noite);color:#EEF0F2}
+.topo .cx{display:flex;align-items:center;gap:26px;min-height:72px}
+.topo .marca img{height:26px;width:auto}
+.topo nav{margin-left:auto;display:flex;gap:22px;font:700 17px/1 var(--titulo);letter-spacing:.02em}
+.topo nav a{text-decoration:none;color:#C9D1D8}
+.topo nav a:hover{color:var(--rosa)}
+.bt{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:50px;padding:0 22px;border-radius:999px;border:0;font:800 19px/1 var(--titulo);letter-spacing:.02em;text-decoration:none;cursor:pointer}
+.bt-laranja{background:var(--laranja);color:#1B1208}
+.bt-laranja:hover{background:#FF8650}
+.bt-linha{border:2px solid currentColor;background:transparent}
+.bt svg{width:20px;height:20px}
+.topo .bt{min-height:42px;padding:0 18px;font-size:17px}
+@media (max-width:900px){.topo nav{display:none}.topo .bt{margin-left:auto}}
+
+/* abertura */
+.abertura{padding-block:40px 80px}
+.abertura .cx{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.abertura h1{font-size:clamp(44px,5.8vw,80px);color:#fff}
+.abertura .texto{color:#C9D1D8;font-size:19px;margin:24px 0 30px;max-width:30em}
+.abertura .acoes{display:flex;gap:12px;flex-wrap:wrap}
+.abertura figure{margin:0;position:relative}
+.abertura figure img{border-radius:6px;width:100%;aspect-ratio:4/3;object-fit:cover}
+.abertura figcaption{position:absolute;left:16px;bottom:16px;background:var(--rosa);color:var(--tinta);font:700 18px/1.2 var(--titulo);padding:8px 12px;border-radius:4px;max-width:70%}
+@media (max-width:880px){.abertura .cx{grid-template-columns:1fr;gap:32px}}
+
+/* lousa de torneiras */
+.torneiras{padding-block:80px}
+.cab{display:grid;grid-template-columns:1fr auto;gap:20px;align-items:end}
+.secao h2{font-size:clamp(46px,6vw,76px)}
+.secao .intro{color:var(--cinza);margin-top:12px;max-width:34em}
+.escuro .intro{color:#AEB7BF}
+.filtros{display:flex;gap:8px;flex-wrap:wrap;margin-top:28px}
+.chip{min-height:40px;padding:0 16px;border-radius:999px;border:1.5px solid var(--tinta);background:transparent;font:700 17px/1 var(--titulo);letter-spacing:.02em;color:var(--tinta);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--tinta);color:var(--espuma)}
+.lousa{list-style:none;margin:20px 0 0;padding:0;border-top:2px solid var(--tinta)}
+.tap{display:grid;grid-template-columns:44px 26px minmax(0,1fr) 150px 170px;gap:16px;align-items:center;padding:16px 0;border-bottom:1px solid var(--linha)}
+.tap .n{font:800 24px/1 var(--titulo);color:var(--cinza);font-variant-numeric:tabular-nums}
+.tap .cor{width:26px;height:38px;border-radius:3px 3px 8px 8px;box-shadow:inset 0 6px 0 rgba(255,255,255,.75),inset 0 0 0 1px rgba(0,0,0,.12)}
+.tap h3{font-size:26px}
+.tap h3 em{font:600 12px/1 var(--corpo);font-style:normal;background:var(--laranja);color:#1B1208;padding:3px 7px;border-radius:999px;vertical-align:5px;margin-left:6px}
+.tap .estilo{color:var(--cinza);font-size:16px}
+.tap .estilo span{white-space:nowrap}
+.amargor{font-size:14px;color:var(--cinza)}
+.amargor .barra{height:6px;border-radius:3px;background:var(--linha);margin-top:6px;overflow:hidden}
+.amargor .barra i{display:block;height:100%;background:var(--coral)}
+.tap .preco{text-align:right;font:800 22px/1.1 var(--titulo)}
+.tap .preco small{display:block;font:400 14px/1.3 var(--corpo);color:var(--cinza)}
+.nota-regua{margin-top:22px;color:var(--cinza);font-size:17px}
+.nota-regua b{color:var(--tinta)}
+@media (max-width:760px){
+  .tap{grid-template-columns:30px 22px minmax(0,1fr);row-gap:8px;align-items:start}
+  .tap .n,.tap .cor{grid-row:1/4}
+  .tap .n{padding-top:4px}
+  .tap .preco{grid-column:3;grid-row:2;text-align:left;display:flex;gap:10px;align-items:baseline}
+  .tap .preco small{display:inline}
+  .tap .amargor{grid-column:3;grid-row:3}
+  .tap h3{font-size:24px}
+}
+
+/* hoppy hour */
+.hoppy{background:var(--rosa);color:var(--tinta);padding-block:80px}
+.hoppy .cx{display:grid;grid-template-columns:1.1fr .9fr;gap:52px;align-items:start}
+.hoppy h2{font-size:clamp(50px,7vw,88px)}
+.hoppy .quando{font-size:20px;margin:14px 0 28px}
+.hoppy h3{font-size:26px;margin:26px 0 6px}
+.precos{list-style:none;margin:0;padding:0}
+.precos li{display:flex;align-items:baseline;gap:10px;padding:9px 0;border-bottom:1px solid rgba(27,31,36,.15)}
+.precos .pont{flex:1;border-bottom:2px dotted rgba(27,31,36,.3);transform:translateY(-5px)}
+.precos s{color:#7A5A54;font-size:16px}
+.precos b{font:800 22px/1 var(--titulo);white-space:nowrap}
+.hoppy .foto img{border-radius:6px;aspect-ratio:4/5;object-fit:cover;width:100%}
+.hoppy .obs{font-size:15px;margin-top:16px;color:#5A4440}
+@media (max-width:860px){.hoppy .cx{grid-template-columns:1fr}.hoppy .foto img{aspect-ratio:4/3}}
+
+/* cozinha */
+.cozinha{padding-block:84px}
+.pratos{display:grid;grid-template-columns:1.25fr 1fr;gap:28px;margin-top:36px}
+.prato{background:var(--noite-2);border-radius:6px;overflow:hidden;display:grid}
+.prato img{width:100%;object-fit:cover}
+.prato .corpo{padding:22px 24px 26px}
+.prato h3{font-size:34px;color:#fff}
+.prato .quando{color:var(--rosa);font:700 18px/1.2 var(--titulo);margin:6px 0 12px}
+.prato p{color:#C2CAD1;font-size:17px}
+.prato .linha{display:flex;justify-content:space-between;gap:12px;border-top:1px solid #2E4050;margin-top:14px;padding-top:12px}
+.prato .linha b{font:800 22px/1 var(--titulo);color:#fff;white-space:nowrap}
+.lagosta{grid-row:span 2}
+.lagosta img{aspect-ratio:4/4.2}
+.prato.pequeno img{aspect-ratio:16/9}
+.lagosta .prazo{display:inline-block;background:var(--laranja);color:#1B1208;font:800 17px/1 var(--titulo);padding:8px 12px;border-radius:999px;margin-bottom:12px}
+.cozinha .mais{margin-top:30px;display:flex;gap:14px;align-items:center;flex-wrap:wrap;color:#AEB7BF}
+@media (max-width:860px){.pratos{grid-template-columns:1fr}.lagosta{grid-row:auto}.lagosta img{aspect-ratio:4/3}}
+
+/* eventos */
+.eventos{padding-block:84px}
+.eventos .faixa-foto{margin-top:34px;display:grid;grid-template-columns:2fr 1fr 1fr;gap:12px}
+.eventos .faixa-foto img{width:100%;height:100%;object-fit:cover;border-radius:6px;aspect-ratio:auto;min-height:240px}
+.eventos .grade{display:grid;grid-template-columns:1fr 1fr;gap:52px;margin-top:46px;align-items:start}
+.pacotes h3{font-size:28px;margin:24px 0 6px}
+.pacotes h3:first-child{margin-top:0}
+.pacotes ul{list-style:none;margin:0;padding:0}
+.pacotes li{display:flex;justify-content:space-between;gap:14px;padding:10px 0;border-bottom:1px solid var(--linha)}
+.pacotes li span small{display:block;color:var(--cinza);font-size:14px}
+.pacotes li b{font:800 21px/1.1 var(--titulo);white-space:nowrap;text-align:right}
+.pacotes li b small{display:block;font:400 13px/1.2 var(--corpo);color:var(--cinza)}
+@media (max-width:860px){.eventos .faixa-foto{grid-template-columns:1fr 1fr}.eventos .faixa-foto img:first-child{grid-column:1/3}.eventos .grade{grid-template-columns:1fr;gap:40px}}
+
+/* formulários */
+.ficha{background:#fff;border-radius:8px;padding:24px;display:grid;gap:18px;border:1px solid var(--linha)}
+.escuro .ficha{border:0}
+.ficha h3{font-size:30px;color:var(--tinta)}
+.campo{display:grid;gap:8px;border:0;margin:0;padding:0;min-width:0;color:var(--tinta)}
+.campo legend,.campo label{font:700 18px/1.2 var(--titulo);letter-spacing:.02em;padding:0}
+.opcoes{display:flex;flex-wrap:wrap;gap:8px}
+.opcao{min-height:44px;padding:0 14px;border:1.5px solid #D9CBC6;border-radius:999px;background:#fff;font:600 16px/1 var(--corpo);color:var(--tinta);cursor:pointer;font-variant-numeric:tabular-nums}
+.opcao[aria-pressed="true"]{background:var(--noite);border-color:var(--noite);color:#fff}
+.opcao:disabled{color:#B5ACA9;border-color:#EEE5E2;cursor:not-allowed;text-decoration:line-through}
+.dias{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px}
+.dia{flex:none;width:60px;min-height:66px;border:1.5px solid #D9CBC6;border-radius:8px;background:#fff;cursor:pointer;font:800 24px/1 var(--titulo);color:var(--tinta);display:grid;place-items:center;padding:8px 0}
+.dia small{font:400 13px/1 var(--corpo);color:var(--cinza)}
+.dia[aria-pressed="true"]{background:var(--noite);border-color:var(--noite);color:#fff}
+.dia[aria-pressed="true"] small{color:#C9D1D8}
+.dia:disabled{opacity:.35;cursor:not-allowed}
+.contador{display:flex;align-items:center;gap:12px}
+.contador button{width:44px;height:44px;border-radius:50%;border:1.5px solid #D9CBC6;background:#fff;font:700 22px/1 var(--corpo);cursor:pointer;color:var(--tinta)}
+.contador output{font:800 30px/1 var(--titulo);min-width:2.2ch;text-align:center}
+input[type=text],input[type=date],select{width:100%;min-height:48px;border:1.5px solid #D9CBC6;border-radius:6px;padding:0 12px;font:400 17px var(--corpo);color:var(--tinta);background:#fff}
+input:focus,select:focus{border-color:var(--noite);outline:none}
+.linha2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:480px){.linha2{grid-template-columns:1fr}}
+.resumo{font-size:16px;color:var(--cinza);border-top:1px dashed #D9CBC6;padding-top:12px}
+.resumo .falta{color:#B4441F}
+.bt-wa{background:#1F8F4E;color:#fff;width:100%}
+.bt-wa[aria-disabled="true"]{opacity:.4;pointer-events:none}
+
+/* chopeira */
+.chopeira{padding-block:84px}
+.chopeira .cx{display:grid;grid-template-columns:.8fr 1.2fr;gap:52px;align-items:center}
+.chopeira .foto img{border-radius:6px;aspect-ratio:1;object-fit:cover}
+.barris{list-style:none;margin:24px 0 0;padding:0}
+.barris li{display:grid;grid-template-columns:22px 1fr auto;gap:14px;align-items:center;padding:12px 0;border-bottom:1px solid #2E4050}
+.barris .cor{width:22px;height:32px;border-radius:3px 3px 7px 7px;box-shadow:inset 0 5px 0 rgba(255,255,255,.7)}
+.barris b{font:800 23px/1.1 var(--titulo);color:#fff}
+.barris span{color:#AEB7BF;font-size:15px;display:block}
+.barris .valor{text-align:right;font:800 22px/1.1 var(--titulo);color:var(--rosa);white-space:nowrap}
+.barris .valor small{display:block;font:400 13px/1.2 var(--corpo);color:#AEB7BF}
+.chopeira .extra{color:#C2CAD1;margin-top:18px;font-size:17px}
+.chopeira .acoes{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+@media (max-width:860px){.chopeira .cx{grid-template-columns:1fr}.chopeira .foto{max-width:420px}}
+
+/* reserva e endereço */
+.visita{padding-block:84px}
+.visita .cx{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:start}
+.visita dl{display:grid;grid-template-columns:auto 1fr;gap:12px 22px;margin:26px 0}
+.visita dt{color:var(--cinza)}
+.visita dd{margin:0;font-weight:600}
+@media (max-width:860px){.visita .cx{grid-template-columns:1fr}}
+
+.rodape{background:#0D161E;color:#9AA4AD;padding-block:28px 36px;font-size:15px}
+.rodape .cx{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center}
+.rodape img{height:20px;width:auto}
+.rodape a{color:#fff}
+
+.modal{position:fixed;inset:0;z-index:50;background:rgba(13,22,30,.7);display:grid;place-items:center;padding:16px}
+.modal-caixa{background:#fff;border-radius:8px;max-width:440px;width:100%;padding:22px;display:grid;gap:14px}
+.modal-caixa h3{font-size:30px}
+.modal-caixa pre{white-space:pre-wrap;font:400 16px/1.5 var(--corpo);background:#E3F3E6;border-radius:6px;padding:12px 14px;margin:0}
+.modal-caixa p{color:var(--cinza);font-size:16px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></symbol>
+</svg>
+
+<div class="aviso">Prévia feita pela Rivi para o Brewstone Pub. Cervejas, pratos e preços são do cardápio atual; os horários de reserva são exemplo.</div>
+
+<header class="topo">
+  <div class="cx">
+    <a href="#" class="marca"><img src="img/logo.png" alt="Brewstone" width="576" height="108"></a>
+    <nav aria-label="Seções"><a href="#torneiras">Torneiras</a><a href="#hoppy">Hoppy hour</a><a href="#cozinha">Cozinha</a><a href="#eventos">Eventos</a><a href="#chopeira">Chopeira em casa</a><a href="#visita">Onde fica</a></nav>
+    <a class="bt bt-laranja" href="#visita">Reservar</a>
+  </div>
+</header>
+
+<main>
+  <section class="abertura escuro">
+    <div class="cx">
+      <div>
+        <h1>Cerveja feita aqui, cozinha de chef e um rooftop no Parque Manibura</h1>
+        <p class="texto">Uma chef cearense e um escocês, os dois formados em cozinha em Lyon, abriram a Brewstone em 2018. Hoje são 15 torneiras de cerveja da casa, fogo e defumados na cozinha e um rooftop pra ver o fim da tarde.</p>
+        <div class="acoes">
+          <a class="bt bt-laranja" href="#visita">Reservar mesa</a>
+          <a class="bt bt-linha" href="#torneiras">Ver as torneiras</a>
+        </div>
+      </div>
+      <figure>
+        <img src="img/regua.jpg" alt="Régua de degustação com quatro copinhos de cerveja da casa, da mais clara à mais escura" width="1100" height="733">
+        <figcaption>Régua de degustação: 4 cervejas da casa por R$ 25</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="torneiras secao claro" id="torneiras">
+    <div class="cx">
+      <h2>Nas torneiras hoje</h2>
+      <p class="intro">Tudo produzido na nossa fábrica, do lado do balcão. Copo de 285 ml ou growler de 1 litro com balde de gelo pra levar.</p>
+      <div class="filtros" id="filtros">
+        <button type="button" class="chip" data-f="" aria-pressed="true">Todas</button>
+        <button type="button" class="chip" data-f="leve" aria-pressed="false">Leves</button>
+        <button type="button" class="chip" data-f="lupulo" aria-pressed="false">Lupuladas</button>
+        <button type="button" class="chip" data-f="azeda" aria-pressed="false">Azedinhas</button>
+        <button type="button" class="chip" data-f="forte" aria-pressed="false">Encorpadas</button>
+        <button type="button" class="chip" data-f="zero" aria-pressed="false">Sem álcool</button>
+      </div>
+      <ol class="lousa" id="lousa"></ol>
+      <p class="nota-regua">Na dúvida, peça a <b>régua de degustação</b>: quatro copinhos de 75 ml, à sua escolha, por R$ 25.</p>
+    </div>
+  </section>
+
+  <section class="hoppy" id="hoppy">
+    <div class="cx">
+      <div>
+        <h2>Hoppy hour</h2>
+        <p class="quando">Quarta, sexta, sábado e domingo das 15h às 19h. Na quinta vai até as 21h.</p>
+        <h3>Cerveja da casa pela metade</h3>
+        <ul class="precos">
+          <li><span>Czech Me Lager</span><span class="pont"></span><s>R$ 13</s><b>R$ 6,50</b></li>
+          <li><span>Home Sweet Home</span><span class="pont"></span><s>R$ 15</s><b>R$ 7,50</b></li>
+          <li><span>Sunset Session IPA</span><span class="pont"></span><s>R$ 16</s><b>R$ 8</b></li>
+          <li><span>Hop Slap IPA</span><span class="pont"></span><s>R$ 17</s><b>R$ 8,50</b></li>
+          <li><span>Seventh Heaven</span><span class="pont"></span><s>R$ 22</s><b>R$ 11</b></li>
+        </ul>
+        <h3>Drinks e petiscos</h3>
+        <ul class="precos">
+          <li><span>Caipi do tap Xerosa</span><span class="pont"></span><b>R$ 15</b></li>
+          <li><span>Gin tônica do tap</span><span class="pont"></span><b>R$ 18</b></li>
+          <li><span>Croquete de lombinho angus</span><span class="pont"></span><b>R$ 31</b></li>
+          <li><span>Alabama white wings</span><span class="pont"></span><b>R$ 34,50</b></li>
+          <li><span>Fish &amp; chips na massa de cerveja</span><span class="pont"></span><b>R$ 36</b></li>
+        </ul>
+        <p class="obs">Cervejas especiais e de outras cervejarias não entram no hoppy hour.</p>
+      </div>
+      <div class="foto"><img src="img/wings.jpg" alt="Asinhas empanadas com molho branco e um copo de cerveja" width="900" height="675" loading="lazy"></div>
+    </div>
+  </section>
+
+  <section class="cozinha secao escuro" id="cozinha">
+    <div class="cx">
+      <h2>Da cozinha</h2>
+      <p class="intro">Fogo, defumados e pizza de fermentação natural, feitos por uma chef cearense formada em Lyon.</p>
+      <div class="pratos">
+        <article class="prato lagosta">
+          <img src="img/balde-lagosta.jpg" alt="Balde de frutos do mar cajun com lagosta, camarão, linguiça, milho e batata" width="800" height="1067" loading="lazy">
+          <div class="corpo">
+            <span class="prazo">Só até 31 de outubro</span>
+            <h3>Festival da Lagosta</h3>
+            <p class="quando">Quarta a domingo</p>
+            <p>Em 1º de novembro começa o defeso e a lagosta sai do cardápio até maio. O balde cajun leva lagosta, camarão, chorizo, milho, batata e manteiga de alho.</p>
+            <div class="linha"><span>Balde de frutos do mar cajun</span><b>R$ 179</b></div>
+            <div class="linha"><span>Lagosta na manteiga de alho com ciabatta</span><b>R$ 68</b></div>
+          </div>
+        </article>
+        <article class="prato pequeno">
+          <img src="img/steak-poivre.jpg" alt="Steak ao poivre com purê e onion rings" width="900" height="675" loading="lazy">
+          <div class="corpo">
+            <h3>Executivo do chef</h3>
+            <p class="quando">Quarta a sexta, das 12h às 15h</p>
+            <p>Uma proteína e dois acompanhamentos. Entrada e sobremesa por mais R$ 19.</p>
+            <div class="linha"><span>Steak ao poivre flambado no conhaque</span><b>R$ 62</b></div>
+          </div>
+        </article>
+        <article class="prato pequeno">
+          <img src="img/nachos.jpg" alt="Nachos com pulled pork, cheddar e jalapeño" width="900" height="675" loading="lazy">
+          <div class="corpo">
+            <h3>Pizza e pra dividir</h3>
+            <p class="quando">Pizzas a partir das 17h</p>
+            <p>Massa de fermentação natural, 35 cm. A Smoker leva linguiça com lúpulo Citra, pulled pork e cupim.</p>
+            <div class="linha"><span>Pizza Smoker</span><b>R$ 70,50</b></div>
+          </div>
+        </article>
+      </div>
+      <div class="mais"><a class="bt bt-linha" href="https://cardapiobrewstonepub.lovable.app/cardapio" target="_blank" rel="noopener">Ver o cardápio completo</a><span>Cada prato mostra os alergênicos. Vários podem ser adaptados.</span></div>
+    </div>
+  </section>
+
+  <section class="eventos secao claro" id="eventos">
+    <div class="cx">
+      <h2>Seu evento aqui</h2>
+      <p class="intro">Casamento no rooftop, aniversário, confraternização da empresa ou coffee break de treinamento. A gente monta o pacote de comida e bebida.</p>
+      <div class="faixa-foto">
+        <img src="img/rooftop.jpg" alt="Rooftop da Brewstone com mesas altas de madeira ao fim da tarde" width="1400" height="933" loading="lazy">
+        <img src="img/casamento.jpg" alt="Noiva no salão decorado com flores e luzes" width="1000" height="666" loading="lazy">
+        <img src="img/evento-mesa.jpg" alt="Mesa de finger food montada para evento" width="700" height="1051" loading="lazy">
+      </div>
+      <div class="grade">
+        <div class="pacotes">
+          <h3>Comida</h3>
+          <ul>
+            <li><span>Finger food<small>Mínimo de 25 pessoas, 4 horas</small></span><b>a partir de R$ 74<small>por pessoa</small></b></li>
+            <li><span>Buffet de feijoada<small>Mínimo de 60 pessoas</small></span><b>R$ 79,90<small>por pessoa</small></b></li>
+            <li><span>Buffet italiano<small>Mínimo de 60 pessoas</small></span><b>R$ 105<small>por pessoa</small></b></li>
+            <li><span>Almoço corporativo<small>Três pratos pro grupo escolher</small></span><b>R$ 49<small>por pessoa</small></b></li>
+          </ul>
+          <h3>Bebida à vontade, 4 horas</h3>
+          <ul>
+            <li><span>Cerveja da casa<small>Premium Lager e Sunset Session IPA</small></span><b>R$ 54<small>por pessoa</small></b></li>
+            <li><span>Drinks<small>Gin tônica, caipirinha e caipiroska</small></span><b>R$ 57<small>por pessoa</small></b></li>
+          </ul>
+          <h3>Espaço só pra vocês</h3>
+          <ul>
+            <li><span>Rooftop ou área climatizada<small>Quarta, quinta ou domingo</small></span><b>R$ 3.000</b></li>
+            <li><span>Latinha com rótulo do seu evento<small>A partir de 6 unidades</small></span><b>+ R$ 3,80<small>por lata</small></b></li>
+          </ul>
+        </div>
+        <form class="ficha" id="ficha-evento" aria-label="Pedir orçamento de evento">
+          <h3>Pedir orçamento</h3>
+          <div class="campo"><label for="ev-tipo">Que tipo de evento?</label>
+            <select id="ev-tipo"><option value="">Escolha</option><option>Aniversário</option><option>Casamento</option><option>Confraternização de empresa</option><option>Coffee break ou treinamento</option><option>Outro</option></select></div>
+          <div class="linha2">
+            <div class="campo"><label for="ev-data">Data</label><input type="date" id="ev-data"></div>
+            <div class="campo"><label for="ev-pessoas">Convidados</label><input type="text" id="ev-pessoas" inputmode="numeric" placeholder="Ex.: 40"></div>
+          </div>
+          <div class="campo"><label for="ev-nome">Seu nome</label><input type="text" id="ev-nome" autocomplete="name" placeholder="Ex.: Mariana"></div>
+          <div class="resumo" id="ev-resumo" aria-live="polite"></div>
+          <a class="bt bt-wa" id="ev-enviar" href="#eventos" aria-disabled="true"><svg aria-hidden="true"><use href="#i-wa"/></svg>Pedir orçamento no WhatsApp</a>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="chopeira escuro" id="chopeira">
+    <div class="cx">
+      <div class="foto"><img src="img/chopeira.jpg" alt="Chopeira elétrica da Brewstone com um copo de chope" width="800" height="800" loading="lazy"></div>
+      <div class="secao">
+        <h2>Chopeira em casa</h2>
+        <p class="intro">Chope da Brewstone na sua festa. A gente leva a chopeira e o barril, gelado, em Fortaleza e na região metropolitana.</p>
+        <ul class="barris">
+          <li><span class="cor" style="background:#E8C15A"></span><span><b>Premium Lager</b><span>Clara, leve e fácil de beber</span></span><span class="valor">R$ 470<small>a partir de</small></span></li>
+          <li><span class="cor" style="background:#A5432A"></span><span><b>Home Sweet Home</b><span>Avermelhada, com toque de caramelo</span></span><span class="valor">R$ 540<small>a partir de</small></span></li>
+          <li><span class="cor" style="background:#E3A13A"></span><span><b>Sunset Session IPA</b><span>Leve, com aroma cítrico</span></span><span class="valor">R$ 600<small>a partir de</small></span></li>
+          <li><span class="cor" style="background:#D88A2C"></span><span><b>Hop Slap IPA</b><span>Amargor presente, bem aromática</span></span><span class="valor">R$ 690<small>a partir de</small></span></li>
+        </ul>
+        <p class="extra">Entrega grátis até 8 km da Brewstone. Pagamento em dinheiro, Pix ou cartão.</p>
+        <div class="acoes"><a class="bt bt-laranja" href="https://chopeirasbrewstone.lovable.app/" target="_blank" rel="noopener">Montar meu pedido</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="visita claro" id="visita">
+    <div class="cx">
+      <div class="secao">
+        <h2>Vem pra cá</h2>
+        <dl>
+          <dt>Endereço</dt><dd>Rua Marvin, 1060, Parque Manibura, Fortaleza</dd>
+          <dt>Hoppy hour</dt><dd>Quarta a domingo, a partir das 15h</dd>
+          <dt>Almoço executivo</dt><dd>Quarta a sexta, das 12h às 15h</dd>
+          <dt>Eventos e chopeira</dt><dd>(85) 98232-9008</dd>
+          <dt>Fale com a gente</dt><dd>(85) 98616-7163</dd>
+        </dl>
+        <p class="intro">Em noite de música ao vivo é cobrado couvert de R$ 15 por pessoa.</p>
+        <div class="acoes" style="display:flex;gap:12px;flex-wrap:wrap;margin-top:24px">
+          <a class="bt bt-laranja" href="https://www.google.com/maps/place/Brewstone+Pub/@-3.78991,-38.4839329,15z" target="_blank" rel="noopener">Abrir no mapa</a>
+          <a class="bt bt-linha" href="https://www.instagram.com/brewstonepub/" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+      <form class="ficha" id="ficha" aria-label="Reservar mesa">
+        <h3>Reservar mesa</h3>
+        <fieldset class="campo"><legend>Dia</legend><div class="dias" id="dias"></div></fieldset>
+        <fieldset class="campo"><legend>Horário</legend><div class="opcoes" id="horas"></div></fieldset>
+        <fieldset class="campo"><legend>Onde prefere sentar</legend>
+          <div class="opcoes" id="areas">
+            <button type="button" class="opcao" data-v="Rooftop" aria-pressed="false">Rooftop</button>
+            <button type="button" class="opcao" data-v="Área climatizada" aria-pressed="false">Área climatizada</button>
+            <button type="button" class="opcao" data-v="Tanto faz" aria-pressed="false">Tanto faz</button>
+          </div>
+        </fieldset>
+        <fieldset class="campo"><legend>Quantas pessoas</legend>
+          <div class="contador"><button type="button" id="menos" aria-label="Menos uma pessoa">−</button><output id="pessoas" aria-live="polite">2</output><button type="button" id="mais" aria-label="Mais uma pessoa">+</button></div>
+        </fieldset>
+        <div class="campo"><label for="nome">Seu nome</label><input type="text" id="nome" autocomplete="name" placeholder="Ex.: Rafael"></div>
+        <div class="resumo" id="resumo" aria-live="polite"></div>
+        <a class="bt bt-wa" id="enviar" href="#visita" aria-disabled="true"><svg aria-hidden="true"><use href="#i-wa"/></svg>Pedir reserva no WhatsApp</a>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="rodape">
+  <div class="cx">
+    <img src="img/logo.png" alt="Brewstone" width="576" height="108" loading="lazy">
+    <span>Prévia criada pela <a href="https://rivi-sites.netlify.app" target="_blank" rel="noopener">Rivi</a>. Não é o site oficial do Brewstone Pub.</span>
+  </div>
+</footer>
+
+<div class="modal" id="modal" hidden role="dialog" aria-modal="true" aria-labelledby="modal-titulo">
+  <div class="modal-caixa">
+    <h3 id="modal-titulo">Assim o pedido chega no WhatsApp</h3>
+    <pre id="modal-msg"></pre>
+    <p>Esta é uma prévia, então nada foi enviado. No site de verdade, esse botão abre o WhatsApp da Brewstone com a mensagem pronta.</p>
+    <button class="bt bt-laranja" type="button" id="modal-ok">Entendi</button>
+  </div>
+</div>
+
+<script>
+(() => {
+  // n, nome, estilo, abv, ibu, copo, growler, cor (aproximação da cor real), grupos, novidade
+  const TAPS = [
+    ["01", "Czech Me Lager", "Pale lager, servida na caneca de 360 ml", 4.5, 22, "13", "42", "#EBC75C", "leve"],
+    ["02", "Session Zero", "Session IPA sem álcool, com manga, melão e pêssego", 0.4, 31, "16", "56", "#E8B44A", "zero lupulo"],
+    ["04", "Home Sweet Home", "Irish red ale", 5, 30, "15", "53", "#A6442B", "leve"],
+    ["05", "Birthday APA", "American pale ale", 5.5, 34, "17", "60", "#D7922F", "lupulo"],
+    ["06", "Märzen", "Lager de outono, maltada", 6, 22, "15", "53", "#B9662A", "", true],
+    ["07", "Gringo Sour", "Weiss azedinha", 5.2, 13, "15", "53", "#F0D27A", "azeda leve"],
+    ["08", "Bisous Sour Seriguela", "Sour com seriguela", 4.2, 20, "17", "60", "#F08A5D", "azeda leve"],
+    ["09", "Sunset Session IPA", "Session IPA", 4.6, 30, "16", "56", "#E3A13A", "lupulo leve"],
+    ["10", "Hop Slap IPA", "India pale ale", 6.4, 56, "17", "60", "#D88A2C", "lupulo"],
+    ["11", "Seventh Heaven", "Double IPA dos 7 anos da casa, com maracujá e abacaxi", 7.7, 70, "22", "77", "#E09A2E", "lupulo forte", true],
+    ["13", "Märzen IPA", "Russian imperial stout", 12, 77, "18", "63", "#1E1210", "forte"],
+    ["14", "Nessie Pecan", "Wee heavy escocesa com noz-pecã", 10, 28, "25", "88", "#5A2416", "forte"],
+    ["15", "Barley Wine", "Barley wine", 11, 52, "25", "88", "#7A3517", "forte"]
+  ];
+  const $ = (id) => document.getElementById(id);
+  let filtro = "";
+  function desenharLousa() {
+    $("lousa").innerHTML = TAPS.filter((t) => !filtro || t[8].split(" ").includes(filtro)).map((t) =>
+      '<li class="tap"><span class="n">' + t[0] + '</span><span class="cor" style="background:' + t[7] + '" aria-hidden="true"></span>' +
+      '<div><h3>' + t[1] + (t[9] ? "<em>novidade</em>" : "") + '</h3><p class="estilo">' + t[2] + ', <span>' + String(t[3]).replace(".", ",") + '% de álcool</span></p></div>' +
+      '<div class="amargor">Amargor ' + t[4] + ' IBU<div class="barra"><i style="width:' + Math.min(100, t[4] / 80 * 100) + '%"></i></div></div>' +
+      '<p class="preco">R$ ' + t[5] + '<small>growler 1 L: R$ ' + t[6] + '</small></p></li>').join("");
+  }
+  document.querySelectorAll(".chip").forEach((b) => b.addEventListener("click", () => {
+    filtro = b.dataset.f; document.querySelectorAll(".chip").forEach((x) => x.setAttribute("aria-pressed", x === b)); desenharLousa();
+  }));
+  desenharLousa();
+
+  // modal
+  function abrir(msg) { $("modal-msg").textContent = msg; $("modal").hidden = false; $("modal-ok").focus(); }
+  $("modal-ok").addEventListener("click", () => { $("modal").hidden = true; });
+  $("modal").addEventListener("click", (e) => { if (e.target.id === "modal") $("modal").hidden = true; });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") $("modal").hidden = true; });
+  const faltaTxt = (f) => '<span class="falta">Falta ' + f.slice(0, -1).join(", ") + (f.length > 1 ? " e " : "") + f.slice(-1) + ".</span>";
+
+  // reserva
+  const SEM = ["dom", "seg", "ter", "qua", "qui", "sex", "sáb"], SEM_L = ["domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado"];
+  const HORAS = ["15:00", "16:00", "17:00", "18:00", "19:00", "20:00", "21:00"];
+  const est = { dia: null, hora: null, area: null, pessoas: 2 };
+  const hoje = new Date(); hoje.setHours(0, 0, 0, 0);
+  for (let k = 0; k < 14; k++) {
+    const d = new Date(hoje); d.setDate(hoje.getDate() + k);
+    const fechado = d.getDay() === 1 || d.getDay() === 2;
+    const b = document.createElement("button");
+    b.type = "button"; b.className = "dia"; b.disabled = fechado; b.setAttribute("aria-pressed", "false");
+    b.innerHTML = "<small>" + (k === 0 ? "hoje" : SEM[d.getDay()]) + "</small>" + d.getDate();
+    b.setAttribute("aria-label", SEM_L[d.getDay()] + ", " + d.getDate() + "/" + (d.getMonth() + 1) + (fechado ? ", fechado" : ""));
+    b.addEventListener("click", () => { est.dia = d; est.hora = null; document.querySelectorAll(".dia").forEach((x) => x.setAttribute("aria-pressed", x === b)); horas(); atualizar(); });
+    $("dias").appendChild(b);
+  }
+  function horas() {
+    const box = $("horas"); box.innerHTML = "";
+    if (!est.dia) { box.innerHTML = '<p style="color:var(--cinza);font-size:16px">Escolha um dia primeiro.</p>'; return; }
+    const agora = new Date();
+    HORAS.forEach((h) => {
+      const q = new Date(est.dia); q.setHours(+h.slice(0, 2), 0, 0, 0);
+      const b = document.createElement("button");
+      b.type = "button"; b.className = "opcao"; b.textContent = h; b.disabled = q - agora < 60 * 60 * 1000; b.setAttribute("aria-pressed", est.hora === h);
+      b.addEventListener("click", () => { est.hora = h; horas(); atualizar(); });
+      box.appendChild(b);
+    });
+    if (!box.querySelector(".opcao:not(:disabled)")) box.innerHTML = '<p style="color:var(--cinza);font-size:16px">Não há mais horários hoje. Escolha outro dia.</p>';
+  }
+  document.querySelectorAll("#areas .opcao").forEach((b) => b.addEventListener("click", () => {
+    est.area = b.dataset.v; document.querySelectorAll("#areas .opcao").forEach((o) => o.setAttribute("aria-pressed", o === b)); atualizar();
+  }));
+  $("menos").addEventListener("click", () => { est.pessoas = Math.max(1, est.pessoas - 1); $("pessoas").textContent = est.pessoas; atualizar(); });
+  $("mais").addEventListener("click", () => { est.pessoas = Math.min(40, est.pessoas + 1); $("pessoas").textContent = est.pessoas; atualizar(); });
+  $("nome").addEventListener("input", atualizar);
+  const dataTxt = (d) => SEM_L[d.getDay()] + ", " + String(d.getDate()).padStart(2, "0") + "/" + String(d.getMonth() + 1).padStart(2, "0");
+  function atualizar() {
+    const f = [];
+    if (!est.dia) f.push("o dia"); if (!est.hora) f.push("o horário"); if (!est.area) f.push("onde sentar"); if (!$("nome").value.trim()) f.push("seu nome");
+    if (f.length) { $("resumo").innerHTML = faltaTxt(f); $("enviar").setAttribute("aria-disabled", "true"); return; }
+    $("resumo").textContent = "Mesa para " + est.pessoas + (est.pessoas > 1 ? " pessoas" : " pessoa") + ", " + dataTxt(est.dia) + " às " + est.hora + ", " + est.area.toLowerCase() + ".";
+    $("enviar").setAttribute("aria-disabled", "false");
+  }
+  $("enviar").addEventListener("click", (e) => { e.preventDefault(); if ($("enviar").getAttribute("aria-disabled") === "true") return;
+    abrir("Olá! Quero reservar uma mesa na Brewstone.\nDia: " + dataTxt(est.dia) + " às " + est.hora + "\nPessoas: " + est.pessoas + "\nLugar: " + est.area + "\nNome: " + $("nome").value.trim()); });
+  horas(); atualizar();
+
+  // orçamento de evento
+  const hojeISO = new Date(Date.now() + 864e5).toISOString().slice(0, 10); $("ev-data").min = hojeISO;
+  function evAtualizar() {
+    const f = [];
+    if (!$("ev-tipo").value) f.push("o tipo de evento"); if (!$("ev-data").value) f.push("a data"); if (!$("ev-pessoas").value.trim()) f.push("o número de convidados"); if (!$("ev-nome").value.trim()) f.push("seu nome");
+    if (f.length) { $("ev-resumo").innerHTML = faltaTxt(f); $("ev-enviar").setAttribute("aria-disabled", "true"); return; }
+    const [a, m, d] = $("ev-data").value.split("-");
+    $("ev-resumo").textContent = $("ev-tipo").value + " para " + $("ev-pessoas").value.trim() + " convidados em " + d + "/" + m + "/" + a + ".";
+    $("ev-enviar").setAttribute("aria-disabled", "false");
+  }
+  ["ev-tipo", "ev-data", "ev-pessoas", "ev-nome"].forEach((id) => $(id).addEventListener("input", evAtualizar));
+  $("ev-enviar").addEventListener("click", (e) => { e.preventDefault(); if ($("ev-enviar").getAttribute("aria-disabled") === "true") return;
+    const [a, m, d] = $("ev-data").value.split("-");
+    abrir("Olá! Quero um orçamento de evento na Brewstone.\nEvento: " + $("ev-tipo").value + "\nData: " + d + "/" + m + "/" + a + "\nConvidados: " + $("ev-pessoas").value.trim() + "\nNome: " + $("ev-nome").value.trim()); });
+  evAtualizar();
+})();
+</script>
+</body>
+</html>
