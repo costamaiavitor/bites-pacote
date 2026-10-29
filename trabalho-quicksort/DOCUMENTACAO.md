@@ -211,23 +211,13 @@ elemento, então a pilha tem no máximo cerca de $\log_2 n$ chamadas
 caso**. O número de operações não muda; muda só a memória usada pela pilha,
 que cai de $O(n)$ para $O(\log n)$.
 
-```
- Sem o tratamento (divisão 0 / n-1)      Com o tratamento
- quickSort(n)                            quickSort(n)  → laço: n, n-1, n-2, ..., 1
-   quickSort(n-1)                          └ quickSort(0)   (lado menor, volta na hora)
-     quickSort(n-2)
-       ...          ← n chamadas         ← no máximo 2 chamadas empilhadas
-```
-
 ## Decisões sobre casos omissos
 
 * **Como o pivô do Proporcional é encontrado:** pelo valor
   `ini + 1 + k` e uma busca linear, como explicado acima. A busca custa
   $\Theta(n)$, o mesmo que o particionamento, então só aumenta a constante
   $c$ do termo $cn$ e não muda a complexidade. Isso só funciona porque a
-  entrada é uma permutação de 1 a $n$, como o enunciado garante. Para
-  entradas quaisquer seria preciso um algoritmo de seleção (por exemplo, a
-  *mediana das medianas*, que também é $\Theta(n)$).
+  entrada é uma permutação de 1 a $n$, como o enunciado garante.
 * **Arredondamento de $k$:** `(int)` corta a parte decimal, ou seja,
   arredonda para baixo. Como $\alpha \le 1/2$, o lado esquerdo é sempre o
   menor ou igual ao direito.
@@ -241,48 +231,14 @@ que cai de $O(n)$ para $O(\log n)$.
 * **$\alpha$ fora do intervalo:** o programa usa só $\alpha = 1/2$ e
   $\alpha = 1/4$. A partição 90%–10% não foi usada, como pede o enunciado.
 
-## Geração dos vetores
-
-`gerarVetor(n)` coloca $1, 2, \ldots, n$ no vetor e embaralha com o
-algoritmo de **Fisher–Yates**: de trás para frente, troca cada posição $i$
-com uma posição sorteada entre 0 e $i$. Assim não há repetidos, toda
-permutação tem a mesma chance de sair e o custo é $\Theta(n)$.
-
 ## Entrada e saída
 
 * **Entrada:** não há entrada do usuário. Os vetores são gerados pelo
-  programa, nos tamanhos $1\,000$, $10\,000$, $100\,000$ e $1\,000\,000$.
+  programa (`gerarVetor`, que preenche $1, 2, \ldots, n$ e embaralha),
+  nos tamanhos $1\,000$, $10\,000$, $100\,000$ e $1\,000\,000$.
 * **Saída:** para cada tamanho e cada versão, o **tempo médio** de 5
   execuções (em milissegundos, medido com `System.nanoTime()`) e se o vetor
   ficou **ordenado** (`true`/`false`).
-
-Exemplo de saída (os tempos mudam de máquina para máquina e de execução para
-execução):
-
-```
-n = 1000
-  Aleatorio:                       0.28 ms  ordenado = true
-  Proporcional (alfa = 0.50):      0.11 ms  ordenado = true
-  Proporcional (alfa = 0.25):      0.06 ms  ordenado = true
-n = 10000
-  Aleatorio:                       0.83 ms  ordenado = true
-  Proporcional (alfa = 0.50):      0.88 ms  ordenado = true
-  Proporcional (alfa = 0.25):      0.79 ms  ordenado = true
-n = 100000
-  Aleatorio:                       9.08 ms  ordenado = true
-  Proporcional (alfa = 0.50):      9.53 ms  ordenado = true
-  Proporcional (alfa = 0.25):      7.81 ms  ordenado = true
-n = 1000000
-  Aleatorio:                     103.75 ms  ordenado = true
-  Proporcional (alfa = 0.50):     98.05 ms  ordenado = true
-  Proporcional (alfa = 0.25):     86.24 ms  ordenado = true
-```
-
-Ao multiplicar $n$ por 10, o tempo cresce um pouco mais que 10 vezes, como
-se espera de $n \log n$. Os tempos pequenos ($n = 1\,000$) não são
-confiáveis, porque o Java ainda está "aquecendo" (compilação JIT) e a medida
-fica muito curta. Por isso as conclusões sobre complexidade vêm da análise,
-e não dos tempos.
 
 # C. Análise de complexidade
 
@@ -420,14 +376,9 @@ que um vetor já ordenado sempre dá o pior caso.
 
 **Pode, mas é muito improvável.** Nada impede o sorteio de escolher, por
 azar, sempre o menor ou o maior elemento. Nesse caso as divisões são 0 e
-$n-1$ e o tempo é $\Theta(n^2)$ (ver o fim do item iii). Num pedaço de
-tamanho $m$ a chance de sortear um extremo é $2/m$. Para isso acontecer em
-todos os níveis, a probabilidade é
-
-$$\frac{2}{n}\cdot\frac{2}{n-1}\cdots\frac{2}{2} = \frac{2^{n-1}}{n!},$$
-
-que já é cerca de $\text{0,00014}$ para $n = 10$ e praticamente zero para $n$
-grande. Resumo: **melhor caso e caso médio $\Theta(n\log n)$, pior caso
+$n-1$ e o tempo é $\Theta(n^2)$ (ver o fim do item iii). Só que isso
+depende de dar azar em quase todos os sorteios, então é muito improvável.
+Resumo: **melhor caso e caso médio $\Theta(n\log n)$, pior caso
 $\Theta(n^2)$, mas raríssimo e sem depender da entrada.**
 
 ## iii. QuickSort Proporcional ($\alpha = 1/2$ e $\alpha = 1/4$)
@@ -553,8 +504,7 @@ limites são (constante) $\times\, n\log n$. Então
 $$\boxed{T(n) = \Theta(n\log n)}.$$
 
 O $\alpha$ só muda a **constante** $k$: quanto menor o $\alpha$, mais alta e
-"torta" a árvore. Mesmo uma divisão 1%–99% continua $\Theta(n\log n)$, com
-$k \approx 69$. Basta que a divisão seja **proporcional**; não precisa ser
+"torta" a árvore. Basta que a divisão seja **proporcional**; não precisa ser
 equilibrada.
 
 ### E se a partição não for proporcional?
