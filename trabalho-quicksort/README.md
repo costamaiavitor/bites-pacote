@@ -1,15 +1,12 @@
-# Trabalho: QuickSort em Java (pivô aleatório e partição proporcional)
+# Trabalho AV-2: QuickSort
 
-- `src/`: código-fonte Java (comentado)
+- `src/QuickSort.java`: código-fonte (versão i: pivô aleatório; versão ii: Proporcional)
 - `DOCUMENTACAO.pdf` / `DOCUMENTACAO.md`: introdução, implementação e análise de complexidade
-- `resultados.csv`: saída dos experimentos
+- `saida.txt`: exemplo de saída do programa
 
-## Compilar e executar (Java 17+)
+## Compilar e executar
 
 ```
-javac -d bin src/*.java
-java -cp bin Main
+javac -d bin src/QuickSort.java
+java -cp bin QuickSort
 ```
-
-Opções: `--n 1000,10000,100000,1000000`, `--rep 5`, `--semente 42`,
-`--degenerado 1000,5000,20000`, `--csv resultados.csv`.

@@ -1,0 +1,16 @@
+n = 1000
+  Aleatorio:                       0.28 ms  ordenado = true
+  Proporcional (alfa = 0.50):      0.11 ms  ordenado = true
+  Proporcional (alfa = 0.25):      0.06 ms  ordenado = true
+n = 10000
+  Aleatorio:                       0.83 ms  ordenado = true
+  Proporcional (alfa = 0.50):      0.88 ms  ordenado = true
+  Proporcional (alfa = 0.25):      0.79 ms  ordenado = true
+n = 100000
+  Aleatorio:                       9.08 ms  ordenado = true
+  Proporcional (alfa = 0.50):      9.53 ms  ordenado = true
+  Proporcional (alfa = 0.25):      7.81 ms  ordenado = true
+n = 1000000
+  Aleatorio:                     103.75 ms  ordenado = true
+  Proporcional (alfa = 0.50):     98.05 ms  ordenado = true
+  Proporcional (alfa = 0.25):     86.24 ms  ordenado = true

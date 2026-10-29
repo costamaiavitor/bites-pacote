@@ -1,397 +1,345 @@
 ---
-title: "QuickSort: implementação e análise de complexidade"
-subtitle: "Pivô aleatório (caso médio) e partição proporcional α : (1 − α)"
+title: "Trabalho AV-2: QuickSort"
+subtitle: "Pivô aleatório (caso médio) e QuickSort Proporcional α : (1 − α)"
 lang: pt-BR
 toc-title: "Sumário"
 ---
 
 # A. Introdução
 
-## O problema
+## Descrição do problema
 
-Ordenar um arranjo de $n$ inteiros é colocá-los em ordem crescente. O
-**QuickSort** resolve isso por *divisão e conquista*:
+O problema é **ordenar** um vetor de $n$ inteiros em ordem crescente. Os
+vetores usados são **permutações aleatórias dos números de 1 até $n$**, ou
+seja, cada número aparece exatamente uma vez, em ordem embaralhada.
 
-1. **Dividir:** escolhe-se um elemento, o **pivô**, e reorganiza-se o arranjo
-   de modo que todos os elementos menores que o pivô fiquem à sua esquerda e
-   todos os maiores fiquem à sua direita. Depois disso, o pivô já está na sua
-   posição definitiva.
-2. **Conquistar:** ordenam-se, recursivamente, a parte da esquerda e a parte
-   da direita.
-3. **Combinar:** nada a fazer. Como cada parte já está ordenada e no lugar
-   certo, o arranjo inteiro fica ordenado.
+O algoritmo usado é o **QuickSort**, que funciona por divisão e conquista:
 
-Todo o trabalho "de verdade" está no passo 1, o **particionamento**. A
-eficiência do algoritmo depende de *quão equilibradas* são as duas partes
-geradas, e isso depende só da escolha do pivô. Por isso este trabalho
-implementa **um único procedimento de particionamento** e varia apenas a
-forma de escolher o pivô:
+1. escolhe um elemento, o **pivô**;
+2. **particiona** o vetor: os menores que o pivô vão para a esquerda, os
+   maiores para a direita, e o pivô fica na sua posição definitiva;
+3. ordena do mesmo jeito o lado esquerdo e o lado direito.
 
-* **QuickSort com pivô aleatório:** o pivô é sorteado. Todas as divisões são
-  igualmente prováveis, e a análise mostra que o tempo **esperado** é
-  $\Theta(n \log n)$.
-* **QuickSort Proporcional:** recebe um parâmetro $\alpha$ ($0 < \alpha \le 1/2$)
-  e escolhe o pivô de forma a **forçar** que todo subarranjo de tamanho $n$
-  seja dividido em partes de tamanhos $\alpha n$ e $(1-\alpha)n$. Foram
-  escolhidos $\alpha = 1/2$ (partição 50%–50%) e $\alpha = 1/4$ (partição
-  25%–75%) para a análise detalhada; o programa também executa
-  $\alpha = 1/3$ e $\alpha = 1/5$.
+O desempenho depende de **quão equilibrados** ficam os dois lados, e isso
+depende só da escolha do pivô. Por isso foram implementadas duas versões que
+usam **o mesmo particionamento** e mudam apenas a escolha do pivô:
 
-As entradas são **permutações aleatórias dos inteiros de 1 até $n$**, sem
-valores repetidos.
+* **Versão i, QuickSort com pivô aleatório:** o pivô é sorteado.
+* **Versão ii, QuickSort Proporcional:** recebe um valor $\alpha$
+  ($0 < \alpha \le 1/2$) e escolhe o pivô de forma que todo pedaço de
+  tamanho $n$ seja dividido em $\alpha n$ e $(1-\alpha)n$. Foram usados
+  **$\alpha = 1/2$** (partição 50%–50%) e **$\alpha = 1/4$** (25%–75%).
 
 ## Visão geral do programa
 
-O programa (classe `Main`) executa dois experimentos:
+Todo o código está em um único arquivo, `QuickSort.java`. O `main` faz, para
+cada tamanho $n \in \{1\,000;\ 10\,000;\ 100\,000;\ 1\,000\,000\}$:
 
-1. **Experimento 1:** para $n \in \{10^3, 10^4, 10^5, 10^6\}$, gera 5
-   permutações aleatórias de cada tamanho e ordena cada uma com as cinco
-   versões (pivô aleatório e proporcional com $\alpha = 1/2, 1/3, 1/4, 1/5$).
-   Após cada ordenação, **confere se o resultado é exatamente
-   $1, 2, \ldots, n$**. Mostra o número de comparações, o valor previsto pela
-   análise, a altura do ramo mais curto ($h_{\min}$) e do mais longo
-   ($h_{\max}$) da árvore de recursão, a profundidade real da pilha e o tempo.
-2. **Experimento 2:** executa a versão em que a partição **não é
-   proporcional** (sempre $0$ e $n-1$), para mostrar o comportamento
-   quadrático e que o programa não sofre `StackOverflowError`.
+1. **gera** um vetor com uma permutação aleatória de 1 a $n$;
+2. **ordena** com o QuickSort aleatório;
+3. **verifica** se o vetor ficou exatamente $1, 2, \ldots, n$;
+4. repete os passos 1 a 3 cinco vezes e **imprime** o tempo médio;
+5. faz o mesmo com o QuickSort Proporcional, para $\alpha = \text{0,5}$ e
+   $\alpha = \text{0,25}$.
 
-Os resultados também são gravados em `resultados.csv`.
-
-**Compilar e executar** (Java 17 ou superior):
+Para compilar e executar (Java 8 ou superior):
 
 ```
-javac -d bin src/*.java
-java -cp bin Main
+javac QuickSort.java
+java QuickSort
 ```
-
-Opções: `--n 1000,10000` (tamanhos), `--rep 5` (repetições),
-`--semente 42` (semente do gerador aleatório, para reproduzir os
-resultados), `--degenerado 1000,5000` (tamanhos do experimento 2) e
-`--csv arquivo.csv`.
 
 # B. Implementação
 
-## Estruturas de dados e tipos abstratos
+## Estruturas de dados
 
-Os dados são arranjos `int[]`, ordenados no próprio arranjo (*in place*),
-sem memória auxiliar além da pilha de recursão. Os tipos abstratos de dados
-foram organizados assim:
+O programa usa apenas:
 
-```
-              «interface»
-               Ordenador
-       + ordenar(int[] A)
-       + nome() : String
-       + estatisticas() : Estatisticas
-                   ▲
-                   │ implementa
-        «abstrata» QuickSortBase ──────────usa──────▶  Particionamento
-   # est : Estatisticas                                + lomuto(A,p,r,est) : int
-   + ordenar(A)                                         + trocar(A,i,j)
-   - quickSort(A,p,r,nivel,pilha)
-   # escolherPivo(A,p,r) : int   «abstrato»
-          ▲                    ▲
-          │ herda              │ herda
-  QuickSortAleatorio      QuickSortProporcional
-  - rnd : Random          - alfa : double
-  escolherPivo: sorteio   escolherPivo: elemento de posto k = ⌊α(n−1)⌋
+* **vetor de inteiros (`int[]`)**: guarda os números a ordenar. A ordenação
+  é feita no próprio vetor, sem vetor auxiliar. As funções recebem o vetor e
+  dois índices, `ini` e `fim`, que delimitam o **pedaço** (subvetor)
+  `v[ini..fim]` que está sendo tratado;
+* **`Random`**: gerador de números aleatórios da biblioteca do Java, usado
+  para sortear o pivô e para embaralhar os vetores.
 
-  Estatisticas                       GeradorPermutacoes
-  comparacoes, trocas,               + gerar(n) : int[]   (Fisher-Yates)
-  particionamentos,                  + estaOrdenado(v) : boolean
-  alturaMinima, alturaMaxima,
-  pilhaMaxima                        Main  (experimentos e relatório)
-```
+Não foi necessário criar outros tipos abstratos de dados: o "pedaço" do
+vetor é representado só pelo par de índices (`ini`, `fim`), e a pilha de
+recursão do próprio Java guarda os pedaços pendentes.
 
-| Classe | Papel |
+## Funções do programa
+
+| Função | O que faz |
 |---|---|
-| `Ordenador` | Interface: qualquer algoritmo de ordenação de `int[]`. |
-| `QuickSortBase` | Esqueleto do QuickSort, comum às duas versões. Define o método abstrato `escolherPivo`. |
-| `Particionamento` | O **único** procedimento de particionamento (Lomuto), usado por todas as versões. |
-| `QuickSortAleatorio` | Versão i: sorteia o índice do pivô. |
-| `QuickSortProporcional` | Versão ii: recebe $\alpha$ e escolhe o pivô que força a divisão $\alpha:(1-\alpha)$. |
-| `Estatisticas` | Contadores coletados durante a ordenação. |
-| `GeradorPermutacoes` | Gera as permutações aleatórias de $1..n$ e confere a ordenação. |
-| `Main` | Roda os experimentos, compara com as previsões teóricas e grava o CSV. |
+| `particionar(v, ini, fim)` | Particionamento de Lomuto. Usa `v[fim]` como pivô e devolve a posição final `q` do pivô. |
+| `trocar(v, i, j)` | Troca o conteúdo das posições `i` e `j`. |
+| `quickSortAleatorio(v, ini, fim)` | Versão i. Sorteia o pivô, particiona e continua nos dois lados. |
+| `quickSortProporcional(v, ini, fim, alfa)` | Versão ii. Escolhe o pivô que divide o pedaço na proporção $\alpha : (1-\alpha)$. |
+| `gerarVetor(n)` | Gera uma permutação aleatória de 1 a $n$. |
+| `estaOrdenado(v)` | Confere se o vetor ficou exatamente $1, 2, \ldots, n$. |
+| `main` | Roda os testes e imprime os resultados. |
 
-Este desenho (método *template*) garante que as duas versões compartilham
-exatamente o mesmo código de particionamento e de recursão; a única
-diferença entre elas é uma linha: qual índice é devolvido por
-`escolherPivo`.
+## Particionamento (Lomuto)
 
-## Escolha do particionamento: Lomuto
+O pivô é sempre o **último** elemento do pedaço, `v[fim]`. Duas variáveis
+fazem o trabalho:
 
-Foi usado o particionamento de **Lomuto**. Justificativa:
+* **`i`, o "cercadinho"**: marca o fim da região dos elementos $\le$ pivô.
+  Começa em `ini - 1` (cercadinho vazio).
+* **`j`, o "olheiro"**: percorre o pedaço uma única vez, de `ini` até
+  `fim - 1`. Quando encontra um elemento $\le$ pivô, o cercadinho cresce uma
+  posição (`i++`) e esse elemento é trocado para dentro dele.
 
-1. **O pivô termina na posição definitiva $q$**, e o subarranjo é dividido
-   exatamente em `A[p..q-1]` (menores) e `A[q+1..r]` (maiores). Os tamanhos
-   dos subproblemas são exatamente $k$ e $n-1-k$, que é a forma das
-   recorrências da Parte II.
-2. Com isso, **forçar a proporção** é simples: basta escolher como pivô o
-   elemento que deve ficar na posição $p+k$. No esquema de Hoare o pivô não
-   termina necessariamente na posição final, e o tamanho das partes depende
-   da disposição dos dados, o que tornaria a versão proporcional muito mais
-   difícil de controlar.
-3. Faz **exatamente $n-1$ comparações** para $n$ elementos, o que é fácil de
-   contar e de analisar.
-4. Sua fraqueza conhecida (muitos elementos iguais) não acontece aqui,
-   porque as entradas não têm valores repetidos.
+No final, o pivô é trocado com `v[i+1]`, logo depois do cercadinho, que é a
+sua posição definitiva.
 
-O pivô escolhido por qualquer uma das versões é primeiro trocado com
-`A[r]`, a posição onde o Lomuto o espera.
-
-**Funcionamento.** O índice `i` marca o fim da região dos elementos
-$\le$ pivô; o índice `j` percorre o restante. Quando `A[j]` é $\le$ pivô, ele é
-trazido para a região da esquerda com uma troca. No final, o pivô é trocado
-com `A[i+1]`. Invariante do laço:
+Situação no meio do laço:
 
 ```
-  p           i  i+1          j            r
- ┌────────────┬───────────────┬────────────┬───┐
- │   ≤ pivô   │    > pivô     │ não visto  │ x │   x = pivô
- └────────────┴───────────────┴────────────┴───┘
+   ini            i  i+1            j              fim
+  ┌───────────────┬─────────────────┬──────────────┬──────┐
+  │   ≤ pivô      │     > pivô      │ ainda não    │ pivô │
+  │ (cercadinho)  │                 │ visto        │      │
+  └───────────────┴─────────────────┴──────────────┴──────┘
 ```
 
-Exemplo com `A = [3, 8, 2, 5, 1, 4, 7, 6]` e pivô $x = 6$:
+**Exemplo:** `v = [3, 8, 2, 5, 1, 4, 7, 6]`, pivô $= 6$.
 
-| `j` | `A[j]` | $\le 6$? | ação | arranjo |
+| `j` | `v[j]` | $\le 6$? | o que acontece | vetor |
 |---|---|---|---|---|
-| 0 | 3 | sim | `i=0`, troca(0,0) | `[3, 8, 2, 5, 1, 4, 7, 6]` |
-| 1 | 8 | não | — | `[3, 8, 2, 5, 1, 4, 7, 6]` |
-| 2 | 2 | sim | `i=1`, troca(1,2) | `[3, 2, 8, 5, 1, 4, 7, 6]` |
-| 3 | 5 | sim | `i=2`, troca(2,3) | `[3, 2, 5, 8, 1, 4, 7, 6]` |
-| 4 | 1 | sim | `i=3`, troca(3,4) | `[3, 2, 5, 1, 8, 4, 7, 6]` |
-| 5 | 4 | sim | `i=4`, troca(4,5) | `[3, 2, 5, 1, 4, 8, 7, 6]` |
-| 6 | 7 | não | — | `[3, 2, 5, 1, 4, 8, 7, 6]` |
-| fim | | | troca(5,7) | `[3, 2, 5, 1, 4, `**`6`**`, 7, 8]` |
+| 0 | 3 | sim | `i = 0`, troca(0,0) | `[3, 8, 2, 5, 1, 4, 7, 6]` |
+| 1 | 8 | não | nada | `[3, 8, 2, 5, 1, 4, 7, 6]` |
+| 2 | 2 | sim | `i = 1`, troca(1,2) | `[3, 2, 8, 5, 1, 4, 7, 6]` |
+| 3 | 5 | sim | `i = 2`, troca(2,3) | `[3, 2, 5, 8, 1, 4, 7, 6]` |
+| 4 | 1 | sim | `i = 3`, troca(3,4) | `[3, 2, 5, 1, 8, 4, 7, 6]` |
+| 5 | 4 | sim | `i = 4`, troca(4,5) | `[3, 2, 5, 1, 4, 8, 7, 6]` |
+| 6 | 7 | não | nada | `[3, 2, 5, 1, 4, 8, 7, 6]` |
+| fim | | | troca(5,7): pivô no lugar | `[3, 2, 5, 1, 4, 6, 7, 8]` |
 
-Resultado: $q = 5$, partes de tamanho 5 e 2, com $7 = n-1$ comparações.
+Resultado: $q = 5$. À esquerda ficam 5 elementos menores que 6 e à direita
+2 maiores. Foram feitas $7 = n - 1$ comparações.
+
+## Por que Lomuto e não Hoare
+
+O enunciado permite escolher entre Lomuto e Hoare. Foi escolhido o
+**Lomuto** pelos seguintes motivos:
+
+1. **No Lomuto o pivô termina na posição definitiva.** Depois de
+   particionar, o pedaço fica dividido em `v[ini..q-1]` e `v[q+1..fim]`, com
+   exatamente $k$ e $n-1-k$ elementos. É exatamente a forma das recorrências
+   da análise, $T(n) = T(k) + T(n-1-k) + cn$.
+2. **Isso torna possível a versão Proporcional.** Para forçar a divisão
+   $\alpha : (1-\alpha)$ basta escolher como pivô o elemento certo. No Hoare
+   o pivô **não** fica necessariamente na posição final, e onde o vetor é
+   dividido depende de como os dados estão arrumados. Assim, seria muito
+   mais difícil garantir o tamanho de cada lado.
+3. **É mais simples de entender e de analisar:** um único laço, sempre
+   $n - 1$ comparações.
+
+A desvantagem conhecida do Lomuto é ficar ruim quando há muitos elementos
+**repetidos**, e ele costuma fazer mais trocas que o Hoare. A primeira não
+ocorre aqui, porque os vetores não têm repetidos. A segunda só muda a
+constante, não a complexidade.
 
 ## Versão i: pivô aleatório
 
-`escolherPivo` devolve `p + rnd.nextInt(r - p + 1)`, um índice sorteado de
-forma uniforme entre as $r-p+1$ posições do subarranjo. Usa-se
-`java.util.Random` com semente fixa para os experimentos serem reproduzíveis.
+1. Sorteia uma posição `p` entre `ini` e `fim`:
+   `p = ini + rand.nextInt(fim - ini + 1)`.
+2. **Troca `v[p]` com `v[fim]`.** Isso é necessário porque o Lomuto sempre
+   usa o **último** elemento como pivô. A troca leva o elemento sorteado para
+   o lugar onde o particionamento espera o pivô.
+3. Chama `particionar` e continua nos dois lados (ver o tratamento do
+   StackOverflow, mais abaixo).
 
 ## Versão ii: QuickSort Proporcional
 
-Para dividir um subarranjo de $n$ elementos na razão $\alpha:(1-\alpha)$,
-a parte esquerda deve ter
+Para um pedaço com $n$ elementos, o lado esquerdo deve ter
 
-$$k = \lfloor \alpha\,(n-1) \rfloor$$
+$$k = \lfloor \alpha \cdot (n-1) \rfloor$$
 
-elementos (os $n-1$ elementos que não são o pivô são repartidos), e a
-direita $n-1-k$. Para isso, o pivô deve ser o **$(k+1)$-ésimo menor
-elemento** de `A[p..r]`.
+elementos e o direito $n-1-k$ (o $-1$ é porque o pivô não fica em nenhum dos
+lados). Para isso, o pivô precisa ser o **$(k+1)$-ésimo menor** elemento do
+pedaço.
 
-**Como achá-lo.** O QuickSort mantém uma propriedade importante: depois de
-cada particionamento, o subarranjo `A[p..r]` contém **exatamente** os
-elementos que ocuparão as posições $p..r$ no vetor ordenado. Como a entrada
-é uma permutação de $1..n$ (e os índices em Java começam em 0), o
-subarranjo `A[p..r]` contém exatamente os valores $\{p+1, \ldots, r+1\}$.
-Logo, o pivô procurado é o **valor $p+1+k$**, e basta uma busca linear para
-achar sua posição.
+**Como o pivô é encontrado: `valor = ini + 1 + k`.** O vetor é uma
+permutação de 1 a $n$. Depois de cada particionamento, cada pedaço
+`v[ini..fim]` contém **exatamente** os valores que vão ocupar essas posições
+no vetor ordenado. No vetor ordenado, a posição $x$ guarda o valor $x+1$,
+porque o Java começa a contar as posições do 0 e os valores começam no 1.
+Então o pedaço contém os valores $\text{ini}+1, \text{ini}+2, \ldots,
+\text{fim}+1$. O menor deles é $\text{ini}+1$, e o $(k+1)$-ésimo menor é
+$\text{ini}+1+k$.
 
-Essa busca custa $\Theta(n)$, o mesmo que o próprio particionamento.
-Portanto ela só aumenta a constante $c$ do termo $cn$ da recorrência; a
-complexidade assintótica não muda. (Para entradas quaisquer, o mesmo efeito
-seria obtido com um algoritmo de seleção em tempo linear, como o da
-*mediana das medianas*, também $\Theta(n)$. Como o enunciado garante
-permutações de $1..n$, foi usada a busca, que é mais simples.) Se o valor
-não for encontrado, o programa lança uma exceção, avisando que a entrada não
-é uma permutação.
+O programa procura esse valor com uma busca linear (`while (v[p] != valor)
+p++;`), troca-o com `v[fim]` e particiona.
 
-Com $\alpha = 0$ tem-se $k = 0$: o pivô é sempre o **menor** elemento e a
-partição é sempre $0$ e $n-1$. Esse valor é usado só no Experimento 2, para
-demonstrar o caso não proporcional.
+**Exemplo:** pedaço inteiro de um vetor de 1 a 8 (`ini = 0`, `fim = 7`,
+$n = 8$) com $\alpha = 1/4$: $k = \lfloor \text{0,25} \cdot 7 \rfloor = 1$, e o
+pivô é o valor $0 + 1 + 1 = 2$. Depois de particionar, fica 1 elemento à
+esquerda (o valor 1) e 6 à direita (os valores 3 a 8).
 
-## Tratamento do `StackOverflowError`
+## Tratamento do StackOverflowError
 
-Na versão "de livro", o QuickSort faz duas chamadas recursivas. Quando as
-partições são ruins (por exemplo, $0$ e $n-1$), a recursão chega a
-profundidade $n-1$; com $n$ na casa das dezenas de milhares a pilha da JVM
-estoura e ocorre `StackOverflowError`.
+**O que causa.** No QuickSort "de livro" há duas chamadas recursivas. Se as
+divisões forem ruins (por exemplo, sempre 0 e $n-1$), cada chamada abre
+outra com só um elemento a menos. A pilha chega a $n$ chamadas, e com $n$ na
+casa das dezenas de milhares o Java estoura a pilha
+(`StackOverflowError`).
 
-**Decisão tomada:** fazer a chamada recursiva **apenas para a parte menor**
-e tratar a **parte maior por iteração**, com um laço `while` que reaproveita
-a mesma chamada (eliminação da recursão de cauda):
+**O que foi feito.** A recursão é feita **só no lado menor**. O **lado
+maior** é tratado pelo próprio `while`: em vez de chamar a função de novo,
+o programa atualiza `ini` ou `fim` e o laço continua.
 
 ```java
-while (p < r) {
-    int iPivo = escolherPivo(A, p, r);
-    Particionamento.trocar(A, iPivo, r);
-    int q = Particionamento.lomuto(A, p, r, est);
-    if (q - p < r - q) {            // esquerda é a menor
-        quickSort(A, p, q - 1, ...); // recursão na menor
-        p = q + 1;                   // laço continua na maior
-    } else {                         // direita é a menor
-        quickSort(A, q + 1, r, ...);
-        r = q - 1;
-    }
+if (q - ini < fim - q) {               // esquerda é menor
+    quickSortAleatorio(v, ini, q - 1); // recursão no menor
+    ini = q + 1;                       // o laço continua no maior
+} else {                               // direita é menor
+    quickSortAleatorio(v, q + 1, fim);
+    fim = q - 1;
 }
 ```
 
-Por que funciona: a parte menor tem **no máximo metade** dos elementos.
-Assim, cada nova chamada empilhada recebe no máximo metade do tamanho da
-anterior, e a profundidade da pilha fica limitada a $\log_2 n$ (cerca de
-20 para $n = 10^6$), **em qualquer caso, inclusive no pior**. O número de
-comparações e o tempo não mudam; muda apenas o uso de memória da pilha, de
-$O(n)$ para $O(\log n)$. Não foi preciso aumentar o tamanho da pilha da JVM
-(`-Xss`).
+O `if (q - ini < fim - q)` compara os tamanhos dos dois lados. O lado
+esquerdo `v[ini..q-1]` tem `q - ini` elementos e o direito `v[q+1..fim]` tem
+`fim - q`.
+
+**Por que funciona.** O lado menor tem **no máximo metade** dos elementos.
+Então cada chamada recursiva recebe no máximo metade do pedaço anterior:
+$n, n/2, n/4, \ldots$ Depois de $\log_2 n$ chamadas o pedaço tem 1
+elemento, então a pilha tem no máximo cerca de $\log_2 n$ chamadas
+(aproximadamente 20 para $n = 1\,000\,000$). Isso vale **mesmo no pior
+caso**. O número de operações não muda; muda só a memória usada pela pilha,
+que cai de $O(n)$ para $O(\log n)$.
 
 ```
- Versão ingênua (partição 0 / n-1)     Versão usada
- pilha:  quickSort(n)                   pilha: quickSort(n)  ── laço: n, n-1, n-2, ... 1
-          quickSort(n-1)                         └ quickSort(0)  (parte menor, retorna logo)
-           quickSort(n-2)
-            ...           ← n níveis    profundidade máxima: 2
+ Sem o tratamento (divisão 0 / n-1)      Com o tratamento
+ quickSort(n)                            quickSort(n)  → laço: n, n-1, n-2, ..., 1
+   quickSort(n-1)                          └ quickSort(0)   (lado menor, volta na hora)
+     quickSort(n-2)
+       ...          ← n chamadas         ← no máximo 2 chamadas empilhadas
 ```
 
-No Experimento 2 o programa mede isso: com $n = 20\,000$ e partições
-$0$ / $n-1$, a árvore de recursão tem altura $19\,998$, mas a pilha real
-nunca passa de 2 chamadas.
+## Decisões sobre casos omissos
 
-O programa distingue, portanto, duas medidas:
-
-* **altura da árvore de recursão** ($h_{\min}$ e $h_{\max}$): a estrutura
-  lógica das subdivisões, a mesma da análise teórica. Cada subarranjo filho
-  conta como um nível a mais, seja ele tratado por recursão ou por iteração;
-* **profundidade da pilha**: quantas chamadas estão de fato empilhadas.
+* **Como o pivô do Proporcional é encontrado:** pelo valor
+  `ini + 1 + k` e uma busca linear, como explicado acima. A busca custa
+  $\Theta(n)$, o mesmo que o particionamento, então só aumenta a constante
+  $c$ do termo $cn$ e não muda a complexidade. Isso só funciona porque a
+  entrada é uma permutação de 1 a $n$, como o enunciado garante. Para
+  entradas quaisquer seria preciso um algoritmo de seleção (por exemplo, a
+  *mediana das medianas*, que também é $\Theta(n)$).
+* **Arredondamento de $k$:** `(int)` corta a parte decimal, ou seja,
+  arredonda para baixo. Como $\alpha \le 1/2$, o lado esquerdo é sempre o
+  menor ou igual ao direito.
+* **Pedaços pequenos:** quando $n$ é pequeno, não dá para dividir
+  exatamente em $\alpha$. Por exemplo, com $\alpha = 1/4$ e $n = 3$,
+  $k = \lfloor \text{0,5} \rfloor = 0$, e a divisão fica 0 e 2. Isso só
+  acontece quando $\alpha(n-1) < 1$, ou seja, nos pedaços com menos de
+  $1/\alpha + 1$ elementos (menos de 5 para $\alpha = 1/4$). Esses pedaços
+  ficam só nos últimos níveis da recursão e têm tamanho constante, então não
+  mudam a complexidade.
+* **$\alpha$ fora do intervalo:** o programa usa só $\alpha = 1/2$ e
+  $\alpha = 1/4$. A partição 90%–10% não foi usada, como pede o enunciado.
 
 ## Geração dos vetores
 
-`GeradorPermutacoes.gerar(n)` preenche o vetor com $1, 2, \ldots, n$ e o
-embaralha com o algoritmo de **Fisher–Yates**: para $i$ de $n-1$ até $1$,
-troca a posição $i$ com uma posição sorteada em $[0, i]$. Isso produz cada
-uma das $n!$ permutações com a mesma probabilidade, em tempo $\Theta(n)$, e
-garante que não há valores repetidos. A semente é configurável, de modo que
-os mesmos vetores podem ser gerados de novo.
+`gerarVetor(n)` coloca $1, 2, \ldots, n$ no vetor e embaralha com o
+algoritmo de **Fisher–Yates**: de trás para frente, troca cada posição $i$
+com uma posição sorteada entre 0 e $i$. Assim não há repetidos, toda
+permutação tem a mesma chance de sair e o custo é $\Theta(n)$.
 
 ## Entrada e saída
 
-* **Entrada:** argumentos opcionais na linha de comando (tamanhos,
-  repetições, semente). Os vetores são gerados pelo próprio programa.
-* **Saída:** uma tabela no console para cada versão e o arquivo
-  `resultados.csv`. As colunas são: $n$; número médio de comparações; valor
-  previsto pela análise; razão comparações $/(n \log_2 n)$; constante
-  assintótica teórica; $h_{\min}$ e $h_{\max}$ medidos e previstos;
-  profundidade máxima da pilha; e tempo médio em milissegundos.
-* Se alguma ordenação produzir um resultado errado, o programa para com
-  uma exceção.
+* **Entrada:** não há entrada do usuário. Os vetores são gerados pelo
+  programa, nos tamanhos $1\,000$, $10\,000$, $100\,000$ e $1\,000\,000$.
+* **Saída:** para cada tamanho e cada versão, o **tempo médio** de 5
+  execuções (em milissegundos, medido com `System.nanoTime()`) e se o vetor
+  ficou **ordenado** (`true`/`false`).
 
-## Resultados obtidos
-
-Saída do programa (semente 42, 5 repetições; os tempos variam conforme a
-máquina):
+Exemplo de saída (os tempos mudam de máquina para máquina e de execução para
+execução):
 
 ```
-QuickSort pivo aleatorio
-         n      comparacoes         previsao   C/nlog2n  assint.   hmin   prev   hmax   prev  pilha
-      1000            11110            10986      1.115    1.386      3            22             8
-     10000           152811           155772      1.150    1.386      4            32            10
-    100000          2023248          2018053      1.218    1.386      4            41            13
-   1000000         25022134         24785482      1.255    1.386      6            51            14
-
-QuickSort proporcional alfa=1/2
-      1000             7987             7987      0.801    1.000      9   10.0      8   10.0     10
-     10000           113631           113631      0.855    1.000     12   13.3     12   13.3     13
-    100000          1468946          1468946      0.884    1.000     16   16.6     15   16.6     17
-   1000000         17951445         17951445      0.901    1.000     19   19.9     18   19.9     20
-
-QuickSort proporcional alfa=1/4
-      1000            10001            10001      1.004    1.233      5    5.0     20   24.0      6
-     10000           141583           141583      1.066    1.233      7    6.6     28   32.0      8
-    100000          1824864          1824864      1.099    1.233      8    8.3     36   40.0      9
-   1000000         22303483         22303483      1.119    1.233     10   10.0     44   48.0     11
-
-QuickSort proporcional alfa=0 (degenerado, partição 0 e n-1)
-         n      comparacoes         n(n-1)/2                     hmin          hmax         pilha
-      1000           499500           499500                        1           998             2
-      5000         12497500         12497500                        1          4998             2
-     20000        199990000        199990000                        1         19998             2
+n = 1000
+  Aleatorio:                       0.28 ms  ordenado = true
+  Proporcional (alfa = 0.50):      0.11 ms  ordenado = true
+  Proporcional (alfa = 0.25):      0.06 ms  ordenado = true
+n = 10000
+  Aleatorio:                       0.83 ms  ordenado = true
+  Proporcional (alfa = 0.50):      0.88 ms  ordenado = true
+  Proporcional (alfa = 0.25):      0.79 ms  ordenado = true
+n = 100000
+  Aleatorio:                       9.08 ms  ordenado = true
+  Proporcional (alfa = 0.50):      9.53 ms  ordenado = true
+  Proporcional (alfa = 0.25):      7.81 ms  ordenado = true
+n = 1000000
+  Aleatorio:                     103.75 ms  ordenado = true
+  Proporcional (alfa = 0.50):     98.05 ms  ordenado = true
+  Proporcional (alfa = 0.25):     86.24 ms  ordenado = true
 ```
 
-Observações:
-
-* **Pivô aleatório:** a média medida fica muito próxima do valor esperado
-  exato $2(n+1)H_n - 4n$ deduzido na Parte II (diferença abaixo de 2%).
-* **Proporcional:** o número de comparações é **idêntico** ao valor obtido
-  resolvendo numericamente a recorrência
-  $C(n) = (n-1) + C(k) + C(n-1-k)$, o que confirma que a implementação força
-  exatamente a divisão pretendida. As alturas medidas acompanham
-  $\log_{1/\alpha} n$ e $\log_{1/(1-\alpha)} n$ (ficam um pouco abaixo por
-  causa dos arredondamentos e porque a recursão para em tamanho 1).
-* A razão $C/(n\log_2 n)$ cresce devagar em direção à constante assintótica,
-  porque termos de ordem $n$ (negativos) ainda pesam para os valores de
-  $n$ usados.
-* **Não proporcional:** exatamente $n(n-1)/2$ comparações, ou seja,
-  crescimento quadrático: multiplicar $n$ por 4 (de 5 000 para 20 000)
-  multiplicou as comparações por 16.
+Ao multiplicar $n$ por 10, o tempo cresce um pouco mais que 10 vezes, como
+se espera de $n \log n$. Os tempos pequenos ($n = 1\,000$) não são
+confiáveis, porque o Java ainda está "aquecendo" (compilação JIT) e a medida
+fica muito curta. Por isso as conclusões sobre complexidade vêm da análise,
+e não dos tempos.
 
 # C. Análise de complexidade
 
-Notação: $T(n)$ é o tempo para ordenar um subarranjo de $n$ elementos, e $c$
-é uma constante positiva. Os logaritmos sem base indicada podem ser tomados
-em qualquer base, pois diferem só por uma constante.
+$T(n)$ é o tempo para ordenar um pedaço de $n$ elementos e $c$ é uma
+constante positiva.
 
 ## i. Procedimento de particionamento (Lomuto)
 
-Para um subarranjo `A[p..r]` com $n = r-p+1$ elementos:
+Para um pedaço com $n = \text{fim} - \text{ini} + 1$ elementos:
 
-* antes do laço há duas atribuições (`pivo = A[r]`, `i = p-1`): custo
-  constante $a$;
-* o laço `for` executa para $j = p, \ldots, r-1$, isto é, **exatamente
-  $n-1$ vezes**, para qualquer entrada. Em cada volta há **uma**
-  comparação `A[j] <= pivo` e, no máximo, um incremento e uma troca: custo
-  de cada volta entre $b_1$ e $b_2$, constantes;
-* depois do laço há uma troca e o retorno: custo constante $d$.
+* antes do laço há duas atribuições: custo constante;
+* o olheiro `j` vai de `ini` até `fim - 1`, então o laço roda **exatamente
+  $n-1$ vezes**, para qualquer vetor. Cada volta faz uma comparação e, no
+  máximo, um incremento e uma troca: custo constante por volta;
+* depois do laço há uma troca e o `return`: custo constante.
 
-Então o custo total satisfaz
+Logo, com constantes $a$, $b_1$ e $b_2$:
 
-$$a + d + b_1(n-1) \;\le\; P(n) \;\le\; a + d + b_2(n-1).$$
+$$a + b_1(n-1) \;\le\; P(n) \;\le\; a + b_2(n-1).$$
 
-O lado direito mostra que $P(n) = O(n)$; o lado esquerdo mostra que
-$P(n) = \Omega(n)$, porque o laço é percorrido inteiro **sempre**,
-independentemente de quais elementos são menores ou maiores que o pivô
-(não existe "saída antecipada"). Logo
+O lado direito mostra que $P(n) = O(n)$. O esquerdo mostra que
+$P(n) = \Omega(n)$, porque o olheiro **sempre** percorre o pedaço inteiro
+(não existe saída antecipada). Portanto
 
 $$P(n) = \Theta(n).$$
 
-A escolha do pivô também é no máximo linear: $\Theta(1)$ no aleatório e
-$\Theta(n)$ (busca linear) no proporcional. Somando tudo o que o QuickSort
-faz em uma chamada antes de recursionar, o custo é $\Theta(n)$, ou seja, no
-máximo e no mínimo proporcional a $n$. Esse é o termo **$cn$** que aparece
-em todas as recorrências a seguir.
+Somando a escolha do pivô ($\Theta(1)$ no aleatório e $\Theta(n)$ na busca
+do proporcional), o trabalho feito em cada chamada, fora as chamadas
+recursivas, é $\Theta(n)$. **Esse é o termo $cn$ que aparece em todas as
+recorrências a seguir.**
 
 ## ii. QuickSort com pivô aleatório (caso médio)
 
 ### Recorrência
 
-O pivô é sorteado uniformemente entre os $n$ elementos. Como os valores são
-distintos, cada elemento tem um **posto** (posição no vetor ordenado)
-diferente. Se o pivô sorteado tem posto $k+1$, a parte esquerda fica com $k$
-elementos e a direita com $n-1-k$. Portanto o tamanho $k$ da parte esquerda
-vale $0, 1, \ldots, n-1$, cada um com probabilidade $1/n$. Tomando a média
-sobre essas $n$ possibilidades:
+O pivô é sorteado entre os $n$ elementos, todos diferentes. Se o pivô
+sorteado é o $(k+1)$-ésimo menor, o lado esquerdo fica com $k$ elementos e o
+direito com $n-1-k$. Como o sorteio é uniforme, $k$ pode ser
+$0, 1, \ldots, n-1$, cada um com probabilidade $1/n$. Fazendo a média:
 
-$$T(n) = \frac{1}{n}\sum_{k=0}^{n-1}\bigl[T(k) + T(n-1-k)\bigr] + cn, \qquad T(0) = T(1) = 0 \text{ (ou constante)}.$$
+$$T(n) = \frac{1}{n}\sum_{k=0}^{n-1}\bigl[T(k) + T(n-1-k)\bigr] + cn, \qquad T(0) = T(1) = 0.$$
 
-### Juntando os dois somatórios em um só
+### Por que os dois somatórios viram um só
 
-Separando a soma em duas:
+Separando:
 
 $$\sum_{k=0}^{n-1} T(k) = T(0) + T(1) + \cdots + T(n-1)$$
 
 $$\sum_{k=0}^{n-1} T(n-1-k) = T(n-1) + T(n-2) + \cdots + T(0)$$
 
-São **os mesmos termos**, só que o segundo está em ordem inversa (quando
-$k$ vai de $0$ a $n-1$, $n-1-k$ vai de $n-1$ a $0$). Logo as duas somas são
-iguais, e
+São **os mesmos termos em ordem inversa**: quando $k$ vai de $0$ a $n-1$,
+$n-1-k$ vai de $n-1$ a $0$. Então as duas somas são iguais:
 
 $$T(n) = \frac{2}{n}\sum_{k=0}^{n-1} T(k) + cn. \qquad (1)$$
 
-Intuitivamente: cada tamanho $j$ aparece duas vezes, uma vez como "parte
-esquerda" e outra como "parte direita".
+Cada tamanho aparece duas vezes: uma como lado esquerdo e outra como lado
+direito.
 
 ### Eliminando o somatório
 
@@ -399,12 +347,11 @@ Multiplicando (1) por $n$:
 
 $$n\,T(n) = 2\sum_{k=0}^{n-1} T(k) + cn^2. \qquad (2)$$
 
-A mesma equação, escrita para $n-1$:
+Escrevendo a mesma coisa para $n-1$:
 
 $$(n-1)\,T(n-1) = 2\sum_{k=0}^{n-2} T(k) + c(n-1)^2. \qquad (3)$$
 
-Subtraindo (3) de (2), quase todo o somatório se cancela; sobra apenas o
-termo $k = n-1$:
+Fazendo (2) − (3), os somatórios se cancelam e sobra só o termo $k = n-1$:
 
 $$n\,T(n) - (n-1)\,T(n-1) = 2\,T(n-1) + c\bigl(n^2 - (n-1)^2\bigr) = 2\,T(n-1) + c(2n-1).$$
 
@@ -412,15 +359,15 @@ Passando $(n-1)T(n-1)$ para a direita:
 
 $$n\,T(n) = (n+1)\,T(n-1) + c(2n-1).$$
 
-Agora divide-se tudo por $n(n+1)$, para que o lado esquerdo e o primeiro
-termo da direita fiquem com a "mesma cara":
+Dividindo tudo por $n(n+1)$:
 
 $$\frac{T(n)}{n+1} = \frac{T(n-1)}{n} + \frac{c(2n-1)}{n(n+1)}. \qquad (4)$$
 
 ### Telescopando até $T(1)$
 
-Chamando $S(n) = \dfrac{T(n)}{n+1}$, a equação (4) diz que
-$S(n) = S(n-1) + c\,\dfrac{2n-1}{n(n+1)}$. Aplicando-a repetidamente:
+Chamando $S(n) = \dfrac{T(n)}{n+1}$, a equação (4) fica
+$S(n) = S(n-1) + c\,\dfrac{2n-1}{n(n+1)}$. Aplicando de novo para
+$S(n-1)$, depois $S(n-2)$, e assim por diante, até chegar em $S(1)$:
 
 $$
 \begin{aligned}
@@ -431,17 +378,16 @@ S(n) &= S(n-1) + c\,\dfrac{2n-1}{n(n+1)}\\
 \end{aligned}
 $$
 
-Cada termo cancela o anterior, como as partes de uma luneta que se fecha
-(daí o nome *telescopar*): sobram só o primeiro termo, $S(1)$, e a soma
-das parcelas.
+Todos os $S$ intermediários somem; sobram só $S(1)$ e a soma das parcelas.
+Esse é o "telescópio".
 
 ### Relação com a série harmônica
 
-Decompondo a fração em frações parciais:
+Usando frações parciais:
 
 $$\frac{2i-1}{i(i+1)} = \frac{3}{i+1} - \frac{1}{i}$$
 
-(confere: $\frac{3i - (i+1)}{i(i+1)} = \frac{2i-1}{i(i+1)}$). Usando a
+(conferindo: $\frac{3i - (i+1)}{i(i+1)} = \frac{2i-1}{i(i+1)}$). Com a
 **série harmônica** $H_n = 1 + \frac12 + \frac13 + \cdots + \frac1n$:
 
 $$\sum_{i=2}^{n}\frac{3}{i+1} = 3\left(H_{n+1} - 1 - \tfrac12\right), \qquad \sum_{i=2}^{n}\frac{1}{i} = H_n - 1.$$
@@ -450,242 +396,213 @@ Como $H_{n+1} = H_n + \frac{1}{n+1}$:
 
 $$\sum_{i=2}^{n}\frac{2i-1}{i(i+1)} = 2H_n + \frac{3}{n+1} - \frac72.$$
 
-Voltando para $T(n) = (n+1)\,S(n)$:
+Voltando para $T(n) = (n+1)\,S(n)$, com $S(1) = T(1)/2 = 0$:
 
-$$T(n) = (n+1)\left[\,S(1) + c\left(2H_n + \frac{3}{n+1} - \frac72\right)\right] = 2c\,(n+1)H_n + O(n).$$
+$$T(n) = c\,(n+1)\left(2H_n + \frac{3}{n+1} - \frac72\right) = 2c\,(n+1)H_n + O(n).$$
 
-A série harmônica cresce como o logaritmo natural:
-$H_n = \ln n + \gamma + O(1/n)$, com $\gamma \approx \text{0,577}$ (constante de
-Euler–Mascheroni). Isso pode ser visto comparando a soma com a área sob
-$1/x$: $\ln(n+1) \le H_n \le 1 + \ln n$. Portanto
+A série harmônica cresce como o logaritmo: $\ln(n+1) \le H_n \le 1 + \ln n$,
+ou seja, $H_n \approx \ln n$. Então
 
-$$T(n) = 2c\,n\ln n + O(n) \approx \text{1,39}\,c\,n\log_2 n,$$
-
-$$\boxed{T(n) = \Theta(n \log n) \text{ (tempo esperado)}}$$
-
-**Conferência com o número exato de comparações.** Se em vez de $cn$ usamos
-o custo exato do Lomuto, $n-1$ comparações, a mesma dedução (com
-$\frac{2(i-1)}{i(i+1)} = \frac{4}{i+1} - \frac{2}{i}$ e $C(1) = 0$) dá
-
-$$E[C(n)] = 2(n+1)H_n - 4n.$$
-
-É esse o valor da coluna "previsão" do programa. Para $n = 10^6$ dá
-$24\,785\,482$, e a média medida foi $25\,022\,134$ (diferença de cerca de 1%).
+$$T(n) \approx 2c\,n\ln n \approx \text{1,39}\,c\,n\log_2 n \qquad\Longrightarrow\qquad \boxed{T(n) = \Theta(n \log n) \text{ no caso médio}}$$
 
 ### Por que vale para qualquer sequência de entrada
 
-Na análise acima, a aleatoriedade **não está nos dados**, mas nas escolhas
-do algoritmo. Para qualquer entrada fixa (ordenada, invertida, a pior
-imaginável), o pivô sorteado em um subarranjo de tamanho $m$ é o elemento
-de posto $j$ com probabilidade $1/m$, para cada $j$, porque o sorteio é
-uniforme sobre as posições e os valores são distintos. Ou seja, a
-distribuição dos tamanhos das partições é **sempre** uniforme, e a
-recorrência (1) vale igualmente para todas as entradas. Nenhuma entrada
-específica consegue "enganar" o algoritmo de forma sistemática: o tempo
-**esperado** é $\Theta(n\log n)$ para toda entrada. (Diferente do QuickSort
-com pivô fixo, por exemplo o último elemento, em que uma entrada já ordenada
-provoca sempre o pior caso.)
+A aleatoriedade está **no algoritmo** (no sorteio do pivô), e não nos
+dados. Para **qualquer** vetor de entrada, seja ordenado, invertido ou
+qualquer outro, o pivô sorteado num pedaço de tamanho $m$ tem a mesma chance
+$1/m$ de ser o 1º, o 2º, …, o $m$-ésimo menor. Então a recorrência acima vale
+igual para todas as entradas, e nenhum vetor consegue forçar o algoritmo a
+ir mal. É como sortear o juiz: ninguém consegue escolher um jogo
+"armado". Isso é diferente de usar sempre o último elemento como pivô, em
+que um vetor já ordenado sempre dá o pior caso.
 
-### O pior caso ainda pode ocorrer
+### O pior caso ainda pode ocorrer?
 
-Sim. Nada impede que, por azar, o sorteio escolha sempre o menor (ou o
-maior) elemento do subarranjo. Aí as partições são sempre $0$ e $n-1$ e o
-tempo é $\Theta(n^2)$ (ver o final do item iii). A diferença é que isso
-deixa de depender da entrada e passa a depender só da sorte, e a
-probabilidade é minúscula: em cada subarranjo de tamanho $m$ a chance de
-escolher um extremo é $2/m$, e precisa acontecer em quase todos os níveis,
-o que dá probabilidade $\prod_{m=2}^{n} \frac{2}{m} = \frac{2^{n-1}}{n!}$,
-desprezível já para $n$ pequeno ($\approx \text{1,4}\times10^{-4}$ para
-$n = 10$). Em resumo: **pior caso $\Theta(n^2)$, caso esperado
-$\Theta(n\log n)$, melhor caso $\Theta(n\log n)$.**
+**Pode, mas é muito improvável.** Nada impede o sorteio de escolher, por
+azar, sempre o menor ou o maior elemento. Nesse caso as divisões são 0 e
+$n-1$ e o tempo é $\Theta(n^2)$ (ver o fim do item iii). Num pedaço de
+tamanho $m$ a chance de sortear um extremo é $2/m$. Para isso acontecer em
+todos os níveis, a probabilidade é
 
-## iii. QuickSort Proporcional
+$$\frac{2}{n}\cdot\frac{2}{n-1}\cdots\frac{2}{2} = \frac{2^{n-1}}{n!},$$
 
-Supõe-se que o pivô sempre divide o subarranjo de tamanho $n$ em partes de
-tamanho $\alpha n$ e $(1-\alpha)n$, com $0 < \alpha \le 1/2$ constante
-(desprezando arredondamentos e o próprio pivô, que não alteram a ordem de
-grandeza):
+que já é cerca de $\text{0,00014}$ para $n = 10$ e praticamente zero para $n$
+grande. Resumo: **melhor caso e caso médio $\Theta(n\log n)$, pior caso
+$\Theta(n^2)$, mas raríssimo e sem depender da entrada.**
+
+## iii. QuickSort Proporcional ($\alpha = 1/2$ e $\alpha = 1/4$)
+
+Todo pedaço de tamanho $n$ é dividido em $\alpha n$ e $(1-\alpha)n$
+(desprezando arredondamentos e o pivô, que não mudam a ordem de grandeza):
 
 $$T(n) = T(\alpha n) + T\bigl((1-\alpha)n\bigr) + cn.$$
 
-Primeiro faz-se a análise para um $\alpha$ genérico, e depois aplica-se aos
-valores escolhidos, **$\alpha = 1/2$** e **$\alpha = 1/4$**.
-
 ### Árvore de recursão (caso geral)
 
-Cada nó mostra o tamanho do subproblema; seu custo é $c$ vezes esse tamanho.
+Cada nó mostra o tamanho do pedaço; o custo do nó é $c$ vezes esse tamanho.
 
 ```
-nível 0:                              n                                   custo: cn
-                         ┌────────────┴────────────┐
-nível 1:                αn                      (1-α)n                    custo: cαn + c(1-α)n = cn
-                  ┌──────┴──────┐           ┌──────┴──────┐
-nível 2:        α²n         α(1-α)n      α(1-α)n       (1-α)²n            custo: c(α + (1-α))²n = cn
-               ┌──┴──┐      ┌──┴──┐      ┌──┴──┐       ┌──┴──┐
-nível 3:    α³n α²(1-α)n  α²(1-α)n α(1-α)²n ...  α(1-α)²n (1-α)³n        custo: c(α + (1-α))³n = cn
-                ⋮                                          ⋮
-   ramo mais curto: α^i n                    ramo mais longo: (1-α)^i n
+nível 0:                          n                                     custo: cn
+                     ┌────────────┴────────────┐
+nível 1:            αn                      (1-α)n                      custo: cαn + c(1-α)n = cn
+               ┌─────┴─────┐            ┌──────┴──────┐
+nível 2:     α²n       α(1-α)n      α(1-α)n       (1-α)²n               custo: c(α + 1-α)²n = cn
+            ┌─┴─┐       ┌─┴─┐        ┌─┴─┐         ┌─┴─┐
+nível 3:  α³n  α²(1-α)n ...          ...    α(1-α)²n  (1-α)³n           custo: c(α + 1-α)³n = cn
+            ⋮                                            ⋮
+   ramo mais curto: αⁱn                       ramo mais longo: (1-α)ⁱn
 ```
 
-No nível 3 há um nó de tamanho $\alpha^3 n$, três de tamanho
-$\alpha^2(1-\alpha)n$, três de tamanho $\alpha(1-\alpha)^2 n$ e um de
-tamanho $(1-\alpha)^3 n$. Esses são os termos do binômio
-$(\alpha + (1-\alpha))^3$, cuja soma é $1^3 = 1$. O mesmo vale para todo
-nível $i$: a soma dos tamanhos é $(\alpha + (1-\alpha))^i\,n = n$. Isso faz
-sentido: cada nível apenas reparte os mesmos elementos (menos os pivôs) em
-pedaços menores. Portanto:
+No nível 3 há um pedaço de tamanho $\alpha^3 n$, três de
+$\alpha^2(1-\alpha)n$, três de $\alpha(1-\alpha)^2 n$ e um de
+$(1-\alpha)^3 n$. Esses são os termos de $(\alpha + (1-\alpha))^3 = 1$,
+então a soma é $n$. Isso faz sentido, porque cada nível só reparte os mesmos
+elementos em pedaços menores. Portanto:
 
-* **todo nível completo custa exatamente $cn$**;
-* os níveis depois que o ramo mais curto terminou estão incompletos e
-  custam **no máximo $cn$**.
+* **todo nível completo custa $cn$**;
+* os níveis de baixo, depois que o ramo mais curto acabou, estão
+  incompletos e custam **no máximo $cn$**.
 
-**Exemplo com $\alpha = 1/4$:**
+### Exemplo com $\alpha = 1/4$
 
 ```
-nível 0:                         n                                            cn
-                    ┌────────────┴────────────┐
-nível 1:          n/4                       3n/4                              cn
-               ┌───┴───┐              ┌──────┴──────┐
-nível 2:     n/16    3n/16          3n/16          9n/16                      cn
-            ┌─┴─┐    ┌─┴─┐          ┌─┴─┐          ┌─┴─┐
-nível 3: n/64 3n/64 3n/64 9n/64  3n/64 9n/64    9n/64 27n/64                  cn
+nível 0:                          n                                        cn
+                     ┌────────────┴────────────┐
+nível 1:            n/4                      3n/4                          cn
+                ┌───┴───┐               ┌──────┴──────┐
+nível 2:      n/16    3n/16           3n/16          9n/16                 cn
+             ┌─┴─┐    ┌─┴─┐           ┌─┴─┐          ┌─┴─┐
+nível 3:  n/64 3n/64 3n/64 9n/64   3n/64 9n/64    9n/64 27n/64             cn
 ```
 
-(Conferindo o nível 3: $\frac{1 + 3 + 3 + 9 + 3 + 9 + 9 + 27}{64} = \frac{64}{64} = 1$.)
+Conferindo o nível 3: $\frac{1+3+3+9+3+9+9+27}{64} = \frac{64}{64} = 1$, ou
+seja, soma $n$.
 
-**Exemplo com $\alpha = 1/2$:** todos os nós de um nível têm o mesmo
-tamanho: $n$; $n/2, n/2$; quatro vezes $n/4$; oito vezes $n/8$; e assim por
-diante. Cada nível custa $cn$ e a árvore é perfeitamente equilibrada.
+### Exemplo com $\alpha = 1/2$
 
-### Altura do ramo mais curto e do mais longo
+```
+nível 0:                 n                          cn
+                   ┌─────┴─────┐
+nível 1:          n/2         n/2                   cn
+                ┌──┴──┐     ┌──┴──┐
+nível 2:       n/4   n/4   n/4   n/4                cn
+              ┌┴┐   ┌┴┐   ┌┴┐   ┌┴┐
+nível 3:   n/8 n/8 n/8 n/8 n/8 n/8 n/8 n/8          cn
+```
 
-O **ramo mais curto** segue sempre a parte menor: no nível $i$ o tamanho é
-$\alpha^i n$. Ele termina quando chega a 1:
+Com $\alpha = 1/2$ **os dois lados são iguais**: todos os pedaços de um
+nível têm o mesmo tamanho, a árvore é perfeitamente equilibrada e todos os
+ramos têm o mesmo comprimento. Logo $h_{\min} = h_{\max}$.
 
-$$\alpha^{h_{\min}}\,n = 1 \;\Longrightarrow\; \left(\tfrac{1}{\alpha}\right)^{h_{\min}} = n \;\Longrightarrow\; h_{\min} = \log_{1/\alpha} n.$$
+### $h_{\min}$ e $h_{\max}$
 
-O **ramo mais longo** segue sempre a parte maior: tamanho $(1-\alpha)^i n$
-no nível $i$:
+**Ramo mais curto:** segue sempre o lado menor, $\alpha^i n$, e termina
+quando o pedaço chega a 1:
 
-$$(1-\alpha)^{h_{\max}}\,n = 1 \;\Longrightarrow\; h_{\max} = \log_{1/(1-\alpha)} n.$$
+$$n\cdot\alpha^{h_{\min}} = 1 \;\Longrightarrow\; \left(\tfrac{1}{\alpha}\right)^{h_{\min}} = n \;\Longrightarrow\; h_{\min} = \log_{1/\alpha} n.$$
 
-Como $\alpha \le 1-\alpha$, $h_{\min} \le h_{\max}$. Todas as folhas da árvore
-estão entre esses dois níveis.
+**Ramo mais longo:** segue sempre o lado maior, $(1-\alpha)^i n$:
 
-### Limite inferior e limite superior
+$$n\cdot(1-\alpha)^{h_{\max}} = 1 \;\Longrightarrow\; h_{\max} = \log_{1/(1-\alpha)} n.$$
 
-**Inferior.** Do nível $0$ até o nível $h_{\min}$ (exclusive) todos os
-níveis estão completos (nenhum ramo terminou ainda), e cada um custa $cn$.
-Ignorando o resto da árvore, que só aumentaria o custo:
+* $\alpha = 1/2$: $h_{\min} = h_{\max} = \log_2 n$.
+* $\alpha = 1/4$: $h_{\min} = \log_4 n = \tfrac12\log_2 n$ e
+  $h_{\max} = \log_{4/3} n$.
 
-$$T(n) \;\ge\; cn \cdot h_{\min} = cn\log_{1/\alpha} n = \frac{c}{\log_2(1/\alpha)}\; n\log_2 n \;\Longrightarrow\; T(n) = \Omega(n\log n).$$
+### Limite inferior e superior
 
-**Superior.** A árvore tem no máximo $h_{\max} + 1$ níveis (do $0$ até o
-$h_{\max}$), e cada nível custa no máximo $cn$:
+**Inferior.** Do nível 0 até o nível $h_{\min}$ todos os níveis estão
+completos e cada um custa $cn$. Ignorando o resto, que só aumentaria o
+custo:
+
+$$T(n) \;\ge\; cn \cdot h_{\min} = cn\log_{1/\alpha} n \;\Longrightarrow\; T(n) = \Omega(n\log n).$$
+
+**Superior.** A árvore tem no máximo $h_{\max} + 1$ níveis, cada um com
+custo no máximo $cn$:
 
 $$T(n) \;\le\; cn\,(h_{\max} + 1) = cn\log_{1/(1-\alpha)} n + cn \;\Longrightarrow\; T(n) = O(n\log n).$$
 
-### $h_{\max}$ na forma $k\cdot\log_2 n$
+Em resumo: $cn \cdot h_{\min} \le T(n) \le cn\,(h_{\max}+1)$.
 
-Pela mudança de base, $\log_b n = \dfrac{\log_2 n}{\log_2 b}$. Então
+### $h_{\max}$ na forma $k \cdot \log_2 n$
 
-$$h_{\max} = \log_{1/(1-\alpha)} n = \frac{1}{\log_2\!\frac{1}{1-\alpha}}\,\log_2 n = k\cdot\log_2 n, \qquad k = \frac{1}{\log_2\frac{1}{1-\alpha}} = \frac{-1}{\log_2(1-\alpha)}.$$
+Pela mudança de base, $\log_b n = \dfrac{\log_2 n}{\log_2 b}$:
 
-Analogamente, $h_{\min} = \dfrac{1}{\log_2(1/\alpha)}\log_2 n$.
+$$h_{\max} = \log_{1/(1-\alpha)} n = \frac{1}{\log_2\frac{1}{1-\alpha}}\cdot\log_2 n = k\cdot\log_2 n, \qquad k = \frac{1}{\log_2\frac{1}{1-\alpha}}.$$
 
-| $\alpha$ | partição | $h_{\min}$ | $h_{\max} = k\log_2 n$ | constante $k$ |
-|---|---|---|---|---|
-| **1/2** | 50%–50% | $\log_2 n$ | $\log_2 n$ | $\dfrac{1}{\log_2 2} = \mathbf{1}$ |
-| 1/3 | 33%–67% | $\approx \text{0,631}\log_2 n$ | $\log_{3/2} n$ | $\dfrac{1}{\log_2 \text{1,5}} \approx \text{1,710}$ |
-| **1/4** | 25%–75% | $\dfrac{1}{2}\log_2 n$ | $\log_{4/3} n$ | $\dfrac{1}{\log_2(4/3)} = \dfrac{1}{2 - \log_2 3} \approx \mathbf{\text{2,409}}$ |
-| 1/5 | 20%–80% | $\approx \text{0,431}\log_2 n$ | $\log_{5/4} n$ | $\dfrac{1}{\log_2 \text{1,25}} \approx \text{3,106}$ |
+* **$\alpha = 1/2$:** $k = \dfrac{1}{\log_2 2} = 1$, então $h_{\max} = \log_2 n$.
+* **$\alpha = 1/4$:** $k = \dfrac{1}{\log_2 (4/3)} = \dfrac{1}{2 - \log_2 3} \approx \dfrac{1}{\text{0,415}} \approx \text{2,41}$,
+  então $h_{\max} \approx \text{2,41}\log_2 n$.
 
-Para $n = 10^6$ ($\log_2 n \approx \text{19,93}$): com $\alpha = 1/4$,
-$h_{\min} \approx \text{10,0}$ e $h_{\max} \approx \text{48,0}$. O programa mediu 10 e
-44.
-
-### Aplicando aos valores escolhidos
-
-**$\alpha = 1/2$:** $h_{\min} = h_{\max} = \log_2 n$ e $k = 1$. Todos os
-níveis estão completos, então os limites coincidem:
-
-$$T(n) = cn\log_2 n + O(n) = \Theta(n\log n).$$
-
-Esse é o melhor caso possível do QuickSort.
-
-**$\alpha = 1/4$:** $\dfrac{c}{2}\,n\log_2 n \;\le\; T(n) \;\le\; \text{2,41}\,c\,n\log_2 n + cn$, logo
-
-$$T(n) = \Theta(n\log n),$$
-
-com constante maior que a de $\alpha = 1/2$: a árvore é "torta" e mais alta
-do lado da parte maior.
+Por exemplo, para $n = 1\,000\,000$ ($\log_2 n \approx 20$): com
+$\alpha = 1/2$ a árvore tem cerca de 20 níveis. Com $\alpha = 1/4$, o ramo
+mais curto tem cerca de 10 níveis e o mais longo cerca de 48.
 
 ### Conclusão
 
-Para **qualquer** $\alpha$ constante com $0 < \alpha \le 1/2$, os limites
-inferior e superior são ambos da forma (constante) $\times\, n\log n$, então
+* **$\alpha = 1/2$:** $h_{\min} = h_{\max} = \log_2 n$, todos os níveis
+  completos, então $T(n) = cn\log_2 n = \Theta(n\log n)$. É o melhor caso
+  possível do QuickSort.
+* **$\alpha = 1/4$:**
+  $\dfrac{c}{2}\,n\log_2 n \le T(n) \le \text{2,41}\,c\,n\log_2 n + cn$, então
+  $T(n) = \Theta(n\log n)$, com uma constante maior que a de $\alpha = 1/2$.
+
+Para **qualquer $\alpha$ constante** com $0 < \alpha \le 1/2$, os dois
+limites são (constante) $\times\, n\log n$. Então
 
 $$\boxed{T(n) = \Theta(n\log n)}.$$
 
-O valor de $\alpha$ só muda a **constante**. Quanto menor $\alpha$, maior
-$k$ e mais alta a árvore: com $\alpha = 1/100$ (partição 1%–99%), por
-exemplo, $k \approx 69$, e mesmo assim o algoritmo continua
-$\Theta(n\log n)$. É por isso que o QuickSort é rápido "quase sempre": basta
-que as partições sejam proporcionais, não é preciso que sejam equilibradas.
-(Uma conta mais fina dá $T(n) \approx \dfrac{cn\log_2 n}{H(\alpha)}$, em que
-$H(\alpha) = -\alpha\log_2\alpha - (1-\alpha)\log_2(1-\alpha)$; esse valor
-fica entre os dois limites acima e corresponde à coluna "assint." do
-programa: $\text{1,000}$ para $\alpha = 1/2$ e $\text{1,233}$ para $\alpha = 1/4$.)
+O $\alpha$ só muda a **constante** $k$: quanto menor o $\alpha$, mais alta e
+"torta" a árvore. Mesmo uma divisão 1%–99% continua $\Theta(n\log n)$, com
+$k \approx 69$. Basta que a divisão seja **proporcional**; não precisa ser
+equilibrada.
 
 ### E se a partição não for proporcional?
 
-Suponha que a partição seja sempre $0$ e $n-1$ (o pivô é sempre o menor ou
-o maior elemento). A parte menor não é mais uma **fração** de $n$: ela tem
-tamanho constante. A recorrência passa a ser
+Se a divisão for sempre **0 e $n-1$** (pivô sempre o menor ou o maior), o
+lado menor deixa de ser uma fração de $n$ e passa a ter tamanho constante:
 
 $$T(n) = T(n-1) + T(0) + cn = T(n-1) + cn.$$
 
-Expandindo:
+Abrindo:
 
-$$T(n) = cn + c(n-1) + c(n-2) + \cdots + c\cdot 2 + T(1) = c\sum_{i=2}^{n} i + T(1) = c\left(\frac{n(n+1)}{2} - 1\right) + T(1) = \Theta(n^2).$$
+$$T(n) = cn + c(n-1) + c(n-2) + \cdots + c\cdot 2 = c\left(\frac{n(n+1)}{2} - 1\right) = \Theta(n^2).$$
 
-A árvore de recursão degenera num **caminho** de altura $n-1$ (cada nível
-tira só um elemento, o pivô), e os custos dos níveis formam uma progressão
-aritmética $cn, c(n-1), \ldots$ em vez de ficarem todos iguais a $cn$. O
-que muda em relação ao caso proporcional:
+A árvore vira uma **linha** de altura $n-1$, e o custo dos níveis diminui
+de um em um ($cn$, $c(n-1)$, …) em vez de ficar $cn$ em todos. O que muda:
 
-* a **altura** passa de $\Theta(\log n)$ para $\Theta(n)$, porque o
-  tamanho diminui de **1** por nível (subtração), e não por um **fator**
-  constante (divisão);
+* a altura passa de $\Theta(\log n)$ para $\Theta(n)$, porque o tamanho
+  diminui **subtraindo 1** a cada nível, em vez de ser **dividido** por um
+  fator constante;
 * o tempo passa de $\Theta(n\log n)$ para $\Theta(n^2)$;
-* sem a otimização da seção B, a pilha teria profundidade $n$ e haveria
+* sem o tratamento da seção B, a pilha teria $n$ chamadas e daria
   `StackOverflowError`.
 
-O mesmo vale para qualquer partição em que a parte menor tem tamanho
-constante (por exemplo, $1$ e $n-2$, ou $10$ e $n-11$): a altura continua
-proporcional a $n$ e o tempo continua $\Theta(n^2)$. O programa confirma
-isso: com $\alpha = 0$ fez exatamente $n(n-1)/2$ comparações
-($199\,990\,000$ para $n = 20\,000$, contra cerca de $\text{3,4}\times10^5$ do
-pivô aleatório no mesmo tamanho).
+O mesmo acontece com qualquer divisão em que o lado menor tenha tamanho
+constante (1 e $n-2$, 10 e $n-11$, …).
 
 ## Quadro-resumo
 
-| Versão / procedimento | Recorrência | Melhor caso | Caso médio / esperado | Pior caso | Pilha (com a otimização) |
+| Versão | Recorrência | Melhor caso | Caso médio | Pior caso | Pilha (com o tratamento) |
 |---|---|---|---|---|---|
-| Particionamento de Lomuto | — | $\Theta(n)$ | $\Theta(n)$ | $\Theta(n)$ | $O(1)$ |
-| QuickSort, pivô aleatório | $T(n) = \frac{2}{n}\sum_{k=0}^{n-1}T(k) + cn$ | $\Theta(n\log n)$ | $\Theta(n\log n)$, $\approx \text{1,39}\,n\log_2 n$ comparações | $\Theta(n^2)$ (prob. $\approx 2^{n-1}/n!$) | $O(\log n)$ |
-| Proporcional, $\alpha = 1/2$ | $T(n) = 2T(n/2) + cn$ | $\Theta(n\log n)$ | $\Theta(n\log n)$, $h = \log_2 n$ ($k=1$) | $\Theta(n\log n)$ | $O(\log n)$ |
-| Proporcional, $\alpha = 1/4$ | $T(n) = T(n/4) + T(3n/4) + cn$ | $\Theta(n\log n)$ | $\Theta(n\log n)$, $h_{\max} \approx \text{2,41}\log_2 n$ | $\Theta(n\log n)$ | $O(\log n)$ |
-| Proporcional, $\alpha$ constante qualquer em $(0, 1/2]$ | $T(n) = T(\alpha n) + T((1-\alpha)n) + cn$ | $\Theta(n\log n)$ | $\Theta(n\log n)$, $h_{\max} = \frac{-1}{\log_2(1-\alpha)}\log_2 n$ | $\Theta(n\log n)$ | $O(\log n)$ |
-| Partição não proporcional ($0$ e $n-1$) | $T(n) = T(n-1) + cn$ | $\Theta(n^2)$ | $\Theta(n^2)$ | $\Theta(n^2)$ | $O(1)$ (sem a otimização: $\Theta(n)$) |
+| Particionamento (Lomuto) | — | $\Theta(n)$ | $\Theta(n)$ | $\Theta(n)$ | $O(1)$ |
+| QuickSort pivô aleatório | $T(n) = \frac{2}{n}\sum_{k=0}^{n-1}T(k) + cn$ | $\Theta(n\log n)$ | $\Theta(n\log n)$ | $\Theta(n^2)$ (muito improvável) | $O(\log n)$ |
+| Proporcional $\alpha = 1/2$ | $T(n) = 2T(n/2) + cn$ | $\Theta(n\log n)$ | $\Theta(n\log n)$ | $\Theta(n\log n)$ | $O(\log n)$ |
+| Proporcional $\alpha = 1/4$ | $T(n) = T(n/4) + T(3n/4) + cn$ | $\Theta(n\log n)$ | $\Theta(n\log n)$ | $\Theta(n\log n)$ | $O(\log n)$ |
+| Proporcional, $\alpha$ constante | $T(n) = T(\alpha n) + T((1-\alpha)n) + cn$ | $\Theta(n\log n)$ | $\Theta(n\log n)$ | $\Theta(n\log n)$ | $O(\log n)$ |
+| Partição não proporcional (0 e $n-1$) | $T(n) = T(n-1) + cn$ | $\Theta(n^2)$ | $\Theta(n^2)$ | $\Theta(n^2)$ | $O(1)$ (sem o tratamento: $O(n)$) |
 
-Na versão proporcional a divisão é imposta pelo próprio algoritmo, então
-melhor, médio e pior caso coincidem para um $\alpha$ fixo.
+| $\alpha$ | $h_{\min}$ | $h_{\max} = k\log_2 n$ | $k$ |
+|---|---|---|---|
+| 1/2 | $\log_2 n$ | $\log_2 n$ | 1 |
+| 1/4 | $\frac12\log_2 n$ | $\log_{4/3} n$ | $\approx \text{2,41}$ |
+
+Na versão Proporcional, a divisão é imposta pelo algoritmo. Por isso,
+para um $\alpha$ fixo, melhor, médio e pior caso são iguais.
 
 # Referências
 
-* CORMEN, T. H.; LEISERSON, C. E.; RIVEST, R. L.; STEIN, C. *Algoritmos:
-  teoria e prática*. 3. ed. Rio de Janeiro: Elsevier, 2012. Capítulo 7
-  (Quicksort) e Capítulo 4 (método da árvore de recursão).
+* CORMEN, T. H. et al. *Algoritmos: teoria e prática*. 3. ed. Rio de
+  Janeiro: Elsevier, 2012. Cap. 7 (Quicksort) e cap. 4 (árvore de recursão).
 * ZIVIANI, N. *Projeto de Algoritmos com implementações em Java e C++*.
   São Paulo: Thomson, 2007.
