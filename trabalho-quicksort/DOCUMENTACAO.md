@@ -51,20 +51,28 @@ java QuickSort
 
 # B. Implementação
 
-## Estruturas de dados
+## Estruturas de dados e TAD
 
-O programa usa apenas:
+O programa usa um **vetor de inteiros** (`int[]`), ordenado no próprio vetor
+(sem vetor auxiliar), e o gerador `Random` do Java, usado para sortear o
+pivô e embaralhar os vetores. Um **pedaço** do vetor é representado pelo
+par de índices (`ini`, `fim`), que delimita o subvetor `v[ini..fim]`; a
+pilha de recursão do Java guarda os pedaços que ainda faltam ordenar.
 
-* **vetor de inteiros (`int[]`)**: guarda os números a ordenar. A ordenação
-  é feita no próprio vetor, sem vetor auxiliar. As funções recebem o vetor e
-  dois índices, `ini` e `fim`, que delimitam o **pedaço** (subvetor)
-  `v[ini..fim]` que está sendo tratado;
-* **`Random`**: gerador de números aleatórios da biblioteca do Java, usado
-  para sortear o pivô e para embaralhar os vetores.
+O vetor e as funções que trabalham sobre ele formam o **TAD Vetor de
+Inteiros**:
 
-Não foi necessário criar outros tipos abstratos de dados: o "pedaço" do
-vetor é representado só pelo par de índices (`ini`, `fim`), e a pilha de
-recursão do próprio Java guarda os pedaços pendentes.
+* **Dados:** uma sequência $v[0..n-1]$ de inteiros distintos.
+* **Operações:**
+
+| Operação | Pré-condição | Pós-condição |
+|---|---|---|
+| `gerarVetor(n)` | $n \ge 1$ | devolve uma permutação aleatória de $1..n$ |
+| `trocar(v, i, j)` | $i$ e $j$ são posições válidas | o conteúdo de `v[i]` e `v[j]` foi trocado |
+| `particionar(v, ini, fim)` | $ini \le fim$ | devolve $q$ com `v[ini..q-1]` $\le$ `v[q]` $<$ `v[q+1..fim]` |
+| `quickSortAleatorio(v, ini, fim)` | — | `v[ini..fim]` em ordem crescente |
+| `quickSortProporcional(v, ini, fim, α)` | $0 < \alpha \le 1/2$; `v` é permutação de $1..n$ | `v[ini..fim]` em ordem crescente |
+| `estaOrdenado(v)` | — | devolve `true` se e só se `v` é $1, 2, \ldots, n$ |
 
 ## Funções do programa
 
@@ -247,23 +255,49 @@ constante positiva.
 
 ## i. Procedimento de particionamento (Lomuto)
 
-Para um pedaço com $n = \text{fim} - \text{ini} + 1$ elementos:
+Para um pedaço com $n = \text{fim} - \text{ini} + 1$ elementos, cada linha
+de `particionar` tem um custo constante $c_i$ e roda um certo número de
+vezes:
 
-* antes do laço há duas atribuições: custo constante;
-* o olheiro `j` vai de `ini` até `fim - 1`, então o laço roda **exatamente
-  $n-1$ vezes**, para qualquer vetor. Cada volta faz uma comparação e, no
-  máximo, um incremento e uma troca: custo constante por volta;
-* depois do laço há uma troca e o `return`: custo constante.
+| Linha | Código | Custo | Vezes |
+|---|---|---|---|
+| 1 | `pivo = v[fim]` | $c_1$ | $1$ |
+| 2 | `i = ini - 1` | $c_2$ | $1$ |
+| 3 | `for (j = ini; j < fim; j++)` | $c_3$ | $n$ |
+| 4 | `if (v[j] <= pivo)` | $c_4$ | $n-1$ |
+| 5 | `i++` | $c_5$ | $t$ |
+| 6 | `trocar(v, i, j)` | $c_6$ | $t$ |
+| 7 | `trocar(v, i + 1, fim)` | $c_7$ | $1$ |
+| 8 | `return i + 1` | $c_8$ | $1$ |
 
-Logo, com constantes $a$, $b_1$ e $b_2$:
+O teste do `for` (linha 3) roda $n$ vezes: $n-1$ vezes verdadeiro e uma
+última vez falso, quando o laço termina. $t$ é a quantidade de elementos
+$\le$ pivô entre `v[ini..fim-1]`, com $0 \le t \le n-1$. Somando:
 
-$$a + b_1(n-1) \;\le\; P(n) \;\le\; a + b_2(n-1).$$
+$$P(n) = c_1 + c_2 + c_3 n + c_4(n-1) + (c_5 + c_6)\,t + c_7 + c_8.$$
 
-O lado direito mostra que $P(n) = O(n)$. O esquerdo mostra que
-$P(n) = \Omega(n)$, porque o olheiro **sempre** percorre o pedaço inteiro
-(não existe saída antecipada). Portanto
+**Melhor caso:** o `if` nunca é verdadeiro ($t = 0$), o que acontece quando
+o pivô é o menor elemento:
 
-$$P(n) = \Theta(n).$$
+$$P(n) = (c_3 + c_4)\,n + (c_1 + c_2 + c_7 + c_8 - c_4) = a\,n + b.$$
+
+**Pior caso:** o `if` é sempre verdadeiro ($t = n-1$), quando o pivô é o
+maior elemento:
+
+$$P(n) = (c_3 + c_4 + c_5 + c_6)\,n + (c_1 + c_2 + c_7 + c_8 - c_4 - c_5 - c_6) = a'\,n + b'.$$
+
+Os dois casos são funções lineares de $n$. Para fechar com a definição de
+$\Theta$, é preciso achar constantes $k_1, k_2 > 0$ e $n_0$ com
+$k_1 n \le P(n) \le k_2 n$ para todo $n \ge n_0$:
+
+* **limite inferior:** todos os termos de $P(n)$ são $\ge 0$, então
+  $P(n) \ge c_3 n$ (só o teste do `for`). Logo $k_1 = c_3$;
+* **limite superior:** como $t \le n-1 < n$ e cada constante $c_i \le c_i n$
+  para $n \ge 1$, temos $P(n) \le (c_1 + c_2 + \cdots + c_8)\,n$. Logo
+  $k_2 = c_1 + c_2 + \cdots + c_8$;
+* as duas desigualdades valem para $n \ge 1$, então $n_0 = 1$.
+
+$$c_3\,n \;\le\; P(n) \;\le\; (c_1 + \cdots + c_8)\,n \quad (n \ge 1) \qquad\Longrightarrow\qquad P(n) = \Theta(n).$$
 
 Somando a escolha do pivô ($\Theta(1)$ no aleatório e $\Theta(n)$ na busca
 do proporcional), o trabalho feito em cada chamada, fora as chamadas
@@ -352,14 +386,51 @@ Como $H_{n+1} = H_n + \frac{1}{n+1}$:
 
 $$\sum_{i=2}^{n}\frac{2i-1}{i(i+1)} = 2H_n + \frac{3}{n+1} - \frac72.$$
 
-Voltando para $T(n) = (n+1)\,S(n)$, com $S(1) = T(1)/2 = 0$:
+Voltando para $T(n) = (n+1)\,S(n)$, com $S(1) = T(1)/2 = 0$, chega-se ao
+valor exato de $T(n)$ em função de $H_n$, mostrado logo abaixo.
 
-$$T(n) = c\,(n+1)\left(2H_n + \frac{3}{n+1} - \frac72\right) = 2c\,(n+1)H_n + O(n).$$
+### Por que $H_n$ cresce como $\log n$
 
-A série harmônica cresce como o logaritmo: $\ln(n+1) \le H_n \le 1 + \ln n$,
-ou seja, $H_n \approx \ln n$. Então
+Cada parcela $1/i$ pode ser comparada com a área embaixo da curva $1/x$.
+Como $1/x$ é decrescente:
 
-$$T(n) \approx 2c\,n\ln n \approx \text{1,39}\,c\,n\log_2 n \qquad\Longrightarrow\qquad \boxed{T(n) = \Theta(n \log n) \text{ no caso médio}}$$
+* para $i \ge 2$, no intervalo $[i-1, i]$ temos $1/x \ge 1/i$, então
+  $\frac{1}{i} \le \int_{i-1}^{i}\frac{dx}{x}$. Somando de $i = 2$ até $n$:
+  $H_n \le 1 + \int_1^n \frac{dx}{x} = 1 + \ln n$;
+* no intervalo $[i, i+1]$ temos $1/x \le 1/i$, então
+  $\frac{1}{i} \ge \int_{i}^{i+1}\frac{dx}{x}$. Somando de $i = 1$ até $n$:
+  $H_n \ge \int_1^{n+1} \frac{dx}{x} = \ln(n+1)$.
+
+$$\ln(n+1) \;\le\; H_n \;\le\; 1 + \ln n.$$
+
+### Fechando $\Theta(n\log n)$
+
+Mantendo o $c(2n-1)$ até o fim, o resultado exato é
+
+$$T(n) = c\,(n+1)\left(2H_n + \frac{3}{n+1} - \frac72\right) = 2c\,(n+1)H_n - \frac72\,c\,(n+1) + 3c.$$
+
+**Limite superior** (usando $H_n \le 1 + \ln n$):
+
+$$T(n) \le c\,(n+1)\left(2 + 2\ln n - \frac72\right) + 3c = 2c\,(n+1)\ln n - \frac32\,c\,(n+1) + 3c \le 2c\,(n+1)\ln n \le 4c\,n\ln n$$
+
+para $n \ge 1$, porque $-\frac32 c(n+1) + 3c \le 0$ e $n + 1 \le 2n$. Logo
+$T(n) = O(n\log n)$.
+
+**Limite inferior** (usando $H_n \ge \ln(n+1)$ e descartando o $+3c$):
+
+$$T(n) \ge c\,(n+1)\left(2\ln(n+1) - \frac72\right).$$
+
+Para $n \ge 33$ vale $\ln(n+1) \ge \ln 34 \approx \text{3,53} \ge \text{3,5}$,
+então $2\ln(n+1) - \frac72 \ge \ln(n+1)$ e
+
+$$T(n) \ge c\,(n+1)\ln(n+1) \ge c\,n\ln n \qquad (n \ge 33).$$
+
+Logo $T(n) = \Omega(n\log n)$. Juntando os dois limites,
+$c\,n\ln n \le T(n) \le 4c\,n\ln n$ para $n \ge 33$, e
+
+$$\boxed{T(n) = \Theta(n \log n) \text{ no caso médio}}$$
+
+Mais precisamente, $T(n) \approx 2c\,n\ln n = 2\ln 2 \cdot c\,n\log_2 n \approx \text{1,39}\,c\,n\log_2 n$.
 
 ### Por que vale para qualquer sequência de entrada
 
@@ -383,10 +454,30 @@ $\Theta(n^2)$, mas raríssimo e sem depender da entrada.**
 
 ## iii. QuickSort Proporcional ($\alpha = 1/2$ e $\alpha = 1/4$)
 
-Todo pedaço de tamanho $n$ é dividido em $\alpha n$ e $(1-\alpha)n$
-(desprezando arredondamentos e o pivô, que não mudam a ordem de grandeza):
+### De onde vem a recorrência
 
-$$T(n) = T(\alpha n) + T\bigl((1-\alpha)n\bigr) + cn.$$
+Em qualquer versão, depois de particionar um pedaço de $n$ elementos o
+QuickSort ordena um lado com $k$ elementos e o outro com $n-1-k$:
+
+$$T(n) = T(k) + T(n-1-k) + cn.$$
+
+No Proporcional, $k = \lfloor \alpha(n-1) \rfloor \approx \alpha n$ e
+$n - 1 - k \approx (1-\alpha)n$. Trocando:
+
+$$T(n) = T(\alpha n) + T\bigl((1-\alpha)n\bigr) + cn, \qquad 0 < \alpha \le 1/2.$$
+
+**Por que dá para desprezar o $-1$ e o arredondamento.** O $-1$ é só o
+pivô, que sai do pedaço, e o $\lfloor\ \rfloor$ muda o tamanho em menos de
+1 elemento. Os tamanhos reais ficam assim:
+
+$$k \le \alpha n, \qquad n - 1 - k \le (1-\alpha)n + 1.$$
+
+A diferença para $\alpha n$ e $(1-\alpha)n$ é de no máximo 1 elemento, uma
+constante, enquanto os pedaços têm tamanho proporcional a $n$. Uma
+constante somada ao tamanho não muda a ordem de grandeza (é o mesmo motivo
+pelo qual se ignoram pisos e tetos nas recorrências). Além disso, sem o
+$-1$ os pedaços ficam maiores, então a recorrência simplificada nunca dá
+menos trabalho que a real: serve como limite superior.
 
 ### Árvore de recursão (caso geral)
 
@@ -475,15 +566,24 @@ $$T(n) \;\le\; cn\,(h_{\max} + 1) = cn\log_{1/(1-\alpha)} n + cn \;\Longrightarr
 
 Em resumo: $cn \cdot h_{\min} \le T(n) \le cn\,(h_{\max}+1)$.
 
-### $h_{\max}$ na forma $k \cdot \log_2 n$
+### $h_{\min}$ e $h_{\max}$ na forma $k \cdot \log_2 n$
 
 Pela mudança de base, $\log_b n = \dfrac{\log_2 n}{\log_2 b}$:
 
-$$h_{\max} = \log_{1/(1-\alpha)} n = \frac{1}{\log_2\frac{1}{1-\alpha}}\cdot\log_2 n = k\cdot\log_2 n, \qquad k = \frac{1}{\log_2\frac{1}{1-\alpha}}.$$
+$$h_{\min} = \log_{1/\alpha} n = \frac{1}{\log_2\frac{1}{\alpha}}\cdot\log_2 n = k_{\min}\cdot\log_2 n, \qquad k_{\min} = \frac{1}{\log_2\frac{1}{\alpha}};$$
 
-* **$\alpha = 1/2$:** $k = \dfrac{1}{\log_2 2} = 1$, então $h_{\max} = \log_2 n$.
-* **$\alpha = 1/4$:** $k = \dfrac{1}{\log_2 (4/3)} = \dfrac{1}{2 - \log_2 3} \approx \dfrac{1}{\text{0,415}} \approx \text{2,41}$,
+$$h_{\max} = \log_{1/(1-\alpha)} n = \frac{1}{\log_2\frac{1}{1-\alpha}}\cdot\log_2 n = k_{\max}\cdot\log_2 n, \qquad k_{\max} = \frac{1}{\log_2\frac{1}{1-\alpha}}.$$
+
+* **$\alpha = 1/2$:** $k_{\min} = k_{\max} = \dfrac{1}{\log_2 2} = 1$,
+  então $h_{\min} = h_{\max} = \log_2 n$.
+* **$\alpha = 1/4$:** $k_{\min} = \dfrac{1}{\log_2 4} = \dfrac12$, então
+  $h_{\min} = \frac12\log_2 n$; e
+  $k_{\max} = \dfrac{1}{\log_2 (4/3)} = \dfrac{1}{2 - \log_2 3} \approx \dfrac{1}{\text{0,415}} \approx \text{2,41}$,
   então $h_{\max} \approx \text{2,41}\log_2 n$.
+
+Com isso, os limites ficam
+
+$$c\,k_{\min}\,n\log_2 n \;\le\; T(n) \;\le\; c\,k_{\max}\,n\log_2 n + cn.$$
 
 Por exemplo, para $n = 1\,000\,000$ ($\log_2 n \approx 20$): com
 $\alpha = 1/2$ a árvore tem cerca de 20 níveis. Com $\alpha = 1/4$, o ramo
@@ -491,11 +591,12 @@ mais curto tem cerca de 10 níveis e o mais longo cerca de 48.
 
 ### Conclusão
 
-* **$\alpha = 1/2$:** $h_{\min} = h_{\max} = \log_2 n$, todos os níveis
-  completos, então $T(n) = cn\log_2 n = \Theta(n\log n)$. É o melhor caso
-  possível do QuickSort.
+* **$\alpha = 1/2$:** $k_{\min} = k_{\max} = 1$, então
+  $c\,n\log_2 n \le T(n) \le c\,n\log_2 n + cn$, ou seja,
+  $T(n) = \Theta(n\log n)$. É o melhor caso possível do QuickSort.
 * **$\alpha = 1/4$:**
-  $\dfrac{c}{2}\,n\log_2 n \le T(n) \le \text{2,41}\,c\,n\log_2 n + cn$, então
+  $k_{\min} = \frac12$ e $k_{\max} \approx \text{2,41}$, então
+  $\dfrac{c}{2}\,n\log_2 n \le T(n) \le \text{2,41}\,c\,n\log_2 n + cn$, e
   $T(n) = \Theta(n\log n)$, com uma constante maior que a de $\alpha = 1/2$.
 
 Para **qualquer $\alpha$ constante** com $0 < \alpha \le 1/2$, os dois
@@ -503,7 +604,7 @@ limites são (constante) $\times\, n\log n$. Então
 
 $$\boxed{T(n) = \Theta(n\log n)}.$$
 
-O $\alpha$ só muda a **constante** $k$: quanto menor o $\alpha$, mais alta e
+O $\alpha$ só muda as **constantes** $k_{\min}$ e $k_{\max}$: quanto menor o $\alpha$, mais alta e
 "torta" a árvore. Basta que a divisão seja **proporcional**; não precisa ser
 equilibrada.
 
@@ -542,10 +643,10 @@ constante (1 e $n-2$, 10 e $n-11$, …).
 | Proporcional, $\alpha$ constante | $T(n) = T(\alpha n) + T((1-\alpha)n) + cn$ | $\Theta(n\log n)$ | $\Theta(n\log n)$ | $\Theta(n\log n)$ | $O(\log n)$ |
 | Partição não proporcional (0 e $n-1$) | $T(n) = T(n-1) + cn$ | $\Theta(n^2)$ | $\Theta(n^2)$ | $\Theta(n^2)$ | $O(1)$ (sem o tratamento: $O(n)$) |
 
-| $\alpha$ | $h_{\min}$ | $h_{\max} = k\log_2 n$ | $k$ |
-|---|---|---|---|
-| 1/2 | $\log_2 n$ | $\log_2 n$ | 1 |
-| 1/4 | $\frac12\log_2 n$ | $\log_{4/3} n$ | $\approx \text{2,41}$ |
+| $\alpha$ | $h_{\min}$ | $k_{\min}$ | $h_{\max}$ | $k_{\max}$ |
+|---|---|---|---|---|
+| 1/2 | $\log_2 n$ | 1 | $\log_2 n$ | 1 |
+| 1/4 | $\frac12\log_2 n$ | 1/2 | $\log_{4/3} n$ | $\approx \text{2,41}$ |
 
 Na versão Proporcional, a divisão é imposta pelo algoritmo. Por isso,
 para um $\alpha$ fixo, melhor, médio e pior caso são iguais.
