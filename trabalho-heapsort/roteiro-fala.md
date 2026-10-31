@@ -19,15 +19,15 @@
 
 ## [0:30] b) maxHeapify
 
-"Cada chamada tem custo constante e desce um nível. Então T(h) = T(h − 1) + c, o que dá O(h). Como o heap é uma árvore completa, h = ⌊log₂ n⌋. Então o maxHeapify é O(log n)."
+"Cada chamada tem custo constante e desce um nível. Então T(h) = T(h − 1) + c, o que dá O(h). Como o heap é uma árvore completa, h é o piso de log de n na base 2. Então o maxHeapify é O de log de n."
 
 ## [0:50] c) construirMaxHeap
 
-"Pela conta simples seria n/2 vezes log n, ou seja, O(n log n). Mas a maioria dos nós está embaixo e desce pouco. O custo é no máximo c·n vezes a soma de h/2ʰ, e essa soma é no máximo 2. Então o custo é no máximo 2cn, e o construirMaxHeap é Θ(n)."
+"Pela conta simples seria n/2 vezes log de n, ou seja, O de n log n. Mas a maioria dos nós está embaixo e desce pouco. O custo é no máximo c·n vezes a soma de h/2ʰ, e essa soma é no máximo 2. Então o custo é no máximo 2cn, e o construirMaxHeap é Θ(n)."
 
 ## [1:15] d) Pior caso
 
-"São n − 1 iterações, cada uma com um maxHeapify de log n, o que dá O(n log n). E todo algoritmo por comparação precisa de pelo menos log₂(n!) comparações, que é da ordem de n log n. Então o pior caso é Θ(n log n)."
+"São n − 1 iterações, cada uma com um maxHeapify de log de n, o que dá O de n log n. E todo algoritmo por comparação precisa de pelo menos log na base 2 de n fatorial comparações, que é da ordem de n log n. Então o pior caso é theta de n log n."
 
 ## [1:40] e) Melhor caso
 
@@ -35,7 +35,7 @@
 
 ## [1:55] f) Caso médio
 
-"O caso médio fica entre o melhor e o pior, que com elementos distintos são os dois Θ(n log n). Então o médio também é Θ(n log n), e não existe caso n² como no QuickSort."
+"O caso médio fica entre o melhor e o pior, que com elementos distintos são os dois theta de n log n. Então o médio também é theta de n log n, e não existe caso n² como no QuickSort."
 
 ## [2:10] g) Exemplo (mostrar o programa)
 
@@ -43,4 +43,4 @@
 
 ## [2:35] Fechamento
 
-"Então o HeapSort é Θ(n log n) no pior caso e no caso médio, e Θ(n) só quando todos os elementos são iguais."
+"Então o HeapSort é theta de n log n no pior caso e no caso médio, e Θ(n) só quando todos os elementos são iguais."
