@@ -8,7 +8,7 @@ Tudo escrito do jeito que se fala, inclusive as contas.
 |---|---|
 | log₂ n | "log de n na base 2" (ou só "log de n") |
 | ⌊log₂ n⌋ | "piso de log de n na base 2" |
-| O(log n) | "ó de log de n" |
+| O(log n) | "O de log de n" |
 | Θ(n) | "theta de n" |
 | Θ(n log n) | "theta de n log n" |
 | 2ʰ | "2 elevado a h" |
@@ -24,15 +24,15 @@ Tudo escrito do jeito que se fala, inclusive as contas.
 
 ## [0:30] b) maxHeapify
 
-"Cada chamada tem custo constante e desce um nível. Então T de h é igual a T de h menos 1, mais c, o que dá ó de h. Como o heap é uma árvore completa, a altura h é o piso de log de n na base 2. Então o maxHeapify é ó de log de n."
+"Cada chamada tem custo constante e desce um nível. Então T de h é igual a T de h menos 1, mais c, o que dá O de h. Como o heap é uma árvore completa, a altura h é o piso de log de n na base 2. Então o maxHeapify é O de log de n."
 
 ## [0:50] c) construirMaxHeap
 
-"Pela conta simples seria n sobre 2 vezes log de n, ou seja, ó de n log n. Mas a maioria dos nós está embaixo e desce pouco. O custo é no máximo c vezes n vezes a soma de h sobre 2 elevado a h, e essa soma é no máximo 2. Então o custo é no máximo 2 c n, e o construirMaxHeap é theta de n."
+"Pela conta simples seria n sobre 2 vezes log de n, ou seja, O de n log n. Mas a maioria dos nós está embaixo e desce pouco. O custo é no máximo c vezes n vezes a soma de h sobre 2 elevado a h, e essa soma é no máximo 2. Então o custo é no máximo 2 c n, e o construirMaxHeap é theta de n."
 
 ## [1:15] d) Pior caso
 
-"São n menos 1 iterações, cada uma com um maxHeapify de log de n, o que dá ó de n log n. E todo algoritmo por comparação precisa de pelo menos log na base 2 de n fatorial comparações, que é da ordem de n log n. Então o pior caso é theta de n log n."
+"São n menos 1 iterações, cada uma com um maxHeapify de log de n, o que dá O de n log n. E todo algoritmo por comparação precisa de pelo menos log na base 2 de n fatorial comparações, que é da ordem de n log n. Então o pior caso é theta de n log n."
 
 ## [1:40] e) Melhor caso
 
